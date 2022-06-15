@@ -1,7 +1,7 @@
 - name: Home
   link: /
 - name: About
-  link: Basicjekyll/about.html
+  link: /about.html
 - name: Contents
   link: /contents.html
 - name: Blog
