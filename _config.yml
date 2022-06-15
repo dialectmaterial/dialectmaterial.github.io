@@ -1,3 +1,6 @@
+title: Actual Spirit
+description: Dima's first website in Jekyll
+
 collections:
   authors:
     output: true
