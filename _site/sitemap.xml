@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/authors/dima.html</loc>
+<lastmod>2022-06-15T16:25:10+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/authors/tamara.html</loc>
+<lastmod>2022-06-15T16:25:10+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2022/06/15/Luke.html</loc>
+<lastmod>2022-06-15T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2022/06/15/Revelation.html</loc>
+<lastmod>2022-06-15T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/about.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/authors.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/contents.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+</urlset>
