@@ -5,7 +5,7 @@ description: "Starting on the 16th of February, we will begin the second year of
 date: 2026-01-22
 permalink: /articles/slovenian-school-reading-group/
 substack: https://actualspirit.substack.com/p/slovenian-school-reading-group
-image: /assets/images/slovenian-school-reading-group/01.jpg
+image: /assets/images/slovenian-school-reading-group/cover.jpg
 ---
 <figure><img src="/assets/images/slovenian-school-reading-group/01.jpg" alt="" loading="lazy"></figure>
 

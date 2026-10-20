@@ -111,7 +111,7 @@ a { color: inherit; }
 .trio { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(20px, 3vw, 40px); }
 .tile { text-decoration: none; display: block; }
 .tile .num { display: block; font: 400 15px/1 var(--display); color: var(--accent); margin-bottom: 12px; }
-.tile img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 4px; transition: transform .3s ease; }
+.tile img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 4px; transition: transform .3s ease; }
 .tile h3 { font: 400 30px/1.08 var(--display); margin: 18px 0 10px; }
 .tile p { margin: 0; color: var(--ink-2); font-size: 17px; }
 .tile:hover h3 { color: var(--accent); }
@@ -221,9 +221,9 @@ iframe.spotify { display: block; width: 100%; border: 0; border-radius: 12px; }
   .hero h1 { font-size: clamp(42px, 12vw, 56px); }
   .lede { font-size: 18px; }
   .section-head { flex-direction: column; gap: 4px; }
-  .tile { display: grid; grid-template-columns: 112px minmax(0, 1fr); column-gap: 16px; }
+  .tile { display: grid; grid-template-columns: 132px minmax(0, 1fr); column-gap: 16px; }
   .tile .num { grid-column: 1 / -1; }
-  .tile img { grid-row: span 2; aspect-ratio: 1; }
+  .tile img { grid-row: span 2; aspect-ratio: 16 / 9; }
   .tile h3 { font-size: 24px; margin: 0 0 6px; }
   .tile p { font-size: 15px; }
   .year { grid-template-columns: 1fr; }
