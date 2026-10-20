@@ -54,6 +54,12 @@ book:
   url: https://www.amazon.com/Rosy-Cross-Question-Right-Christianity/dp/B0GYZR7JQJ/
   button: Get the book
 
+# The heading and text beside the list of articles.
+writing:
+  heading: Selected writings
+  text: |
+    Essays, stories and notes from *Actual Spirit*, gathered here to read in peace.
+
 # "Elsewhere": other things you do. Images go in assets/now/.
 elsewhere:
   - title: Actual Spirit on YouTube

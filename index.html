@@ -88,8 +88,8 @@ layout: default
 
 <section class="wrap block index" id="writing">
   <div class="index-side">
-    <h2 class="display">All writing</h2>
-    <p>{{ site.posts | size }} essays, stories and notes since {{ site.posts.last.date | date: "%Y" }}.</p>
+    <h2 class="display">{{ home.writing.heading }}</h2>
+    {{ home.writing.text | markdownify }}
     <a class="btn ghost" href="{{ home.subscribe_url }}">Get new ones by email</a>
   </div>
   <div class="index-list">
