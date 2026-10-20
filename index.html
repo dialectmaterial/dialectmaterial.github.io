@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<header class="profile">
+  <img src="/assets/profile.jpg" alt="{{ site.title }}" width="128" height="128">
+  <h1>{{ site.title }}</h1>
+  <p class="subtitle">{{ site.tagline }}</p>
+</header>
+
+<ul class="links">
+  {% for link in site.links %}<li><a href="{{ link.url }}">{{ link.label }}</a></li>
+  {% endfor %}
+</ul>
+<p class="social">
+  {% for link in site.social %}<a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}
+</p>
+
+<section class="articles">
+  <h2>Articles</h2>
+  <ol>
+    {% for post in site.posts %}<li>
+      <a href="{{ post.url }}">
+        <span class="title">{{ post.title }}</span>
+        {% if post.subtitle != "" %}<span class="sub">{{ post.subtitle }}</span>{% endif %}
+      </a>
+      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%b %Y" }}</time>
+    </li>
+    {% endfor %}
+  </ol>
+</section>

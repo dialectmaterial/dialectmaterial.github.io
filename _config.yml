@@ -1,0 +1,36 @@
+title: Dimitri Crooijmans
+tagline: Actual Spirit
+description: Writing on Hegel, Lacan, psychoanalysis and philosophy by Dimitri Crooijmans.
+url: https://dialectmaterial.github.io
+author: Dimitri Crooijmans
+
+markdown: kramdown
+permalink: /articles/:title/
+exclude: [tools, README.md]
+defaults:
+  - scope: { type: posts }
+    values: { layout: post }
+
+# Links shown under the profile picture, in order.
+links:
+  - label: New book — Writing the First Cause
+    url: https://www.amazon.com/Writing-First-Cause-Psychoanalytic-Speculations/dp/B0FM7BV8B3
+  - label: New single on Spotify
+    url: https://open.spotify.com/track/6f7XMD9B3mItNjOq8npVjW
+  - label: Slovenian School Reading Group
+    url: https://philosophyportal.online/slovenian-school-reading-group
+  - label: Patreon
+    url: https://www.patreon.com/c/actualspirit/membership
+  - label: Substack
+    url: https://actualspirit.substack.com
+  - label: YouTube
+    url: https://www.youtube.com/channel/UCzvnf_9CExi8wgeqODgERPQ
+
+# Small links at the bottom of the link list.
+social:
+  - label: Instagram
+    url: https://www.instagram.com/objetlila
+  - label: Telegram
+    url: https://t.me/objetlila
+  - label: Email
+    url: mailto:dimitricrooijmans@gmail.com

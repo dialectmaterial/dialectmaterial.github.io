@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<nav class="back"><a href="/">← {{ site.title }}</a></nav>
+<article>
+  <header>
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle != "" %}<p class="subtitle">{{ page.subtitle }}</p>{% endif %}
+    <p class="meta"><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%-d %B %Y" }}</time>{% if page.substack %} · <a href="{{ page.substack }}">also on Substack</a>{% endif %}</p>
+  </header>
+  {{ content }}
+</article>
+<nav class="back bottom"><a href="/">← All articles</a></nav>

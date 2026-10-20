@@ -1,0 +1,66 @@
+---
+title: "Special Announcement & To Live Philosophically"
+subtitle: "Slovenian School Reading Group & Transcript Of A Fragment On Philosophical Life"
+date: 2025-01-06
+permalink: /articles/special-announcement-and-to-live/
+substack: https://actualspirit.substack.com/p/special-announcement-and-to-live
+---
+# The Slovenian School Reading Group
+
+Starting from the 22nd of January 2025. We will begin the *[Slovenian School Reading Group](https://philosophyportal.online/slovenian-school-reading-group)* [at Philosophy Portal.](https://philosophyportal.online/slovenian-school-reading-group)
+
+The first six months of the year will be devoted Mladen Dolar's *A Voice and Nothing more*. In this inventive and foundational work, Dolar grounds his philosophical theory of the voice as a Lacanian object-cause (objet petit a). The book traverses different disciplines to delve into this underexplored terrain of philosophy and psychoanalysis. In the study group, we'll be going into the linguistics, metaphysics, physics, ethics and politics of the voice.
+
+For the remainder of the year, the study group will come together to read and discuss Alenka Zupančič's *The Odd One In*. This work hones in on comedy with a Hegelian and Freudo-Lacanian lense. In this work, Zupančič goes into the political and subversive nature of comedy, and juxtaposes it to its ideological forms.
+
+Both these understudied works of the Slovenian School will help us to think the politics of subjectivity. The goal of the study group is to come to a refined understanding of the dialectical and unconscious dimensions of the subject's life in regards to the voice and comedy. Both of these books are urgent in today's world that is decidedly in need of psychoanalytically informed theory.
+
+# How to join and what do I get?
+
+We will hold monthly live-sessions accessible to all subscription tiers of my Patreon [which can be found here.](https://www.patreon.com/c/actualspirit/membership) Members of [Philosophy Portal](https://philosophyportal.online/slovenian-school-reading-group) get free access.
+
+It is also possible to join by becoming a paid subscriber to my Substack.
+
+Each group meeting will take place once per month on Wednesdays at 7PM CET (Central European Time). See the [website](https://philosophyportal.online/slovenian-school-reading-group) for the complete schedule.
+
+All live-sessions will be recorded and will be made available for participants. PDFs of the books will be provided too. Sign up now:
+
+<figure><img src="/assets/images/special-announcement-and-to-live/01.jpg" alt="" loading="lazy"></figure>
+
+Sign up at [Philosophy Portal](https://philosophyportal.online/slovenian-school-reading-group) or [Actual Spirit’s Patreon](https://www.patreon.com/c/actualspirit/membership)
+
+---
+
+# Transcript
+
+<div class="embed"><iframe src="https://www.youtube-nocookie.com/embed/lbxxXufEAw4" loading="lazy" allowfullscreen title="YouTube video"></iframe></div>
+
+## **To Live Philosophically**
+
+Cadell Last: What does it mean to you when I pose the question of living life as a philosophical journey?[^1]
+
+Dimitri Crooijmans: For me it all starts with Socrates, historically. What is Socratic questioning? It is this kind of childlike questioning, “why, why, why,” and then the person you ask this to gets annoyed because of course he doesn't know it all in the end. Socrates has two ideas with this Socratic questioning: one of them is to really assume his own unknowing and to see where the knowledge of the other is, if it is actually self -grounded. In Plato's dialogues, Socrates has ideas, but he would only tell these ideas when someone asks him. But a lot of times he would ask another person and they would never ask him back: “Well I don't know but what about you, what do you think about it?” But that point of saying “I don't know, what do you think about it?” That's actually what I would say is the very start of a philosophical dialogue. This is the point that Socrates wants us to get to, to get to a point where we are mutually open to each other because we both know that we don't know. That's the ultimate Socratic point of knowledge; to know that you don't know.
+
+Now, since you've asked about long-form research and writing, recently at the end of the year I've been getting into Descartes and Spinoza. There's a massive shift that occurs with ancient philosophy and modern philosophy, mediated historically by Christianity as we've been exploring in the Christian Atheism course. Like Socrates, Descartes also has this point of knowing an unknowing. For Descartes the name of this is the cogito. The cogito is this point of unknowing because it's a point of ultimate doubt. Descartes says that I think therefore I am. You could just as well say: I doubt therefore I think therefore I am. It’s a fundamental doubt that you are subjectively involved. It's not a doubt that you think: maybe it's A, maybe it's B but who cares. No, your identity hinges on this doubt. You don't know who you are. That's the state of doubt that you are in. It's a type of despair as Hegel will describe it, as he will radicalize the Cartesian cogito. So I think that this is a fundamental shift we find from ancient philosophy to modern philosophy, this type of knowing of unknowing in Socrates and then the knowing of unknowing in the cogito and thereby knowing thought to be being. To say thought is being or in other words “I think therefore I am,” this is something that I think is a very crucial feature of philosophy. Because philosophy posits that there is such a thing as truth. Unconditional truth or absolute truth maybe but definitely truth as such. During the time of Plato the battle was against sophists. The sophists claimed: maybe there's a truth, maybe there's not a truth but it's not for us to try to resolve these fundamental questions of reality. We can just do rhetoric and we can learn to become very good at convincing other people of what the truth is regardless of what the truth really is. Yet, it is also more complicated than that. Plato has a certain respect for rhetoricians and sophists.
+
+In modern philosophy what emerges is of course Humean skepticism, but also Descartes himself was seen as a skeptic. Which is not true. Descartes was very much against skepticism because he didn't want to doubt for the sake of doubt, which is what I would say is what we can call skepticism: to doubt for the sake of doubt. Philosophy doubts for the sake of truth and philosophy, modern or ancient, does come to this point that it finds a truth. Hegel's variant of what Socrates and Descartes were pointing at is called absolute knowing; a self-emptied state that's also absolute certitude. It's self-othering to put it as shortly as we can. These variants of all three are the beginnings of philosophy. They are not the end of philosophical cognition as you put it; they are the very start of philosophical cognition. Which then sets out to think the differentiation of the facets of ultimate reality. Which could be, metaphysics, ethics and logic. After the *Phenomenology of Spirit* that ends with absolute knowing we get the *Science of Logic*, *Philosophy of Nature* and *philosophy of spirit* which are all done from that philosophical standpoint.
+
+So, what is this today? What does it mean to take this truth and to run with it? To take this truth and live with it as a subject? I think everything changed with psychoanalysis. Last weeks I've been tempted to work with the hypothesis that modern philosophy is dead and that Hegel is the last modern philosopher and that Hegel killed philosophy and the truth of that we can see not only in Hegel necessarily but mostly in what emerges after Hegel. We get Marx with his focus on class, Freud with his focus on sex, Nietzsche on power, Kierkegaard on faith and so on. You get these highly idiosyncratic specializations occurring within philosophy, but they're not simply specializations as in “Nietzsche knows a lot about power and Freud knows a lot about sex.” I believe they all aim to get at a fundamental fissure in reality itself.
+
+Sometimes Marx is critiqued because of course there's not just two classes in reality. There are middle classes and there's many more categories you can make. But Žižek makes the wonderful point that that's besides the point. What’s fundamental in Marx is the fact that there's never two simply opposed classes. And this is actually what makes up the class struggle, and is the very discrepancy in our political economy, the economic incoherence or the economic split that determines us so deeply in our capitalist civilization. Whether we can deduce communism from it is another question.
+
+Freud and Lacan get at this fundamental fissure of the subject as regards sexuation: the split between men and women, or consciousness versus unconsciousness. And I think today to live as a philosopher, so to live in a thoughtful manner, we have to realize that we can't go back to ancient philosophy. We also can’t go back to modern philosophy, but we have to work with these fundamental fissures in sexuality and in class These are two that come to the fore for me. Why is that? To finish, because if we return to what precedes psychoanalysis and Hegel too we return to a type of dogmatism. And I would argue that Kant’s project was to a large extent responding to dogmatisms in his day and age. He awoke from his own dogmatic slumber which was this kind of Spinozan/Leibnizian idea of I'm going to systematize the whole and I'm going to give everything its place and see the fundamental harmony underlying everything. That’s both Spinoza and Leibniz to a certain extent. Kant wanted to get rid of this and got to the point of the transcendental apperception, which I don't want to go into now. What happens when we return is that we get forms of political regression. Ultimately for me, I think – and I can expand on that – I think philosophy and to live as a philosopher is also a political deed. Thinking is not opposed to deeds. It is itself a political deed. And I think it's highly important to not cover over these fundamental antagonisms of sexuality and class with beautiful ideas. I think that maybe this is the greatest danger to philosophy and also to politics today and we see this happening with many people. I can give examples. This is where I want to start, I think philosophy and being a philosopher is living a political life in thought, also.
+
+---
+
+[Click here to sign up for the Slovenian School Reading Group](https://philosophyportal.online/slovenian-school-reading-group).
+
+Or get access to it by becoming a paid subscribed to my Substack.
+
+<figure><img src="/assets/images/special-announcement-and-to-live/02.png" alt="" loading="lazy"><figcaption>Actual Spirit Patreon</figcaption></figure>
+
+
+[^1]: Full video:
+
+    <div class="embed"><iframe src="https://www.youtube-nocookie.com/embed/9wNMtg0CsdU" loading="lazy" allowfullscreen title="YouTube video"></iframe></div>
+
