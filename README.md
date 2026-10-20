@@ -1,7 +1,7 @@
-# dialectmaterial.github.io
+# actualspirit.com
 
 Personal site of Dimitri Crooijmans: profile, links, and articles mirrored from
-[Actual Spirit on Substack](https://actualspirit.substack.com). Hosted free on GitHub Pages,
+[Actual Spirit on Substack](https://actualspirit.substack.com). Hosted free on GitHub Pages (repo dialectmaterial/dialectmaterial.github.io) at actualspirit.com,
 which builds it with Jekyll on every push.
 
 - Home page text, featured essays and project cards: `_data/home.yml`

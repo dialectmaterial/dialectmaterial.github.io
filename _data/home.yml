@@ -31,7 +31,7 @@ quick_links:
 subscribe_url: https://actualspirit.substack.com/subscribe
 
 # "Start here": essays for new readers. Use the slug from the article's address
-# (dialectmaterial.github.io/articles/<slug>/). The blurb is optional;
+# (actualspirit.com/articles/<slug>/). The blurb is optional;
 # without one, the opening lines of the essay are shown.
 start_here:
   intro: New here? Three essays to begin with.
