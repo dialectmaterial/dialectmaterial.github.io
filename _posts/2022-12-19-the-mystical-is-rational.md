@@ -4,6 +4,7 @@ subtitle: "Mysticism and Philosophy are means by which we express contact with t
 date: 2022-12-19
 permalink: /articles/the-mystical-is-rational/
 substack: https://actualspirit.substack.com/p/the-mystical-is-rational
+image: /assets/images/the-mystical-is-rational/01.png
 ---
 Christian mysticism is the element of Christian belief and practice that concerns the direct and transformative presence of God. The adjective '*mystical*' means 'hidden' in Greek and refers to 'secret' realities of beliefs, rituals and practices, or the mystical meaning of the Bible itself, i.e. the inner message about attaining, knowing, or experiencing God. Mystical life is essentially a process, or a journey to God, not just a moment or brief state of mystical union. Instead, the mystic's journey consists mostly of preparation for God's intervention in one's life.
 

@@ -4,6 +4,7 @@ subtitle: "The right to self-determination"
 date: 2024-08-12
 permalink: /articles/only-free-will-is-thoughtful/
 substack: https://actualspirit.substack.com/p/only-free-will-is-thoughtful
+image: /assets/images/only-free-will-is-thoughtful/01.jpg
 ---
 *This is third and last article in a trilogy on the I*. *Part I, inspired by the Phenomenology of Spirit, is [on the dialectic of the I.](https://open.substack.com/pub/dimitricrooijmans/p/the-dialectic-of-the-i?r=cl6ch&utm_campaign=post&utm_medium=web) Part II, inspired by the Science of Logic, is [on the I as a metaphysical circle](https://open.substack.com/pub/dimitricrooijmans/p/the-i-as-a-funny-circle?r=cl6ch&utm_campaign=post&utm_medium=web) that expresses itself comically. Reading both beforehand is not necessary, but can enrich the thinking experience.*
 

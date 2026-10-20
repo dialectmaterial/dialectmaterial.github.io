@@ -4,6 +4,7 @@ subtitle: "A Short Story"
 date: 2024-09-30
 permalink: /articles/enlightenment/
 substack: https://actualspirit.substack.com/p/enlightenment
+image: /assets/images/enlightenment/01.jpg
 ---
 *I’ve been thinking, how do we delineate the term ‘turgidity’? A quick Google search has shown me that there's two different meanings. A sack of fluids can be turgid, excessively swollen, bordering on collapse. Beyond this, we have turgidity as pompous or bombastic speech. I am a calm person, I am repulsed by turgid phenomena; hence, I’ll abstain from giving an example. I’m sober and to the point. Banality soothes, caresses and massages the dried and crusted scabs of my soul. My grandmother always used to meander on about how every come-up is destined to come down. I always thought that was profound and unequivocally true. But. I am confident that cognitively circulating around the potential limits of the term ‘turgidity’ will reap benefits. It awakens a sense of rejuvenation, of righteous pride within me. Of course, I must halt you here. I am not talking about the self-righteous kind. To be turgid, is to refuse the come-down. To be turgid is to – as Freud was well aware of – reek of an anal refusal to defecate. Somehow – and here I am approaching the limits of my knowing – turgidity combines the notion of overzealous excretion with its very opposite; constipatory accumulation of excrement.*
 

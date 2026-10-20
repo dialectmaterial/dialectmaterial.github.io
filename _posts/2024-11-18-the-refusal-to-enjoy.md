@@ -4,6 +4,7 @@ subtitle: "A disembodied case for the future"
 date: 2024-11-18
 permalink: /articles/the-refusal-to-enjoy/
 substack: https://actualspirit.substack.com/p/the-refusal-to-enjoy
+image: /assets/images/the-refusal-to-enjoy/01.jpg
 ---
 <figure><img src="/assets/images/the-refusal-to-enjoy/01.jpg" alt="" loading="lazy"></figure>
 

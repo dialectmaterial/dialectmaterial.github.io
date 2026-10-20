@@ -4,8 +4,9 @@ subtitle: "From the fall to the flight of the Soul, piloted by the intellect, th
 date: 2023-10-01
 permalink: /articles/how-to-regrow-the-souls-wings/
 substack: https://actualspirit.substack.com/p/how-to-regrow-the-souls-wings
+image: /assets/images/how-to-regrow-the-souls-wings/01.jpg
 ---
-As I’ve expounded in [my previous article](https://dimitricrooijmans.substack.com/p/the-i-as-a-funny-circle), Nietzsche and Hegel have homologous ideas regarding the fact that the soul can fly. I believe that both of them get this from Plato, who two thousand years before, spoke of the soul as a flying entity.
+As I’ve expounded in [my previous article](/articles/the-i-as-a-funny-circle/), Nietzsche and Hegel have homologous ideas regarding the fact that the soul can fly. I believe that both of them get this from Plato, who two thousand years before, spoke of the soul as a flying entity.
 
 <figure><img src="/assets/images/how-to-regrow-the-souls-wings/01.jpg" alt="" loading="lazy"></figure>
 
@@ -71,7 +72,7 @@ To think, one puts aside the immediacy of sense-impression, thereby retreating b
 
 > “[Socrates:] but it is not every soul that finds it easy to use its present experience as a means of recollecting the world of reality. Some had but a brief glimpse of the truth in their former existence; others have been so unfortunate as to be corrupted by evil associations since they fell to earth, with the result that they have forgotten the sacred vision they once saw. Few are left who retain a sufficient memory. These, however, when they see some likeness of the world above, are beside themselves and lose all control, but do not realize what is happening to them because of the dimness of their perceptions.”[^13]
 
-There’s a few symptoms, one could say, of those who cannot ascend their souls to take off in flight. Perhaps the vision they had was too brief, or they’ve been corrupted since falling down, perhaps it’s an emotional resistance to uncovering oedipal truths which they consequently compulsively repeat in their lives. In any case, when they use their internal eye to intuit the real, it simply becomes overbearing to them, that is, the enveloping darkness or overwhelming illumination of the reverberating unknown makes them lose control. They lack the ability to return to the loss which can only be attained by losing oneself in the return. The return which does not have the nature of a regression, but a *forward return to the self* (as I’ve written on in [this article](https://dimitricrooijmans.substack.com/p/spiritual-practice-the-forward-return)).
+There’s a few symptoms, one could say, of those who cannot ascend their souls to take off in flight. Perhaps the vision they had was too brief, or they’ve been corrupted since falling down, perhaps it’s an emotional resistance to uncovering oedipal truths which they consequently compulsively repeat in their lives. In any case, when they use their internal eye to intuit the real, it simply becomes overbearing to them, that is, the enveloping darkness or overwhelming illumination of the reverberating unknown makes them lose control. They lack the ability to return to the loss which can only be attained by losing oneself in the return. The return which does not have the nature of a regression, but a *forward return to the self* (as I’ve written on in [this article](/articles/spiritual-practice-the-forward-return/)).
 
 ## Love Floods the Soul With Emanations of Absolute Beauty
 

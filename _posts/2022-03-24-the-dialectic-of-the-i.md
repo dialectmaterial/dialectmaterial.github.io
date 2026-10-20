@@ -4,6 +4,7 @@ subtitle: "Inspired by section 508 in the Phenomenology of Spirit. Located in th
 date: 2022-03-24
 permalink: /articles/the-dialectic-of-the-i/
 substack: https://actualspirit.substack.com/p/the-dialectic-of-the-i
+image: /assets/images/the-dialectic-of-the-i/01.jpg
 ---
 Section 508 in the Phenomenology of Spirit is an extremely interesting and important section in which Hegel aims to explicate the self-alienation which is a necessity in the realm of actual language, as well as show how language makes an individual universal through the particular. What I find especially thought-provoking is how the singular relates to universality in the "third dialectical moment (negation of the negation)". Singularity seems like the coincidence of universal and particular expressed in language *as* an universality, which is the way it remains/persists in the tension between particular and universal.
 

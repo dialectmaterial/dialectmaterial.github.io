@@ -4,7 +4,8 @@ Personal site of Dimitri Crooijmans: profile, links, and articles mirrored from
 [Actual Spirit on Substack](https://actualspirit.substack.com). Hosted free on GitHub Pages,
 which builds it with Jekyll on every push.
 
-- Links and name: `_config.yml`
+- Home page text, featured essays and project cards: `_data/home.yml`
+- Name and footer links: `_config.yml`
 - Articles: `_posts/YYYY-MM-DD-slug.md` (plain Markdown; write new ones by hand or import them)
 - Images: `assets/images/<slug>/`
 - Look: `assets/style.css`, `_layouts/`

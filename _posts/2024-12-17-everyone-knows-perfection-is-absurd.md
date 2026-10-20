@@ -4,6 +4,7 @@ subtitle: "Because it is both impossible and necessary"
 date: 2024-12-17
 permalink: /articles/everyone-knows-perfection-is-absurd/
 substack: https://actualspirit.substack.com/p/everyone-knows-perfection-is-absurd
+image: /assets/images/everyone-knows-perfection-is-absurd/01.jpg
 ---
 <figure><img src="/assets/images/everyone-knows-perfection-is-absurd/01.jpg" alt="" loading="lazy"></figure>
 

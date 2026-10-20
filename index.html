@@ -1,30 +1,71 @@
 ---
 layout: default
 ---
-<header class="profile">
-  <img src="/assets/profile.jpg" alt="{{ site.title }}" width="128" height="128">
-  <h1>{{ site.title }}</h1>
-  <p class="subtitle">{{ site.tagline }}</p>
+{% assign home = site.data.home %}
+<header class="hero">
+  <img src="/assets/profile.jpg" alt="{{ site.title }}" width="144" height="144">
+  <div>
+    <h1>{{ site.title }}</h1>
+    <p class="subtitle">{{ site.tagline }}</p>
+  </div>
 </header>
 
-<ul class="links">
-  {% for link in site.links %}<li><a href="{{ link.url }}">{{ link.label }}</a></li>
-  {% endfor %}
-</ul>
-<p class="social">
-  {% for link in site.social %}<a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}
-</p>
+<section class="welcome">
+  <h2>{{ home.welcome.heading }}</h2>
+  {{ home.welcome.text | markdownify }}
+  <p><a class="button" href="{{ home.welcome.button_url }}">{{ home.welcome.button_label }}</a></p>
+</section>
+
+<section>
+  <h2 class="section">Start here</h2>
+  <div class="featured">
+    {% for item in home.start_here %}
+    {% assign post = site.posts | where_exp: "p", "p.url contains item.slug" | first %}
+    {% if post %}
+    <a class="feature" href="{{ post.url }}">
+      {% if post.image %}<img src="{{ post.image }}" alt="" loading="lazy">{% endif %}
+      <span class="title">{{ post.title }}</span>
+      <span class="sub">{{ item.blurb | default: post.subtitle }}</span>
+    </a>
+    {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+<section>
+  <h2 class="section">What I'm doing now</h2>
+  <div class="now">
+    {% for card in home.now %}
+    <a class="card" href="{{ card.url }}">
+      <img src="{{ card.image }}" alt="" loading="lazy">
+      <span>
+        <span class="title">{{ card.title }}</span>
+        <span class="sub">{{ card.text }}</span>
+        <span class="more">{{ card.link_label }} →</span>
+      </span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
 
 <section class="articles">
-  <h2>Articles</h2>
+  <h2 class="section">All writing</h2>
+  {% assign years = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+  {% for year in years %}
+  <h3>{{ year.name }}</h3>
   <ol>
-    {% for post in site.posts %}<li>
+    {% for post in year.items %}<li>
       <a href="{{ post.url }}">
         <span class="title">{{ post.title }}</span>
         {% if post.subtitle != "" %}<span class="sub">{{ post.subtitle }}</span>{% endif %}
       </a>
-      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%b %Y" }}</time>
+      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %b" }}</time>
     </li>
     {% endfor %}
   </ol>
+  {% endfor %}
 </section>
+
+<footer class="site">
+  <a href="{{ home.welcome.button_url }}">Subscribe on Substack</a> · {% for link in site.social %}<a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}
+</footer>

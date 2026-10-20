@@ -4,6 +4,7 @@ subtitle: "Slovenian School Reading Group & Transcript Of A Fragment On Philosop
 date: 2025-01-06
 permalink: /articles/special-announcement-and-to-live/
 substack: https://actualspirit.substack.com/p/special-announcement-and-to-live
+image: /assets/images/special-announcement-and-to-live/01.jpg
 ---
 # The Slovenian School Reading Group
 

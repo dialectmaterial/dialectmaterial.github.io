@@ -4,8 +4,9 @@ subtitle: "Inspired by my reading of specific passages in the Science of Logic, 
 date: 2023-08-27
 permalink: /articles/the-i-as-a-funny-circle/
 substack: https://actualspirit.substack.com/p/the-i-as-a-funny-circle
+image: /assets/images/the-i-as-a-funny-circle/01.jpg
 ---
-A year ago, I started venturing into an attempt to think the “I”, mainly being inspired by its dialectic as explicated by Hegel in his *Phenomenology of Spirit*. You can find [the article here](https://dimitricrooijmans.substack.com/p/the-dialectic-of-the-i).
+A year ago, I started venturing into an attempt to think the “I”, mainly being inspired by its dialectic as explicated by Hegel in his *Phenomenology of Spirit*. You can find [the article here](/articles/the-dialectic-of-the-i/).
 
 ### The Determinate Concept & The Concept as Determinate
 
@@ -25,7 +26,7 @@ Is dissolved? How so? Because it denotes nothing of the sort that we’d imagine
 
 > *“In second place*, the “I” is just as immediately self-referring negativity, *singularity*, *absolute determinateness* that stands opposed to anything other and excludes it — *individual personality*.”[^4]
 
-The “I” is both the singular “I”, which *I* am, and at once the “I” of universality. Do I *have* this latter “I”, or *am* I this “I”? We’d have to say that in our negative relating to the “I”, I am not this “I”, nor do I *have* this “I”, but am its exclusion, its negativity. The singular “I” *is* by neither being nor having the universal “I”. In it, I refer to negatively as affirmative. And this, the “I” as being its own not-having, or being that which is negatively related to itself, and only in this referring truly and singularly being itself, is the perishing which equals its abiding (as I’ve attempted to bring out in my former article on [The Dialectic of the 'I'](https://dimitricrooijmans.substack.com/p/the-dialectic-of-the-i)).
+The “I” is both the singular “I”, which *I* am, and at once the “I” of universality. Do I *have* this latter “I”, or *am* I this “I”? We’d have to say that in our negative relating to the “I”, I am not this “I”, nor do I *have* this “I”, but am its exclusion, its negativity. The singular “I” *is* by neither being nor having the universal “I”. In it, I refer to negatively as affirmative. And this, the “I” as being its own not-having, or being that which is negatively related to itself, and only in this referring truly and singularly being itself, is the perishing which equals its abiding (as I’ve attempted to bring out in my former article on [The Dialectic of the 'I'](/articles/the-dialectic-of-the-i/)).
 
 I am I, and in this claim, I have already implied there to be a distance to the “I” insofar as I am able to relate subject to predicate in judgment. Either way, having the “I” as a determinate concept, or judging the “I” to be “I” amount to it being self-referring negativity. But what about the relation of the universal “I” to this negativity of the singular “I” in their difference? To that, I will say that I speak of “I”. And in this preceding sentence that relation and difference should already be apparent. The former I simply denotes the singular me, the latter “I” denotes the universal “I”ness, common to us both, or, which is the same, uncommon to us both as it has not much to do with our singular “I” at all.
 

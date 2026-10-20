@@ -4,6 +4,7 @@ subtitle: "Real Speculations versus Bad Speculation"
 date: 2025-06-27
 permalink: /articles/communisation-in-absolute-capitalism/
 substack: https://actualspirit.substack.com/p/communisation-in-absolute-capitalism
+image: /assets/images/communisation-in-absolute-capitalism/01.jpg
 ---
 *Join the Slovenian School Reading Group at Philosophy Portal.*
 

@@ -4,6 +4,7 @@ subtitle: "Starting 22nd of January at Philosophy Portal"
 date: 2025-01-16
 permalink: /articles/the-slovenian-school-reading-group/
 substack: https://actualspirit.substack.com/p/the-slovenian-school-reading-group
+image: /assets/images/the-slovenian-school-reading-group/01.jpg
 ---
 <figure><img src="/assets/images/the-slovenian-school-reading-group/01.jpg" alt="" loading="lazy"><figcaption>Alenka Zupančič &amp; Mladen Dolar</figcaption></figure>
 

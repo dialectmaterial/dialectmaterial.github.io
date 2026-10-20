@@ -4,6 +4,7 @@ subtitle: "Or: Why there's no such thing as non-aesthetic philosophy"
 date: 2024-01-14
 permalink: /articles/who-can-philosophize/
 substack: https://actualspirit.substack.com/p/who-can-philosophize
+image: /assets/images/who-can-philosophize/01.jpg
 ---
 Who wrote the *Oldest Systematic program of German Idealism*? We have no definitive evidence of Hegel having written the text (the title was given to it by Franz Rosenzweig in 1917). Thinkers like Lukács and Habermas were convinced Schelling wrote the text, while Heidegger denied this as a possibility, but he would also not confirm any author. To me, for reasons I will go into below, it is quite clear that Hegel wrote the text.[^1] Anyhow, this text is a fragmentary essay written around 1796/97, which means Hegel would’ve been around the age of 26 while writing it.
 
@@ -18,7 +19,7 @@ As is well known, the triad of the good, true and beautiful comes from the ancie
 1. The practical Idea strives for attaining the Good, thereby failing to attain it fully.  
 2. The theoretical Idea strives for attaining the Truth, thereby too failing to attain it fully.
 
-And then, 3. The Absolute Idea! The grand reconciliation of the true and the good in the beauty of harboring within the concept, [or the “I,”](https://dimitricrooijmans.substack.com/p/the-i-as-a-funny-circle) the most extreme opposition: the principally unovercomeable nature of the two former Ideas.[^3] The insurmountable rift is reconciled within and as the highest Idea — the beautiful.
+And then, 3. The Absolute Idea! The grand reconciliation of the true and the good in the beauty of harboring within the concept, [or the “I,”](/articles/the-i-as-a-funny-circle/) the most extreme opposition: the principally unovercomeable nature of the two former Ideas.[^3] The insurmountable rift is reconciled within and as the highest Idea — the beautiful.
 
 So, what do we make of this Idea of the beautiful? It won’t suffice to get off on some emanation of the One. The image of a navel-gazing circle-jerk is off-putting. While leaving the nutting behind, we will go for the pure and clean clarity. Half-jokes aside. Firstly, for Hegel, philosophy is philosophy of Spirit. And Spirit is what? God seeking his self-knowing, attaining it, and losing Himself in Himself, as the plethora of self-differentiating subjects coming to themselves through their own otherness, actual as the concrete existence of language. Now, back to his *Oldest Program*. In there, Hegel lays it all out in the open for us:
 

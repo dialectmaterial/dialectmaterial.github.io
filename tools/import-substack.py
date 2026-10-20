@@ -72,7 +72,7 @@ def download_image(url, slug, n):
 
 def local_link(href, known_slugs):
     """Point links to other imported posts at this site instead of Substack."""
-    m = re.match(rf"https?://(?:{PUBLICATION}\.substack\.com|open\.substack\.com/pub/{PUBLICATION})/p/([\w-]+)", href or "")
+    m = re.match(rf"https?://(?:(?:{PUBLICATION}|dimitricrooijmans)\.substack\.com|open\.substack\.com/pub/{PUBLICATION})/p/([\w-]+)", href or "")
     if m and m.group(1) in known_slugs:
         return f"/articles/{m.group(1)}/"
     return href
@@ -206,6 +206,11 @@ def main():
             f"date: {date}",
             f"permalink: /articles/{slug}/",
             f"substack: {post['canonical_url']}",
+        ]
+        cover = sorted((IMAGES / slug).glob("01.*"))
+        if cover:
+            front.append(f"image: /assets/images/{slug}/{cover[0].name}")
+        front += [
             "---",
             "",
         ]
