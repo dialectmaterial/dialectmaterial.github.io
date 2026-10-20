@@ -8,15 +8,6 @@ related: [slovenian-school-reading-group, only-free-will-is-thoughtful]
 substack: https://actualspirit.substack.com/p/communisation-in-absolute-capitalism
 image: /assets/images/communisation-in-absolute-capitalism/cover.jpg
 ---
-*Join the Slovenian School Reading Group at Philosophy Portal.*
-
-*Beginning September 24th, we will start with Alenka Zupančič’s The Odd One In.*
-
-*To participate, become a paid member of my Substack or subscribe to [my Patreon](http://patreon.com/ActualSpirit)*
-
-*Head over to [Philosophyportal.online](https://philosophyportal.online/) to learn more.*
-
----
 
 Since before the dawn of my intellectual activities I’ve always read texts out of context. And far from being a bug that prevents me from reaching the true core of a theoretical edifice, it is a feature that comes with going for real speculations. It’s self-evident that Hegel did not mean his *Phenomenology of Spirit* with its stages to be superimposed on the development of “a lineage of thought that runs from Richard Dawkins’ reason, through Sam Harris’s spirituality, and Jordan B. Peterson’s religiosity.”[^1] But this is exactly what Cadell Last has done in his latest book:
 
@@ -548,15 +539,6 @@ Inevitable retreats to the proletarised zero-point are our only universal guaran
 Necessity is grounded in the repetition of socio-political, communising acts which point to the ultimate goal of communist revolution on a global scale.
 
 ---
-
-*Join the Slovenian School Reading Group at Philosophy Portal.*
-
-*Beginning September 24th, we will start with Alenka Zupančič’s The Odd One In.*
-
-*To participate, become a paid member of my Substack or subscribe to [my Patreon](https://www.patreon.com/c/actualspirit/membership)*
-
-*Head over to [Philosophyportal.online](https://philosophyportal.online/) to learn more.*
-
 
 [^1]: Cadell Last, *Real Speculations: Thought Foundations, drive myths, social analysis* (2025), 45.
 
