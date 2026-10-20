@@ -21,11 +21,11 @@ search:
   # The grey text under it. Keep it under about 160 characters.
   description: >-
     Dimitri F. Crooijmans writes Actual Spirit: essays on philosophy, art,
-    science and politics, from Hegel and Spinoza to Lacan and Žižek.
+    science and politics, from Descartes and Spinoza to Hegel, Lacan and Žižek.
   # Other ways people might search for you.
   other_names: [Dimitri Crooijmans, Actual Spirit, Objet lil a]
   # What you write about.
-  topics: [Philosophy, Hegel, Spinoza, Dialectical materialism, Psychoanalysis, Slovenian School, Politics, Art]
+  topics: [Philosophy, Descartes, Spinoza, Leibniz, Kant, Hegel, Dialectical materialism, Psychoanalysis, Slovenian School, Politics, Art]
   # Your profiles elsewhere. These tell Google they all belong to the same person.
   profiles:
     - https://actualspirit.substack.com
@@ -34,7 +34,8 @@ search:
     - https://open.spotify.com/artist/4vI2xDzOoqF995QOU4bREz
     - https://www.patreon.com/c/actualspirit
     - https://t.me/objetlila
-    - https://bio.site/Actualspirit
+    - https://www.linkedin.com/in/dimitri-crooijmans-3a4209268/
+
 
 # Small quick links under the intro, for people coming from Instagram.
 quick_links:
