@@ -3,8 +3,8 @@ title: "Introduction to The Parallax View"
 subtitle: "A word"
 description: ""
 date: 2026-01-22
-permalink: /articles/slovenian-school-reading-group/
-related: [communisation-in-absolute-capitalism, the-slovenian-school-reading-group]
+permalink: /articles/the-parallax-view/
+related: [communisation-in-absolute-capitalism, everyone-knows-perfection-is-absurd]
 substack: https://actualspirit.substack.com/p/slovenian-school-reading-group
 image: /assets/images/slovenian-school-reading-group/cover.jpg
 ---

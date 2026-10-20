@@ -4,7 +4,7 @@ subtitle: "Starting 22nd of January at Philosophy Portal"
 description: "Starting on the 22nd of January, we will begin the Slovenian School Reading Group at Philosophy Portal."
 date: 2025-01-16
 permalink: /articles/the-slovenian-school-reading-group/
-related: [slovenian-school-reading-group, communisation-in-absolute-capitalism]
+related: [the-parallax-view, communisation-in-absolute-capitalism]
 substack: https://actualspirit.substack.com/p/the-slovenian-school-reading-group
 image: /assets/images/the-slovenian-school-reading-group/01.jpg
 ---
