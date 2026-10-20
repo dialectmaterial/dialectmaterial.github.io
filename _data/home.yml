@@ -58,7 +58,7 @@ book:
 writing:
   heading: Selected writings
   text: |
-    Essays, stories and notes from *Actual Spirit*, gathered here to read in peace.
+    Essays, stories and notes from *Actual Spirit*.
 
 # "Elsewhere": other things you do. Images go in assets/now/.
 elsewhere:
@@ -80,7 +80,7 @@ elsewhere:
 
 # The About block at the bottom of the home page.
 about: |
-  Dimitri F. Crooijmans writes *Actual Spirit*, a place for philosophy, art and science and politics.
+  Dimitri F. Crooijmans writes *Actual Spirit*, a place for philosophy, art, science and politics.
 
 # A one-line bio shown at the end of every article.
 signoff: |
