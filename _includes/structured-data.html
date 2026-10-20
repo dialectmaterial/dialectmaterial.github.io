@@ -45,7 +45,7 @@
       "@type": "Book",
       "name": {{ home.book.title | append: ": " | append: home.book.subtitle | jsonify }},
       "url": {{ home.book.url | jsonify }},
-      "author": { "@id": {{ site.url | append: "/#person" | jsonify }} }
+      "contributor": { "@id": {{ site.url | append: "/#person" | jsonify }} }
     }
   ]
 }

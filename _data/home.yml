@@ -58,20 +58,21 @@ subscribe_url: https://actualspirit.substack.com/subscribe
 start_here:
   intro: New here? Three essays to begin with.
   essays:
-    - slug: everyone-knows-perfection-is-absurd
-      blurb: Spinoza, Descartes and why reality is the perfect absurdity.
-    - slug: communisation-in-absolute-capitalism
-      blurb: On communism and capital.
     - slug: slovenian-school-reading-group
       blurb: On dialectical materialism.
+    - slug: communisation-in-absolute-capitalism
+      blurb: On communism and capital.
+    - slug: everyone-knows-perfection-is-absurd
+      blurb: Spinoza, Descartes and why reality is the perfect absurdity.
 
-# The dark band about the book.
+# The dark band about the anthology with your papers.
 book:
-  kicker: New book
+  kicker: New anthology
   title: Rosy Cross
   subtitle: Question of Right and Truth of Christianity
   text: |
-    My new book, on the question of right and the truth of Christianity.
+    A new anthology on the question of right and the truth of Christianity,
+    with two papers of mine.
   image: /assets/now/rosy-cross.jpg
   url: https://www.amazon.com/Rosy-Cross-Question-Right-Christianity/dp/B0GYZR7JQJ/
   button: Get the book
