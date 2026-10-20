@@ -5,6 +5,7 @@ subtitle: "Hier volgt een korte uiteenzetting over de glibberige ongrijpbaarheid
 description: "Hegels geest is een zelf-bewust wordende eenheid die zichzelf door middel van conflicten tussen algemeenheden opheft, en zich zodoende concretiseert. De geest is zijn eigen verloop van zelf-wording."
 date: 2022-04-09
 permalink: /articles/spirituele-praktijk-de-voorwaartse/
+related: [spiritual-practice-the-forward-return, the-dialectic-of-the-i]
 substack: https://actualspirit.substack.com/p/spirituele-praktijk-de-voorwaartse
 image: /assets/images/spirituele-praktijk-de-voorwaartse/01.jpg
 ---

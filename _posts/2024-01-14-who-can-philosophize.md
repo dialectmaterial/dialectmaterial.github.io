@@ -4,12 +4,13 @@ subtitle: "Or: Why there's no such thing as non-aesthetic philosophy"
 description: "Who wrote the Oldest Systematic program of German Idealism? We have no definitive evidence of Hegel having written the text (the title was given to it by Franz Rosenzweig in 1917). Thinkers like Lukács and Habermas were convinced Schelling wrote…"
 date: 2024-01-14
 permalink: /articles/who-can-philosophize/
+related: [how-to-regrow-the-souls-wings, only-free-will-is-thoughtful]
 substack: https://actualspirit.substack.com/p/who-can-philosophize
 image: /assets/images/who-can-philosophize/01.jpg
 ---
 Who wrote the *Oldest Systematic program of German Idealism*? We have no definitive evidence of Hegel having written the text (the title was given to it by Franz Rosenzweig in 1917). Thinkers like Lukács and Habermas were convinced Schelling wrote the text, while Heidegger denied this as a possibility, but he would also not confirm any author. To me, for reasons I will go into below, it is quite clear that Hegel wrote the text.[^1] Anyhow, this text is a fragmentary essay written around 1796/97, which means Hegel would’ve been around the age of 26 while writing it.
 
-### The Unity of Absolute Beauty
+## The Unity of Absolute Beauty
 
 Why does it matter who wrote this text? No, why does this text matter in the first place? Besides being of philosophical interest to analyze how Hegel as a thinker came to be, this youthful, almost zealous text reveals some core philosophical principles; their timeless and contemporary relevance. If it is indeed Hegel who wrote it, it’d be significant for laying bare to his lifelong consistency regarding the point in the following quote. In the *Oldest Program*, he writes:
 
@@ -30,7 +31,7 @@ The poet is praised for his “aesthetic power.”[^6] He is the philosopher’s
 
 <figure><img src="/assets/images/who-can-philosophize/01.jpg" alt="The Crazy And Charming Theory Of Love In Plato's &quot;Symposium&quot;" loading="lazy"><figcaption>Alcibiades</figcaption></figure>
 
-### Kant and Ye
+## Kant and Ye
 
 For Kant, answering the question of this article’s title, boils down to the distinction between learning philosophy (by the letter), or *learning to philosophize*. This minimal distinction (seemingly no distinction for the multitude) makes all the difference in the world. It is the difference between being dazzled by complexity of thought and the particulars of history, versus being mutually fascinated, in living dialogue, by the universality of the becoming of truth. Identification with any kind of perceived (sometimes lost) perfection in any historical thinker, or even your direct, living predecessor or mentor who lets truth speak through them is inevitable and forgivable, but also — especially if one clings on to the thinker on for an extended amount of time — goes to show one’s unreconciled self-relation. One comes to outsource one’s thinking to some other, so that one halts the angst of having to sing one’s own song. Analogously, there’s nothing wrong with making great covers of beautiful songs, although something is definitely *covered up*, if this is all one can bring oneself to do.
 
@@ -42,7 +43,7 @@ From there on out, what is at stake is identifying with already established proj
 
 <figure><img src="/assets/images/who-can-philosophize/02.jpg" alt="Immanuel Kant and Kanye West shaking hands" loading="lazy"><figcaption>Kant and Kanye rejoicing</figcaption></figure>
 
-### Spirit in a Bildungsroman and the Aesthetic Idea
+## Spirit in a Bildungsroman and the Aesthetic Idea
 
 Art and philosophy are works of sublimation, which, Lacan explains consists of “raising a mundane object to the dignity of the Thing,” that is, picking out any seemingly contingent appearance and *idea-lizing* it. It is the mythologization of one’s experience, in a beautiful, free and self-determined manner. To become an artist or a philosopher, it is, of course, inadequate to sing or regurgitate solely the admirable and life-changing projects of others, no matter how masterful they may be. Yet, only affirming this side of the story is insufficient too, as the importance of mimesis, i.e. rehearsing and mimicking the master repeatedly, is a crucial step to submit to if one is to *become one’s own* in a cultivated, and encultured sense. If, on the hand, we get the trap of one making covers and the philosopher of the letter, then on the other hand we get the premature self-expression of singularity trumping humility and gratitude, trumping the awareness of being positioned in a spiritual tradition, trumping universal truth. Even if projects turn out to be ground-breaking works that defy genre, these are only achieved through the arduous labour that has tarried with traditions which were present at hand, this is especially the case in philosophy. My bet is that this is true to a lesser extend in music. In any case, in the *Oldest Program*, Hegel believes to innovate on the following:
 
@@ -52,7 +53,7 @@ The manuscript cuts off before we get to see how Hegel would build out his mytho
 
 <figure><img src="/assets/images/who-can-philosophize/03.png" alt="" loading="lazy"><figcaption>Goethe looking at a Silhouette by Johann Ehrenfried Schumann</figcaption></figure>
 
-### A Change of Mind on the Title Page
+## A Change of Mind on the Title Page
 
 Showcasing Hegel’s consistency from this early text to his mature works is interesting, but there’s also a major difference between this early text and his mature works. Let us juxtapose this quote to an epigraph Hegel uses:
 

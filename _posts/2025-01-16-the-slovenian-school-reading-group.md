@@ -4,6 +4,7 @@ subtitle: "Starting 22nd of January at Philosophy Portal"
 description: "Starting on the 22nd of January, we will begin the Slovenian School Reading Group at Philosophy Portal."
 date: 2025-01-16
 permalink: /articles/the-slovenian-school-reading-group/
+related: [slovenian-school-reading-group, communisation-in-absolute-capitalism]
 substack: https://actualspirit.substack.com/p/the-slovenian-school-reading-group
 image: /assets/images/the-slovenian-school-reading-group/01.jpg
 ---
@@ -20,7 +21,7 @@ Members of the Portal get free access to the Reading Group. If you are not a mem
 
 ---
 
-# Two Short Circuits
+## Two Short Circuits
 
 Both of these books are part of the Short Circuits Series edited by Slavoj Žižek. They contain the same Series Foreword in which Žižek starts off with the metaphor of a short circuit to describe what he takes to be critical reading.
 
@@ -44,7 +45,7 @@ Taken metaphysically, we will get down to the nitty-gritty of causality. In the 
 
 In short, on the side of the object(-cause), we will study the voice with Dolar. On the side of the subject, we will study comic spirit with Zupančič. Here, I will shortly introduce you to the introductions of both books.
 
-# A Voice And Nothing More
+## A Voice And Nothing More
 
 Dolar starts his book by distinguishing three aspects of the voice. First, there is the voice that carries a message across, the medium conveying a meaning. Secondly, there is the aesthetic experience of the voice that distracts us from this message. The voice does not carry words that aim to signify, but is “the bearer of a meaning beyond any ordinary meanings.”[^7]
 
@@ -60,7 +61,7 @@ To clarify this object voice, Dolar turns to the speech-machine from the 19th ce
 
 This machine could make uncanny human-like sounds. It could reproduce what sounded like a voice speaking Latin and French words and phrases. Nowadays, we’re constantly surrounded by uncanny robot-like voices, like in public transport. Back in the day, this device with its very nonhuman look fascinated its audience for its familiar yet utterly estranging humanoid voice. With its voice, this mechanical machine seemed to cage an inner soul. Even though we know it is simply a mechanism, the object voice seems to be imbued with some form of a life of its own, as if its effect surpasses the explicable causes. This alien ‘more’ to the voice is the object that Dolar focuses on in the book.
 
-# The Odd One in
+## The Odd One in
 
 Comedy is no joke, especially as a philosophical research topic. Zupančič starts the introduction by saying that
 
@@ -100,7 +101,7 @@ Different from jokes, irony and humor, she understands “the comical as a singu
 
 ---
 
-# Sign Up For The Reading Group
+## Sign Up For The Reading Group
 
 Starting on the 22nd of January, we will begin the Slovenian School Reading Group at [Philosophy Portal.](https://philosophyportal.online/slovenian-school-reading-group)
 

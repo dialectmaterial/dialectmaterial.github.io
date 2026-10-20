@@ -2,6 +2,8 @@
 layout: default
 ---
 {% assign home = site.data.home %}
+{% capture toc %}{% include toc.html html=content %}{% endcapture %}
+{% assign toc = toc | strip %}
 <article class="post">
   <header class="post-head">
     <p class="meta"><a href="/#writing">Writing</a> · {{ page.date | date: "%-d %B %Y" }} · {% include read-time.html content=content %}</p>
@@ -9,9 +11,25 @@ layout: default
     {% if page.subtitle != "" %}<p class="dek">{{ page.subtitle }}</p>{% endif %}
   </header>
 
-  <div class="prose">
+  <div class="post-body{% if toc != '' %} has-toc{% endif %}">
+    {% if toc != "" %}
+    <details class="toc toc-inline">
+      <summary>Contents</summary>
+      <ol>{{ toc }}</ol>
+    </details>
+    <nav class="toc toc-side" aria-label="Contents">
+      <p class="label">Contents</p>
+      <ol>{{ toc }}</ol>
+      <a class="totop" href="#top">↑ Back to top</a>
+    </nav>
+    {% endif %}
+
+    <div class="prose">
 {{ content }}
+    </div>
   </div>
+
+  <p class="totop-end"><a class="totop" href="#top">↑ Back to top</a></p>
 
   <aside class="signoff">
     <img src="/assets/profile.jpg" alt="" loading="lazy">
@@ -25,7 +43,28 @@ layout: default
   </aside>
 </article>
 
-<nav class="wrap pager">
-  {% if page.previous %}<a class="prev" href="{{ page.previous.url }}"><span class="label">← Older</span><span class="t">{{ page.previous.title }}</span></a>{% else %}<span></span>{% endif %}
-  {% if page.next %}<a class="next" href="{{ page.next.url }}"><span class="label">Newer →</span><span class="t">{{ page.next.title }}</span></a>{% endif %}
-</nav>
+{% include read-next.html %}
+
+{% if toc != "" %}
+<script>
+  // Mark the section being read in the side contents list.
+  (function () {
+    var links = document.querySelectorAll(".toc-side a[href^='#']:not(.totop)");
+    var byId = {};
+    links.forEach(function (a) { byId[decodeURIComponent(a.hash.slice(1))] = a; });
+    var heads = Array.prototype.filter.call(document.querySelectorAll(".prose h2[id], .prose h3[id]"), function (h) { return byId[h.id]; });
+    if (!heads.length) return;
+    var current;
+    function update() {
+      var active = heads[0];
+      heads.forEach(function (h) { if (h.getBoundingClientRect().top < window.innerHeight * 0.3) active = h; });
+      if (active === current) return;
+      if (current) byId[current.id].removeAttribute("aria-current");
+      byId[active.id].setAttribute("aria-current", "true");
+      current = active;
+    }
+    window.addEventListener("scroll", update, { passive: true });
+    update();
+  })();
+</script>
+{% endif %}

@@ -173,7 +173,23 @@ def convert(post, known_slugs):
     text = re.sub(r"FNREF(\d+)X", r"[^\1]", text)
     for key, html in raw.items():
         text = text.replace(key, html)
-    return text + "\n"
+    return normalize_headings(text) + "\n"
+
+
+def normalize_headings(markdown):
+    """Make the post's top heading level ## (the title is the page's only #),
+    shift the others along, and drop bold that Substack wraps headings in."""
+    pattern = re.compile(r"^(#{1,6}) +(.*)$", re.M)
+    levels = [len(m.group(1)) for m in pattern.finditer(markdown)]
+    if not levels:
+        return markdown
+    shift = 2 - min(levels)
+
+    def fix(m):
+        title = re.sub(r"^\*\*(.*)\*\*$", r"\1", m.group(2).strip())
+        return "#" * min(len(m.group(1)) + shift, 6) + " " + title
+
+    return pattern.sub(fix, markdown)
 
 
 def describe(markdown, words=40):

@@ -6,6 +6,7 @@ layout: default
 
 <section class="hero wrap">
   <div class="hero-text">
+    <p class="byline"><img src="/assets/profile.jpg" alt="" width="60" height="60"><span>{{ site.title }}<span class="kicker">{{ home.hero.kicker }}</span></span></p>
     <p class="kicker">{{ home.hero.kicker }}</p>
     <h1 class="display">{% for line in home.hero.heading %}<span>{{ line }}</span>{% endfor %}</h1>
     <div class="lede">{{ home.hero.intro | markdownify }}</div>
@@ -42,7 +43,8 @@ layout: default
   </div>
   <div class="trio">
     {% for item in home.start_here.essays %}
-    {% assign post = site.posts | where_exp: "p", "p.url contains item.slug" | first %}
+    {% assign url = "/articles/" | append: item.slug | append: "/" %}
+    {% assign post = site.posts | where: "url", url | first %}
     {% if post %}
     <a class="tile" href="{{ post.url }}">
       <span class="num">0{{ forloop.index }}</span>

@@ -4,6 +4,7 @@ subtitle: "Because it is both impossible and necessary"
 description: "Reality is perfect, because perfection is reality itself, apart from which nothing exists. God, or nature, is this substance, the perfect reality."
 date: 2024-12-17
 permalink: /articles/everyone-knows-perfection-is-absurd/
+related: [the-refusal-to-enjoy, only-free-will-is-thoughtful]
 substack: https://actualspirit.substack.com/p/everyone-knows-perfection-is-absurd
 image: /assets/images/everyone-knows-perfection-is-absurd/01.jpg
 ---
@@ -17,7 +18,7 @@ Historically, Spinoza came right after Descartes, whom he was profoundly indebte
 
 In the post-Cartesian 17th century, this Sephardic Jew, violently banned from his Portuguese diaspora in the Netherlands, stepped forth to respond to Descartes with a modern iteration of Parmenidean monism.
 
-# Substance
+## Substance
 
 In his substance monism negativity is prohibited. There is no such thing, there is only being, only the affirmation of the absolute power of nature. All that exists is God, who is infinite. Anything finite is a mere passing away and finds fulfillment only in its extinguishment in God, the all-engulfing substance. Here in the *Ethics* we see the minimal distinction between infinite substance and finitude:
 
@@ -90,7 +91,7 @@ So does Spinoza regard individual things to exist in any meaningful sense at all
 
 If what is, is in part negation, what exists is in fact *the part of God that is not*. What exists, is what is of God that is nothim. And right here lies the kernel of AP: the finite is *severed from* *itself* insofar as its truth is what in it makes up its infinity, which is where it ceases to be finite and is one with substance. The finite, as being in another, that is, the fact that it does not ground itself in itself, means that its existence is akin to the utter obliteration of itself: vacuity. The issue that emerges here for Spinoza is that there’s no way such non-being can be, because according to him only being is. He asserts that “there does not exist a vacuum in nature.”[^9] But how can we distinguish between vacuum, this void, and God?
 
-# Pain
+## Pain
 
 Spinoza’s stubborn exclusion of the void while affirming God as the perfect unchanging nature into which everything ceases to be is ambiguous to say the least. The fact that this remains unacknowledged by Spinoza results in his inability to take note of the speculative logic of some of his assertions. For instance, for Spinoza, truth is the standard of itself as well as for what is false. Even though he works with the logic of the coincidence of opposites contained by one of the terms (truth contains the truth versus false opposition), he does not take note of this fact itself. Another example important to understand the disparity in AP is his idea of human perfection. Human perfection as this affirmative determination contains its opposite within itself. Contrary to God, whose perfection does not undergo transition and is purely and completely perfect; for man, there are degrees of perfection. Consequently, man is more real the more he transitions to perfection:
 
@@ -116,7 +117,7 @@ If we claim pain exists, we do it from the perspective of finitude, from the per
 
 This is starting to sound absurd.
 
-# Natura
+## Natura
 
 Another way to go about the ambiguity of God and existence in the *Ethics* is by going into the following two terms that overlap with the three categories of Spinoza’s ontology.
 
@@ -142,7 +143,7 @@ Understood in this way, Spinoza’s notion of substance is identical to Eyn Sof.
 
 God exists necessarily and eternally. Finite modes exist imperfectly, which means not at all: “For inasmuch as his essence excludes all imperfection, and involves absolute perfection, all cause for doubt concerning his existence is done away, and the utmost certainty on the question is given. This, I think, will be evident to every moderately attentive reader.”[^16]
 
-# Necessity
+## Necessity
 
 If the human is not necessary (does not have substance for its essence), does that mean the opposite is true? Is his existence contingent? Does contingency exist in the first place? The more imperfect something is, the further it is from God, the deeper it is in the natura naturata. And therefore, the more dependent it is on the necessity of God:
 
@@ -168,7 +169,7 @@ Contingency is necessary because there is no way in which the human mind (imperf
 
 But maybe this absurdity is where freedom lies. Substance is the efficient cause of itself, but not only this. God is free, is free to cause himself the way he does. Of course, God is impersonal and operates perfectly and out of necessity without regard for our imagination and the possibilities (contingencies) we attribute to him. Freedom cannot not merely lie in our imagined contingency. If God is free, it is to be regarded as necessary.
 
-# Freedom
+## Freedom
 
 God is free, the mind is not. God’s necessity is self-caused, the mind cannot be its own free cause because it is caught up in external causality. The mind is dependent on what is outside of it. God contains everything within himself. But freedom is possible for Spinoza, which means none other than that it is impossible and necessary. Not in the sense that we can freely determine ourselves from within ourselves as if free will exists independently from God. No, we can act free only insofar as we *understand* *God*. Understanding nature increases our freedom because adequate ideas enable us to not undergo our passions (slavish emotions). When we understand God’s chain of necessity, we are in touch with reality. We find freedom in this because it allows us to be active in reality since we’re not overpowered by the appearance of contingencies that makes us helplessly passive. We understand what and how things happen. Understanding God is the first step to act according to what is necessary. That is to say, to align with God’s immanence, the chain of himself within himself whether finite or not. But human potency is limited, so naturally we cannot always adequately act in alignment with God.
 
@@ -196,7 +197,7 @@ Our finite mind cannot know everything adequately to achieve total freedom (in a
 
 We should read the word absurdity in this light; both as a supplemental leftover as well as in the etymological sense of being misaligned. Not in the negative sense, but in the same way as we should read the declarations of things being ‘self-evident’, or that ‘everyone knows’. These are all stopgaps that tie formal logic up and express the extent to which a system goes to be internally coherent. We’re to take note of what necessary impossibility is patched up in the closure such statements perform.
 
-# Power
+## Power
 
 > “God's power is identical with his essence.”[^23]
 
@@ -234,7 +235,7 @@ Nietzsche’s formulation of amor fati that turns each “thus it was,” into a
 
 Besides the question of power, Nietzsche accuses Spinoza’s emphasis of self-preservation to come out of his distress. I find it to be quite cheap, though not unappealing. But isn’t the same true for Nietzsche’s will to power? After God’s death, only the immanence of self-overcoming nature is alive, but is this deified Will not coming out of Nietzsche’s own distress, or worse, the panic-stricken inversion of his miserable impotence?
 
-# Fate
+## Fate
 
 Anyhow, Spinoza adamantly holds that non-being is not. Death and powerlessness are nothing in another, let alone in themselves.
 
@@ -266,7 +267,7 @@ Death may occur, but nonetheless...
 
 Spinoza’s God does not need subjects. The truth of our activity as subjects is nothing but our capacity to instrumentalize ourselves for the power of God’s self-serving love. To be more precise: in Spinoza, the truth of us is our alignment with the impersonal power whose fate we are subordinate to.
 
-# Feelings
+## Feelings
 
 In the Spinoza, Nietzsche, Deleuze lineage
 
@@ -300,7 +301,7 @@ As Deleuze says in his *Spinoza: Practical Philosophy*:
 
 In other words, there is no difference that makes any difference. All is the same to the indifference of divine nature. Life is one with God, the human being is the instrument of His self-love. Spinoza’s “free man” is perfectly aligned. And insofar as one strives to become oneself, to be more happy, more free, more virtuous and more knowledgeable, more perfect — the more one forgets that the process of self-perfecting has always been completed; that God and the subject are always already aligned in the transparent absurdity that the subject is in God the substance, because God himself necessarily contains his own impossibility within him, he ceases to exist by entering himself.
 
-# Spinoza’s improper place
+## Spinoza’s improper place
 
 Spinoza’s *Ethics* is great for succeeding to show the following:
 

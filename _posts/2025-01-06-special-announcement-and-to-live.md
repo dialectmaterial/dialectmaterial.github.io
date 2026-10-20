@@ -4,10 +4,11 @@ subtitle: "Slovenian School Reading Group & Transcript Of A Fragment On Philosop
 description: "Starting from the 22nd of January 2025. We will begin the Slovenian School Reading Group at Philosophy Portal."
 date: 2025-01-06
 permalink: /articles/special-announcement-and-to-live/
+related: [the-slovenian-school-reading-group, slovenian-school-reading-group]
 substack: https://actualspirit.substack.com/p/special-announcement-and-to-live
 image: /assets/images/special-announcement-and-to-live/01.jpg
 ---
-# The Slovenian School Reading Group
+## The Slovenian School Reading Group
 
 Starting from the 22nd of January 2025. We will begin the *[Slovenian School Reading Group](https://philosophyportal.online/slovenian-school-reading-group)* [at Philosophy Portal.](https://philosophyportal.online/slovenian-school-reading-group)
 
@@ -17,7 +18,7 @@ For the remainder of the year, the study group will come together to read and di
 
 Both these understudied works of the Slovenian School will help us to think the politics of subjectivity. The goal of the study group is to come to a refined understanding of the dialectical and unconscious dimensions of the subject's life in regards to the voice and comedy. Both of these books are urgent in today's world that is decidedly in need of psychoanalytically informed theory.
 
-# How to join and what do I get?
+## How to join and what do I get?
 
 We will hold monthly live-sessions accessible to all subscription tiers of my Patreon [which can be found here.](https://www.patreon.com/c/actualspirit/membership) Members of [Philosophy Portal](https://philosophyportal.online/slovenian-school-reading-group) get free access.
 
@@ -33,11 +34,11 @@ Sign up at [Philosophy Portal](https://philosophyportal.online/slovenian-school-
 
 ---
 
-# Transcript
+## Transcript
 
 <div class="embed"><iframe src="https://www.youtube-nocookie.com/embed/lbxxXufEAw4" loading="lazy" allowfullscreen title="YouTube video"></iframe></div>
 
-## **To Live Philosophically**
+### To Live Philosophically
 
 Cadell Last: What does it mean to you when I pose the question of living life as a philosophical journey?[^1]
 

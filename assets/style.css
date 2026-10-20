@@ -196,17 +196,56 @@ iframe.spotify { display: block; width: 100%; border: 0; border-radius: 12px; }
 .signoff p { margin: 0; font-size: 17px; }
 .signoff .actions { margin-top: 16px; }
 
-.pager { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; max-width: calc(var(--measure) + 2 * var(--gutter)); margin: 48px auto 72px; }
-.pager a { text-decoration: none; padding: 20px 0; border-top: 1px solid var(--ink); }
-.pager .next { text-align: right; }
-.pager .t { display: block; font: 400 24px/1.15 var(--display); margin-top: 8px; }
-.pager a:hover .t { color: var(--accent); }
+.prose h2, .prose h3 { scroll-margin-top: 24px; }
+.totop { font: 500 14px/1 var(--sans); color: var(--muted); text-decoration: none; }
+.totop:hover { color: var(--accent); }
+.totop-end { max-width: var(--measure); margin: 48px auto 0; }
+
+/* Contents: a tap-to-open box under the title, or a list in the margin on wide screens */
+.toc ol { list-style: none; margin: 0; padding: 0; }
+.toc ol ol { padding-left: 14px; }
+.toc a { text-decoration: none; color: var(--ink-2); }
+.toc a:hover, .toc a[aria-current] { color: var(--accent); }
+.toc-inline { max-width: var(--measure); margin: 0 auto 40px; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.toc-inline summary { cursor: pointer; padding: 14px 0; font: 600 12px/1.4 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.toc-inline summary:hover { color: var(--accent); }
+.toc-inline > ol { padding: 0 0 18px; font: 400 20px/1.25 var(--display); }
+.toc-inline li { margin: 8px 0; }
+.toc-inline ol ol { font-size: 17px; }
+.toc-side { display: none; }
+@media (min-width: 1320px) {
+  .post-body.has-toc { display: grid; grid-template-columns: minmax(0, 1fr) var(--measure) minmax(0, 1fr); }
+  .has-toc .prose { grid-column: 2; grid-row: 1; margin: 0; }
+  .has-toc .toc-inline { display: none; }
+  .toc-side { display: block; grid-column: 1; grid-row: 1; justify-self: end; align-self: start;
+    position: sticky; top: 32px; width: min(230px, calc(100% - 140px)); margin-right: 120px;
+    max-height: calc(100vh - 64px); overflow-y: auto; }
+  .toc-side .label { margin-bottom: 14px; }
+  .toc-side ol { font: 400 15px/1.35 var(--sans); }
+  .toc-side li { margin: 0 0 10px; }
+  .toc-side ol ol { margin-top: 10px; font-size: 14px; }
+  .toc-side a { display: block; color: var(--muted); border-left: 2px solid transparent; padding-left: 10px; margin-left: -12px; }
+  .toc-side a[aria-current] { color: var(--accent); border-color: var(--accent); }
+  .toc-side .totop { margin-top: 20px; border: 0; }
+}
+
+.read-next { max-width: calc(var(--measure) + 180px + 2 * var(--gutter)); margin: 72px auto 88px; }
+.read-next > .label { padding-bottom: 14px; border-bottom: 1px solid var(--ink); margin-bottom: 28px; }
+.pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(20px, 4vw, 48px); }
+.read-next .meta { display: block; margin-top: 12px; }
+
+/* Phone hero byline: the portrait shrinks into a round photo beside the name */
+.byline { display: none; }
 
 /* ---------- Small screens ---------- */
 @media (max-width: 900px) {
   .hero { grid-template-columns: 1fr; }
-  .portrait { order: -1; width: 132px; }
-  .portrait::before { inset: 8px -8px -8px 8px; }
+  .portrait, .hero .kicker { display: none; }
+  .byline { display: flex; align-items: center; gap: 14px; margin: 0; }
+  .byline img { width: 60px; height: 60px; border-radius: 50%; object-fit: cover; filter: grayscale(1) contrast(1.05);
+    box-shadow: 0 0 0 1px var(--paper), 0 0 0 2px var(--accent); }
+  .byline span { display: flex; flex-direction: column; gap: 4px; font: 400 22px/1.1 var(--display); }
+  .byline .kicker { display: block; font: 600 11px/1.4 var(--sans); }
   .lead, .book, .index { grid-template-columns: 1fr; }
   .index-side { position: static; }
   .trio { grid-template-columns: 1fr; gap: 32px; }
@@ -235,8 +274,8 @@ iframe.spotify { display: block; width: 100%; border: 0; border-radius: 12px; }
   .prose figure { margin-left: calc(-1 * var(--gutter)); margin-right: calc(-1 * var(--gutter)); }
   .prose figure img { border-radius: 0; }
   .signoff { grid-template-columns: 1fr; }
-  .pager { grid-template-columns: 1fr; }
-  .pager .next { text-align: left; }
+  .pair { grid-template-columns: 1fr; gap: 28px; }
+  .read-next .meta { grid-column: 2; margin-top: 6px; }
   .footer nav { flex-wrap: wrap; gap: 14px 20px; }
 }
 

@@ -1,0 +1,25 @@
+{%- comment -%}
+  A list of the article's sections, read from its ## and ### headings.
+  Empty for short pieces or pieces with fewer than three headings.
+{%- endcomment -%}
+{%- assign chunks = include.html | split: '<h2 id="' -%}
+{%- assign h3s = include.html | split: '<h3 id="' | size | minus: 1 -%}
+{%- assign entries = chunks.size | minus: 1 | plus: h3s -%}
+{%- assign words = include.html | strip_html | number_of_words -%}
+{%- if chunks.size > 1 and entries >= 3 and words >= 2000 -%}
+{%- for chunk in chunks offset: 1 -%}
+  {%- assign id = chunk | split: '"' | first -%}
+  {%- assign parts = chunk | split: '</h2>' -%}
+  {%- assign title = parts.first | remove_first: id | remove_first: '">' | strip_html | strip -%}
+  <li><a href="#{{ id }}">{{ title }}</a>
+  {%- assign subs = parts[1] | split: '<h3 id="' -%}
+  {%- if subs.size > 1 %}<ol>
+    {%- for sub in subs offset: 1 -%}
+    {%- assign sid = sub | split: '"' | first -%}
+    {%- assign stitle = sub | split: '</h3>' | first | remove_first: sid | remove_first: '">' | strip_html | strip -%}
+    <li><a href="#{{ sid }}">{{ stitle }}</a></li>
+    {%- endfor -%}
+  </ol>{% endif -%}
+  </li>
+{%- endfor -%}
+{%- endif -%}

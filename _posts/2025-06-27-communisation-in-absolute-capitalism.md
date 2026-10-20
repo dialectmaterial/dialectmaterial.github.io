@@ -4,6 +4,7 @@ subtitle: "Real Speculations versus Bad Speculation"
 description: "Since before the dawn of my intellectual activities I’ve always read texts out of context. And far from being a bug that prevents me from reaching the true core of a theoretical edifice, it is a feature that comes with…"
 date: 2025-06-27
 permalink: /articles/communisation-in-absolute-capitalism/
+related: [slovenian-school-reading-group, only-free-will-is-thoughtful]
 substack: https://actualspirit.substack.com/p/communisation-in-absolute-capitalism
 image: /assets/images/communisation-in-absolute-capitalism/cover.jpg
 ---
@@ -89,7 +90,7 @@ I am reminded of an anecdote from a friend of mine who visited Russia during the
 
 We can only hope that if communism is our future, it is destined to collapse, so that a similar fate awaits *Real Speculations*.
 
-# Communisation
+## Communisation
 
 In the spirit of *Real Speculations* we’ll attempt to rethink the notion of communisation. But first, what is the status of speculation today? As Last notes in the preface, the word speculation gets a bad rap. He decides to salvage the term:
 
@@ -115,7 +116,7 @@ More concretely, this notion was an alternative to Marxism-Leninism (e.g. the do
 
 The concept of the proletarian agent enacting the sublation of capitalism through its self-affirmation by political conquest of the state was put into question. The proletariat put itself into question. Consequently, the classic communist conception that a proletarian dictatorship would be the ground from which socialism and communism would be constructed was neutralised.
 
-## Value-form
+### Value-form
 
 To get to the heart of communisation, we have to understand what Marx means by capitalism. We commence with the value-form because he says the following in *Capital vol. 1:*
 
@@ -164,7 +165,7 @@ This is communisation, the striving to liberate spheres from the domain of value
 
 Let us now for a moment allow ourselves to ignore the political dimension of communism as the revolutionary seizure of power by the proletariat by violent means. Perhaps Marxism could have not accounted for our contemporary situation with all our digital technology spanning the globe, maybe we already have immanent communisation on the level of our global technological civilisation? Maybe Marx was totally correct for his day and age, but what if our technological progress has inaugurated a paradigm breaking shift in the mode of industrial and digital production that Marx and the 20th century communists could not foresee?
 
-## Production between value and non-value
+### Production between value and non-value
 
 Most computers in the world, whether running Android, MacOS or Linux are using free software by GNU, which is supported and closely tied to the Free Software Foundation (hereafter FSF).[^18] The FSF was founded with the explicit political promise of freedom. In the GNU manifesto, we find a relic of techno-optimism written by Richard Stallman in 1985. According to the GNU project:
 
@@ -196,7 +197,7 @@ The labour required for building and maintaining the code bases that underlie ou
 
 In terms of the coming decades, all facts point to political tensions rising and the inevitable increase of censorship along with it. Generally, we are not prepared for an exodus from Big Tech platforms, or, as Yanis Varoufakis calls them: digital fiefdoms owned by technofeudal lords.
 
-## A Word on Technofeudalism
+### A Word on Technofeudalism
 
 Will capitalism ever end? This is a senseless question according to Varoufakis given that it is already in the process of being replaced. However, what has surely not come to an end is the fundamental divide that capitalism relies on, namely the separation between valorised and non-valorised work, which is succinctly formulated here:
 
@@ -228,7 +229,7 @@ Whether or not technofeudalism is the end of capitalism or another metamorphosis
 
 Can we consider the passage from the capitalist socialisation of (and in service to) technofeudal fiefdoms to communism?
 
-## Communisation is…
+### Communisation is…
 
 Communisers like the original left commmunists and Žižek are well aware of the problem that the capital-form relies on non-valorised labour and hinders proposing simplistic solutions for abolishing the value-form. Yet, it should not resign us to either pole of the classical communist antinomy between decentralised worker’s democracy and top-down centralised planning, which are both leaving the role of the value-form intact and unsaid. Are we hopelessly condemned to the all-engulfing valorisation of more and more domains of production and its opposite in service to it? Communisation doesn’t allow for resigning oneself to the temptation to ignore the role of value by throwing it over yonder far out in that hazy future where capitalism will be overdetermined by the political power of the dictatorship of the proletariat. Socialisation, to be fair, has emancipatory potential and can make an invaluable difference to the concrete lives of people, but it can also be — and most likely is — an obstinate foreclosure of communisation as revolution: a sclerotic reaction, counter-revolution.
 
@@ -320,7 +321,7 @@ No communism without psychoanalysis means that we can no longer afford to think 
 
 Žižek’s concept of communism differentiates itself in these two aspects: (1) the return from Marx to Hegel, and (2) a Marxism that has thought through the consequences of the psychoanalytic paradigm. To simplify to the utmost: the former is exemplified by war communism, the latter by the death drive.
 
-## The Non-All of Absolute Capitalism
+### The Non-All of Absolute Capitalism
 
 Just after Žižek’s above-quoted passage proposing the liberation from value, he turns around and writes:
 
@@ -337,7 +338,7 @@ Besides, the speculative connotation of the Hegelian term ‘absolute’ points 
 
 To reiterate, the proletariat is a symptomatic knot of the class struggle of the logic of capital-labour. The proletariat is not a positive sociological category, but the expression of the fundamental cut in the social edifice regarding the logic of capital-labour. In other words, there is no ‘proletarian exception’, no fully constituted working class identity over against capital. The proletarised subject merely takes cognisance of capital’s antagonism and its actual forms. Proletarisation is hystericisation. Communisation, then, haunts us in the interruptions of the compulsion of capital. In what follows, I will show that with total subsumption, the hystericisation of capital’s self-conflict is brought to its extreme, to what Lacan calls the logic of the non-all without exception.
 
-### Formal, Real and Total Subsumption
+#### Formal, Real and Total Subsumption
 
 The logic of the non-All of absolute capitalism can be illustrated with the triad of subsumption. Subsumption is the operation by which capitalism takes hold of pre-capitalist modes of production, bringing them in line with capital accumulation, which becomes its determinative form. When Marx introduces this term, he distinguishes two forms: formal subsumption and real subsumption. In short, the former is the subsumption of labour by the domination of capital, the latter radically transforms the nature of the labour process itself. Capital accumulation as the form-determining factor of the labour process (as a social practice) is the production of surplus value. To specify how the shift from formal to real subsumption comes about, Marx distinguishes between two types of surplus value:
 
@@ -404,7 +405,7 @@ The production of redoubled surplus value brings capitalism to its truth, collap
 
 If this might seem overly dramatic, let me bring a fitting technofeudal example. More and more we are starting to see family vlogs, videos of children playing and acting in front of the camera, earning money for their parents while contributing to the accumulation of cloud capital. There’s cases of mothers ‘pranking’ their children by telling them that their grandparents died, bringing the children to tears, just to shout “it’s a prank!”, laughing at them and confusing the horrified child. Of course, the parents don’t shy away from shamelessly portraying the child’s shock in the thumbnails. There are instances of children crying and begging not to be filmed, but how would their intimate family life sustain itself if it weren’t for the audience and YouTube revenues? One might also be familiar with the tasteless TikToks wherein people film themselves grieving the death of their loved ones. It’s not for us to blame them for not knowing any other way to work through that loss. Moreover, viewed from a fetishistic capitalist sense, these are all highly productive forms of labour.
 
-## Capitalist Discourses and Communist Leadership
+### Capitalist Discourses and Communist Leadership
 
 Welcome to the total subsumption of absolute capitalism and its technofeudal excesses. The thorough hollowing out of the natural substance of capitalism in real subsumption has radicalised to the point of shattering the illusion that we’ll decouple ourselves from the compulsion of the capital drive by becoming natural humans again. It makes place for total subsumption and its disavowal of the gap between the human drive and the capital drive, short-circuited in proletarisation and calling us to enact communist measures that produce a non-capitalist second nature.
 
@@ -492,7 +493,7 @@ What comes to mind when thinking about the worst case scenario is the repetition
 
 In our epoch, the form that it will take is as a “sanitised tech-terror [which is] the bedrock of technofeudalism.”[^68]
 
-## Universal Political Mobilisation
+### Universal Political Mobilisation
 
 Communisation is not a concept that seeks to fulfill needs or satisfy demands. Proletarisation discloses the gap between Marxism and politics. It’s nothing but coming to know that we are not addressed in bourgeois society because its drive is the compulsive closure of that gap, the production of capital. This failure, or falling out of the picture, is what communisation responds to because it takes responsibility for it. To proletarise is to assume responsibility for that which one is not in control of, namely the compulsion of capital.
 

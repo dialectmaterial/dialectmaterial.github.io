@@ -4,6 +4,7 @@ subtitle: "A Short Story"
 description: "Richard Apemantus O’Briar neatly placed his gold alloy fountain pen in its stand and looked out the window. Large windows such as this one, he felt, were decadent and could never compare to the serenity of blank white walls. Still,…"
 date: 2024-09-30
 permalink: /articles/enlightenment/
+related: [a-missed-encounter, the-refusal-to-enjoy]
 substack: https://actualspirit.substack.com/p/enlightenment
 image: /assets/images/enlightenment/01.jpg
 ---

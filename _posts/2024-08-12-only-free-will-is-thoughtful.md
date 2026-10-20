@@ -4,6 +4,7 @@ subtitle: "The right to self-determination"
 description: "The will would not be the will if it wasn’t free. Whether or not I am determined by the causal chain analyzable by the natural sciences, I continue to experience myself as a free subject. No matter how much I’m…"
 date: 2024-08-12
 permalink: /articles/only-free-will-is-thoughtful/
+related: [everyone-knows-perfection-is-absurd, who-can-philosophize]
 substack: https://actualspirit.substack.com/p/only-free-will-is-thoughtful
 image: /assets/images/only-free-will-is-thoughtful/01.jpg
 ---
@@ -24,17 +25,17 @@ In his *Philosophy of Right*, Hegel sees spirit, and the free will specifically 
 
 <figure><img src="/assets/images/only-free-will-is-thoughtful/01.jpg" alt="" loading="lazy"><figcaption> La Liberté ou la mort by Jean-Baptiste Regnault, 1795</figcaption></figure>
 
-# The freedom of subtraction and destruction
+## The freedom of subtraction and destruction
 
 Perhaps, freedom is the freedom to not be beholden to anything. The freedom to abstract from everything. I might be who I am in existence, but to the extent that I substract myself from this existence, I am free from it. I am who I am, but I am not only who I am. I am also not who I am, so I am free. This is what Hegel calls the freedom of the void, the freedom to substract myself from all particularities that exist, to raise myself to universality above existence. This freedom does come to exist, but only as the negative will, saying its simple “no!” to everything. This position does not let itself be positively defined, but cannot help to do so. It does need a sense of existing. A good example of how this type of freedom manifests in the world, is the destructive fury of those who do not see themselves recognized in their world. For example, in the contemporary political context, we’ve seen the demolishing of statues on the one hand, and as of writing of this article, we can see the riots taking place in the UK on the other. Both are unified as impotent rage that attempts to get a sense of self by the destruction of (an) order. Any purported positive goal is meaningless insofar as this position of the negative will can only assert itself through demolishing what exists. This freedom, is the freedom to be indeterminate, to be nothing, really.
 
-# The freedom of choice and determination
+## The freedom of choice and determination
 
 Naturally, true free will cannot merely will nothing, as the negative will would have it. The negative will that can only say “no!” can only oppose itself to the objective world. But for the free will to be will, it has to will *something*. It has to will something in particular. To will not only not this, but *that*. Yet, by willing something, the freedom of the void is lost. Now, is this freedom of the void so indeterminate after all? No, as its indeterminate state is bound up with negatively *determining* itself in contrast to the outer world. It turns out that the freedom of the void, the negative will, is not as boundless as it takes itself to be. The freedom to substract from all particularities of existence, to be raised above existence to universality, this indeterminate nothing, makes up its determinateness.
 
 Willing something in particular, is this the free will? Surely I choose what it is that I will. But what about the content of this will, what is its effect? The particular content is itself not a self-determining will. The freedom of choice, the determinate will, is subjected to the content that it wills. It is dependent on what it wills, it is limited by it. The will does not determine this content, the content determines this will. This determinate will loses its freedom as soon it comes into existence, it is not truly free. This will, the freedom to will a particular, is unfree as it is determined by the content as soon as it attaches itself to it.
 
-# Free self-determination
+## Free self-determination
 
 The free will cannot be either of the inadequate positions described above, both have turned out to be false and unfree. The former because the content of this freedom is anything that is not, it takes its freedom to be everything that it makes inexistent, destroys. The latter because it is limited by the particular content that it has for its goal, it is not the self-determined free will. Both mirror each other by virtue of being determined by something that is outside of the will.
 
@@ -48,7 +49,7 @@ But it is this contradictory incomprehensibility, not keeping to the rules of fo
 
 <figure><img src="/assets/images/only-free-will-is-thoughtful/02.jpg" alt="" loading="lazy"><figcaption>La République by Jules-Claude Ziegler, 1848</figcaption></figure>
 
-# A closer look at the form of particularization
+## A closer look at the form of particularization
 
 What is the form that the will takes? As will, the process of my activity is the work to bring about my subjective goal, to realize it as a product of objectivity. This form of the will is not the self-determining described above, since I can only externalize this goal outwardly, from subjective goal to objective product.
 
@@ -56,7 +57,7 @@ According to Hegel, such a determinate will is formal because its freedom can on
 
 This formal will, as the natural and immediate will, has the content of drives, desires and inclinations. In principle it could choose to satisfy any one of them. Yet the will itself has nothing to do with what it chooses, this will is not what it wills. The form differs from the content, the latter opposes and limits it. This natural will is finite, or, in other words, the only infinity of this natural will is the monotonous variety of drives it can satisfy, momentarily extinguish. Each of my drives are mine, but as an aggregate they are universal and indeterminate, it is out there for me to choose to go into. The choice of which one to satisfy, of determination, comes back to me, this is what makes this will take the form of actual individuality. However, the content itself is the loss of individuality. This content is not the work of my freedom, although we do have a form of freedom here. The free space to make a decision. An inadequate freedom, a freedom that in existence takes the form of its opposite: the unfreedom to be determined by that external thing which is decided on. But despite that, before making the decision, what is free is to reflect on it.
 
-## Those who separate willing and thinking understand nothing about both
+### Those who separate willing and thinking understand nothing about both
 
 Intelligence is that which thinks, which is an activity that has an object, a universal, for its content. The object of thought is universal because it is an abstraction from particularity: thinking takes what is essential from the world, separates it from what is unnecessary, contingent. Thinking becomes willing when it decides to determine itself into existence:
 
@@ -68,9 +69,9 @@ The will is a particular way of thinking, or more precisely the particularizatio
 
 Free will is commonly held to be the choice to do whatever one wants. Animals, subordinated to instinct have no such freedom of choice. However, as we’ve seen, such a will is still determined by its external content. And since such a free will is only formal, determinism is right to claim that there is no true freedom there. The independence of such a will is an illusion, a lack of self-determination. To get to free will that is true to its own concept, we cannot exchange one content for another, but we can take a step back by abstracting from the existing options present, by putting form in the place of content, and willing the will apart from particularities. Through this abstracting, this reflection into oneself, the abstract form of freedom becomes the content. The linear direction of the formal will, pointed to the content outside of it, is bent into a circle when it casts aside any particular content and reflects on its own form and has itself for its object of thought.
 
-# Cleanse the drives!
+## Cleanse the drives!
 
-## From particular drives to universal determination of the will
+### From particular drives to universal determination of the will
 
 The natural will is free *in itself* to choose from the infinite array of particular satisfactions. Its form is finite, it is unfree *for itself*. The will to be freed from this form of immediate naturalness, the plethora of satisfactions of the drive, sees a unity in what each drive in particular fails to get at. The will does not will the satisfaction of any one drive, but total satisfaction as such.
 
@@ -80,7 +81,7 @@ The reflecting will, goes from making choices outside of itself to an inward tur
 
 > “But the truth of the *particular* determinacy, which just as much *is* as it is *sublated*, and of the *abstract individuality*, the arbitrariness which both gives and does not give itself a purpose in happiness, is the *universal* determinacy of the will in the will itself, i.e. its very self-determination, *freedom*.”[^4]
 
-# Self-determining universality
+## Self-determining universality
 
 > “The truth, however, of this formal universality, which is indeterminate for itself and encounters its determinacy in the material already mentioned, is *self-determining universality*, *the will*, *or freedom*. When the will has universality, or itself as infinite form, as its content, object, and end, it is free not only *in itself* but also *for itself* – it is the Idea in its truth.”[^5]
 
@@ -94,7 +95,7 @@ The free will has itself for its object, it has united infinite freedom with fin
 
 This universality, is the concept as existent, actual infinity, objective outwardness as inner self.
 
-## Concrete universality
+### Concrete universality
 
 The actual universal will self-limits in and as unlimitedness, the limit of itself is posited by itself and in itself. Such universality that is concrete, or in itself and for itself is not:
 
@@ -105,7 +106,7 @@ The actual universal will self-limits in and as unlimitedness, the limit of itse
 
 It is free will by virtue of grasping its object by the universal going through its determination which is in it as identical with itself. This is what Hegel calls speculative reason, self-determining universality.
 
-# Understanding the dialectic of the will
+## Understanding the dialectic of the will
 
 For the fixated understanding, thought that has become other to itself is a sign of falsehood. Consequently, the will comes to be thought of as either the choice to do what one wants arbitrarily, to not be limited by anything. Or else, it takes this to be wrong, as it sees that such a will is determined by its content, and declares free will to be an illusion. Generally, it confuses the negative will with the determinate will, the reflective will and the self-determinative will. It cannot raise itself to awareness of self-determination, to comprehend it in thought, and as a result, it does not have it. It is stuck between feeling and formal logic. Both take their content from what is outside, not from what is immanent to the concept itself, and separate subject and object as static representations, which can only be applied externally, clash with each other or terminate each other.
 
@@ -113,7 +114,7 @@ Reason is free and has relinguished the rigidity of such a fixated thinking, whi
 
 To summarize: the will as freedom existing in itself is subjective, which therefore is its concept, and so its objectivity, which is the will for itself. The unity of unity and difference is determined by the absolutely free will.
 
-## Absolute Will
+### Absolute Will
 
 Absolute determination of the free spirit, self-determined drive which makes freedom its object — the absolute will. It is objective in two ways: it is its own creative rationality, and it also produces its own immediate actuality. Like a self-propelling wheel, it is
 
@@ -121,7 +122,7 @@ Absolute determination of the free spirit, self-determined drive which makes fre
 
 The activity of such a will, being concretely universal, is to particularize its universality while being indifferent to this negativity and abiding with it as universality. Such a standpoint of freedom, boundless apart from and in binding at once, is the singular I filled with free thought.
 
-# Right is the existence of will
+## Right is the existence of will
 
 The existence of free will, is right, the right of self-consciousness to determine itself. It needs no explanation, let alone a justification. Belief in the free will is necessary and true, like the freedom of thought and speech are. The existence of the forms of right, has its richest truth in rights that are also duties, the freedom of ethical life. Which first of all, is objective in the institutionalization of love.
 

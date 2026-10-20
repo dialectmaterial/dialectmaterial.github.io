@@ -4,12 +4,13 @@ subtitle: "Inspired by my reading of specific passages in the Science of Logic, 
 description: "A year ago, I started venturing into an attempt to think the “I”, mainly being inspired by its dialectic as explicated by Hegel in his Phenomenology of Spirit. You can find the article here."
 date: 2023-08-27
 permalink: /articles/the-i-as-a-funny-circle/
+related: [the-dialectic-of-the-i, how-to-regrow-the-souls-wings]
 substack: https://actualspirit.substack.com/p/the-i-as-a-funny-circle
 image: /assets/images/the-i-as-a-funny-circle/01.jpg
 ---
 A year ago, I started venturing into an attempt to think the “I”, mainly being inspired by its dialectic as explicated by Hegel in his *Phenomenology of Spirit*. You can find [the article here](/articles/the-dialectic-of-the-i/).
 
-### The Determinate Concept & The Concept as Determinate
+## The Determinate Concept & The Concept as Determinate
 
 Among the many concepts in Hegel’s *Logic*, it would have to be said that *the concept* itself, is its foremost concept. The whole third part of the *Science of Logic*, that is, the Doctrine of the Concept is dedicated to it. The Doctrine culminates in the truest and most beautiful blossoming of the concept, *the Absolute Idea.* But how are we to start understanding the concept? First of all, we would have to rid ourselves of the presupposition that Hegel is talking about the concept as something that we have, as in, ‘I have the concept of a thing’. Surely we can have concepts of things, though for this he reserves the name ‘determinate concept’. It is something different from the pure concept as determinate;
 
@@ -39,7 +40,7 @@ It might seem as if I’ve made a mess, I know. The “I” has fallen apart int
 
 For Hegel, the concept is the “I”, and the “I” is the concept. That much is clear. Now, the “I” as an object of thought, or universal concept, is not simply opposed to the “I” which I am, and we fail to comprehend the “I” if we cannot apprehend the persistence of the “I” *as and through* this self-opposition which collapses into a oneness, an identity inclusive of its difference, that is, a being-in-and-for-itself that not only is *as such*, but also *posited by the “I”*.[^6]
 
-### The Objective Concept and Language
+## The Objective Concept and Language
 
 As we’ve seen, the “I'“ is a negative unity, a third holding two disparate elements such as the singular “I” and the universal “I” together, containing them and consequently cohering as a singular-universality. This idea of the “I” functioning as a unity as well as the “I” being the concept, goes back to Kant according to Hegel[^7]. Of course, the “I” as a unity is confronted by numerous phenomena, extended in space as well as in temporal succession, and it cannot lend its unity from these scattered appearances. The name of that which the “I” *does have* a simple self-reference to in being constituted, is *the object*.
 
@@ -61,7 +62,7 @@ The concept has objectivity in and for itself, beyond appearance. What does this
 
 Like Kant, Hegel finds the non-"I” to be within the “I”. This begs the question — what is truly out there, beyond everything which is the “I”? For Kant, this is the thing-in-itself, unbounded to any for-itselfness, uncontained by the “I”, completely and utterly removed from it, a concept denoting solely the unconceptual. For Hegel, this in-itself, is simply another determination of the “I” itself in its abstract universal form — nothing but an empty representation.
 
-### The “I” as Representation Void of Concept
+## The “I” as Representation Void of Concept
 
 In thinking the “I”, we should be careful not to reduce the “I” to a representation of it, or what we might picture it to be.
 
@@ -79,7 +80,7 @@ Along with all representations that we have, there is the “I”. It seems to s
 
 It’s not that I make use of the “I”. I *am* the “I”, the concept, pure self-consciousness. The “I think” that accompanies representations seen as a fixed point halts the thought of it. The idea that the “I” is a means, is subsequent way in which this representation of the “I” can stop us from thinking the “I” for itself, on its own terms, as a unity of its self-contradiction. A metaphysics that relies on a representation of the “I” as a kind of meta-perspective outside of what it contains, that rejects the comprehension of its logical moments as a unity, reveals something spiritual about the very “I” proclaiming it.
 
-### Laughable Awkwardness
+## Laughable Awkwardness
 
 In the following passage, Hegel will make an appeal to Kant feeling awkward about the weird movement of the “I”:
 
@@ -121,7 +122,7 @@ To summarize:
 2. Kant has an inability to self-justify the concept’s flight above finitude.
 3. Kant gives up on the concept by instantiating an a priori delimitation (thing-in-itself as empty representation of the “I”) as the justification for sticking his head in the semblance of edification, attempting to *ground* himself in sensuous reality.**[^21]**
 
-### The Metaphysics and Spirituality of the comical “I”
+## The Metaphysics and Spirituality of the comical “I”
 
 Is Hegel laughing at Kant for his awkwardness? I’d contest this, and claim that Hegel finds Kant’s claim of the “I” being awkward comical, which is not the same. The quirky torsion, or paradoxical circle which is the “I” is essential to its existence. If Hegel thought Kant was to be laughed at, he would just point to a contradiction that Kant wasn’t aware of. But Kant was, and this led him to his complaint of awkwardness. The difference lies in how the contradiction is dealt with, metaphysically and spiritually.
 
