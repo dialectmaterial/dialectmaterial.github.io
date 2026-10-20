@@ -8,17 +8,6 @@ related: [communisation-in-absolute-capitalism, the-slovenian-school-reading-gro
 substack: https://actualspirit.substack.com/p/slovenian-school-reading-group
 image: /assets/images/slovenian-school-reading-group/cover.jpg
 ---
-<figure><img src="/assets/images/slovenian-school-reading-group/01.jpg" alt="" loading="lazy"></figure>
-
-Starting on the 16th of February, we will begin the second year of the Slovenian School Reading Group at [Philosophy Portal.](https://philosophyportal.online/slovenian-school-reading-group)
-
-We will dedicate this whole year to Slavoj Žižek’s *The Parallax View*.
-
-Members of the Portal get free access to the Reading Group. If you are not a member, there’s two ways to sign up:
-
-1. Become a paid subscriber to [my Patreon.](https://www.patreon.com/c/actualspirit/membership)
-2. Become a paid subscriber to [my Substack](https://actualspirit.substack.com/subscribe).
-
 ## The Parallax View
 
 Published in 2006, *The Parallax View* was described by Žižek as his *opus magnum*. Just like *A Voice and Nothing More* (2006) and *The Odd One In* (2008), this book is in the *Short-Circuit series*, and therefore a natural step for the 2nd year of the Slovenian School Reading Group.
@@ -67,23 +56,7 @@ Dialectical materalism is therefore concerned with the production of fantasy. Re
 
 Dialectical materialism is not merely non-reductionistic in these three domains because it sets the fictions that sustain these fields aside. To neutralize the hold that the fetish of ‘external reality out there’ has on the concept, we simply have to run with the answer it provides in its attempt to mask the minimal difference at work; to follow its own logic and unearth the paradoxes it gets stuck on.
 
-### Why The Parallax View Now?
-
-Throughout this year, we will host 8 sessions on *The Parallax View* to delve into the core of Žižek’s philosophy. This is an excellent opportunity for those who want to learn how to philosophize cutting-edge metaphysical speculations, modern science as well as contemporary political conflicts in a focused and driven group. [Join now.](https://philosophyportal.online/slovenian-school-reading-group)
-
-<figure><img src="/assets/images/slovenian-school-reading-group/02.jpg" alt="SSRG.jpg" loading="lazy"></figure>
-
 ---
-
-Starting on the 16th of February, we will the begin second year of the Slovenian School Reading Group at [Philosophy Portal.](https://philosophyportal.online/slovenian-school-reading-group)
-
-We will dedicate this whole year to Slavoj Žižek’s *The Parallax View*.
-
-Members of the Portal get free access to the Reading Group. If you are not a member, there’s two ways to sign up:
-
-1. Become a paid subscriber to [my Patreon.](https://www.patreon.com/c/actualspirit/membership)
-2. Become a paid subscriber to [my Substack](https://actualspirit.substack.com/subscribe).
-
 
 [^1]: https://en.wiktionary.org/wiki/parallax
 
