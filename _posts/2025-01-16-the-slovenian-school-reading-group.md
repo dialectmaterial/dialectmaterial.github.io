@@ -8,18 +8,6 @@ related: [slovenian-school-reading-group, communisation-in-absolute-capitalism]
 substack: https://actualspirit.substack.com/p/the-slovenian-school-reading-group
 image: /assets/images/the-slovenian-school-reading-group/01.jpg
 ---
-<figure><img src="/assets/images/the-slovenian-school-reading-group/01.jpg" alt="" loading="lazy"><figcaption>Alenka Zupančič &amp; Mladen Dolar</figcaption></figure>
-
-Starting on the 22nd of January, we will begin the Slovenian School Reading Group at [Philosophy Portal.](https://philosophyportal.online/slovenian-school-reading-group)
-
-For the first half of the year, we will dedicate one session each month to a chapter from Mladen Dolar’s *A Voice and Nothing More.* After a break in the summer, we’ll continue with Alenka Zupančič’s *The Odd One In*.
-
-Members of the Portal get free access to the Reading Group. If you are not a member, these are the ways to sign up:
-
-1. Become a paid subscriber to [my Patreon.](https://www.patreon.com/c/actualspirit/membership)
-2. Become a paid subscriber to [my Substack](https://actualspirit.substack.com/subscribe).
-
----
 
 ## Two Short Circuits
 
@@ -100,18 +88,6 @@ To finish on a clarifying note regarding the terms. She uses the word comedy in 
 Different from jokes, irony and humor, she understands “the comical as a singular form of “funniness” at work in comedies that can be distinguished from some other forms.”[^14] How exactly this pans out, we will learn during our reading and discussions.
 
 ---
-
-## Sign Up For The Reading Group
-
-Starting on the 22nd of January, we will begin the Slovenian School Reading Group at [Philosophy Portal.](https://philosophyportal.online/slovenian-school-reading-group)
-
-For the first half of the year, we will dedicate one session each month to a chapter from Mladen Dolar’s *A Voice and Nothing More.* After a break in the summer, we’ll continue with Alenka Zupančič’s *The Odd One In*.
-
-Members of the Portal get free access to the Reading Group. If you are not a member, these are the ways to sign up:
-
-1. Become a paid subscriber to [my Patreon.](https://www.patreon.com/c/actualspirit/membership)
-2. Become a paid subscriber to [my Substack](https://actualspirit.substack.com/subscribe).
-
 
 [^1]: Žižek, S. (2006). Foreword. In M. Dolar, *A voice and nothing more*. MIT Press.
 
