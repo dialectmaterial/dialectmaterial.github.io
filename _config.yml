@@ -1,8 +1,8 @@
-title: Dimitri Crooijmans
+title: Dimitri F. Crooijmans
 tagline: Actual Spirit
-description: Writing on Hegel, Lacan, psychoanalysis and philosophy by Dimitri Crooijmans.
+description: Philosophy, art, science.
 url: https://dialectmaterial.github.io
-author: Dimitri Crooijmans
+author: Dimitri F. Crooijmans
 
 markdown: kramdown
 permalink: /articles/:title/
@@ -13,19 +13,17 @@ defaults:
 
 # Links shown under the profile picture, in order.
 links:
-  - label: New book — Writing the First Cause
-    url: https://www.amazon.com/Writing-First-Cause-Psychoanalytic-Speculations/dp/B0FM7BV8B3
-  - label: New single on Spotify
-    url: https://open.spotify.com/track/6f7XMD9B3mItNjOq8npVjW
-  - label: Slovenian School Reading Group
-    url: https://philosophyportal.online/slovenian-school-reading-group
+  - label: New book — Rosy Cross
+    url: https://www.amazon.com/Rosy-Cross-Question-Right-Christianity/dp/B0GYZR7JQJ/
   - label: Patreon
     url: https://www.patreon.com/c/actualspirit/membership
   - label: Substack
     url: https://actualspirit.substack.com
-  - label: YouTube
-    url: https://www.youtube.com/channel/UCzvnf_9CExi8wgeqODgERPQ
 
+  - label: New single on Spotify
+    url: https://open.spotify.com/track/6f7XMD9B3mItNjOq8npVjW
+  - label: Patreon
+    url: https://www.patreon.com/c/actualspirit/membership    
 # Small links at the bottom of the link list.
 social:
   - label: Instagram
