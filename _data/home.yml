@@ -39,8 +39,6 @@ search:
 
 # Small quick links under the intro, for people coming from Instagram.
 quick_links:
-  - label: Rosy Cross
-    url: https://www.amazon.com/Rosy-Cross-Question-Right-Christianity/dp/B0GYZR7JQJ/
   - label: YouTube
     url: https://www.youtube.com/@Actual_Spirit
   - label: Spotify
