@@ -5,7 +5,7 @@ description: "Since before the dawn of my intellectual activities I’ve always 
 date: 2025-06-27
 permalink: /articles/communisation-in-absolute-capitalism/
 substack: https://actualspirit.substack.com/p/communisation-in-absolute-capitalism
-image: /assets/images/communisation-in-absolute-capitalism/01.jpg
+image: /assets/images/communisation-in-absolute-capitalism/cover.jpg
 ---
 *Join the Slovenian School Reading Group at Philosophy Portal.*
 
