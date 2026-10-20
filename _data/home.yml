@@ -7,11 +7,11 @@ hero:
   # Each line becomes its own line in the big heading.
   heading:
     - Express art.
-    - Explore religion.
+    - Explore science.
     - Explicate philosophy.
   intro: |
     Hi, I'm Dimitri. I write about philosophy,
-    and what it has to say about the itself, science and politics today.
+    and what it has to say about itself, science and politics today.
     Along the way there are stories, songs and conversations.
 
 # Small quick links under the intro, for people coming from Instagram.
@@ -39,9 +39,9 @@ start_here:
     - slug: everyone-knows-perfection-is-absurd
       blurb: Spinoza, Descartes and why reality is the perfect absurdity.
     - slug: communisation-in-absolute-capitalism
-      blurb: On communism and capital
+      blurb: On communism and capital.
     - slug: slovenian-school-reading-group
-      blurb: On dialectical materialism
+      blurb: On dialectical materialism.
 
 # The dark band about the book.
 book:
@@ -78,5 +78,5 @@ about: |
 
 # A one-line bio shown at the end of every article.
 signoff: |
-  **Dimitri F. Crooijmans** writes on... New essays arrive by email
+  **Dimitri F. Crooijmans** writes on and on... New essays arrive by email
   on Substack.
