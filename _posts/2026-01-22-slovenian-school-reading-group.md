@@ -1,7 +1,7 @@
 ---
 title: "Introduction to The Parallax View"
-subtitle: "Slovenian School Reading Group: Starting February 16th"
-description: "Starting on the 16th of February, we will begin the second year of the Slovenian School Reading Group at Philosophy Portal."
+subtitle: "A word"
+description: ""
 date: 2026-01-22
 permalink: /articles/slovenian-school-reading-group/
 related: [communisation-in-absolute-capitalism, the-slovenian-school-reading-group]
@@ -10,7 +10,7 @@ image: /assets/images/slovenian-school-reading-group/cover.jpg
 ---
 ## The Parallax View
 
-Published in 2006, *The Parallax View* was described by Žižek as his *opus magnum*. Just like *A Voice and Nothing More* (2006) and *The Odd One In* (2008), this book is in the *Short-Circuit series*, and therefore a natural step for the 2nd year of the Slovenian School Reading Group.
+Published in 2006, *The Parallax View* was described by Žižek as his *opus magnum*. Just like *A Voice and Nothing More* (2006) and *The Odd One In* (2008), this book is in the *Short-Circuit series*.
 
 The term *parallax*, which goes back to ‘alteration’ in Ancient Greek is defined the following way according to Wiktionary:
 
@@ -36,7 +36,7 @@ There is no prior One which splits into two, nor is there a One which, in the ba
 
 This stance of the subject as both outside and inside is material because unconscious fantasy is the inverse of the subject, the cause of its desire, i.e. the subject in the guise of an external object.
 
-Throughout our reading group sessions, we will further dialecticize the dualism between mechanical materialism and obscurantist idealism to develop a critical grasp of these ontologies and their parallax gap.
+The point is to dialecticize the dualism between mechanical materialism and obscurantist idealism to develop a critical grasp of these ontologies and their parallax gap.
 
 ### Parallax in Philosophy, Science and Politics
 
