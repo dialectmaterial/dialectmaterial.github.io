@@ -1,6 +1,7 @@
 ---
 title: "The Dialectic of the 'I'"
 subtitle: "Inspired by section 508 in the Phenomenology of Spirit. Located in the chapter on Spirit B. Self-alienated Spirit Culture 1. The world of self-alienated Spirit a. Culture and its realm of actuality."
+description: "Section 508 in the Phenomenology of Spirit is an extremely interesting and important section in which Hegel aims to explicate the self-alienation which is a necessity in the realm of actual language, as well as show how language makes an…"
 date: 2022-03-24
 permalink: /articles/the-dialectic-of-the-i/
 substack: https://actualspirit.substack.com/p/the-dialectic-of-the-i

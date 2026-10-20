@@ -1,6 +1,7 @@
 ---
 title: "A Missed Encounter"
 subtitle: "How we arrived in Salzburg"
+description: "There she sat in the crowded Central Station of Vienna, awaiting her meal. I walked by and chose the same Vietnamese place."
 date: 2026-07-13
 permalink: /articles/a-missed-encounter/
 substack: https://actualspirit.substack.com/p/a-missed-encounter

@@ -1,6 +1,7 @@
 ---
 title: "How to Regrow the Soul's Wings"
 subtitle: "From the fall to the flight of the Soul, piloted by the intellect, the Soul's internal eye."
+description: "As I’ve expounded in my previous article, Nietzsche and Hegel have homologous ideas regarding the fact that the soul can fly. I believe that both of them get this from Plato, who two thousand years before, spoke of the soul…"
 date: 2023-10-01
 permalink: /articles/how-to-regrow-the-souls-wings/
 substack: https://actualspirit.substack.com/p/how-to-regrow-the-souls-wings

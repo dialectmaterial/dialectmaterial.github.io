@@ -1,6 +1,7 @@
 ---
 title: "The \"I\" as a Funny Circle"
 subtitle: "Inspired by my reading of specific passages in the Science of Logic, in which Hegel writes on the concept, or the \"I\", and critiques Kant for his inability to hold fast to its funny movement."
+description: "A year ago, I started venturing into an attempt to think the “I”, mainly being inspired by its dialectic as explicated by Hegel in his Phenomenology of Spirit. You can find the article here."
 date: 2023-08-27
 permalink: /articles/the-i-as-a-funny-circle/
 substack: https://actualspirit.substack.com/p/the-i-as-a-funny-circle

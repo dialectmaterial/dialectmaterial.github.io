@@ -1,13 +1,31 @@
 ---
 layout: default
 ---
-<nav class="back"><a href="/">← {{ site.title }}</a></nav>
-<article>
-  <header>
-    <h1>{{ page.title }}</h1>
-    {% if page.subtitle != "" %}<p class="subtitle">{{ page.subtitle }}</p>{% endif %}
-    <p class="meta"><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%-d %B %Y" }}</time>{% if page.substack %} · <a href="{{ page.substack }}">also on Substack</a>{% endif %}</p>
+{% assign home = site.data.home %}
+<article class="post">
+  <header class="post-head">
+    <p class="meta"><a href="/#writing">Writing</a> · {{ page.date | date: "%-d %B %Y" }} · {% include read-time.html content=content %}</p>
+    <h1 class="display">{{ page.title }}</h1>
+    {% if page.subtitle != "" %}<p class="dek">{{ page.subtitle }}</p>{% endif %}
   </header>
-  {{ content }}
+
+  <div class="prose">
+{{ content }}
+  </div>
+
+  <aside class="signoff">
+    <img src="/assets/profile.jpg" alt="" loading="lazy">
+    <div>
+      {{ home.signoff | markdownify }}
+      <p class="actions">
+        <a class="btn" href="{{ home.subscribe_url }}">Subscribe</a>
+        {% if page.substack %}<a class="btn ghost" href="{{ page.substack }}">Comment on Substack</a>{% endif %}
+      </p>
+    </div>
+  </aside>
 </article>
-<nav class="back bottom"><a href="/">← All articles</a></nav>
+
+<nav class="wrap pager">
+  {% if page.previous %}<a class="prev" href="{{ page.previous.url }}"><span class="label">← Older</span><span class="t">{{ page.previous.title }}</span></a>{% else %}<span></span>{% endif %}
+  {% if page.next %}<a class="next" href="{{ page.next.url }}"><span class="label">Newer →</span><span class="t">{{ page.next.title }}</span></a>{% endif %}
+</nav>

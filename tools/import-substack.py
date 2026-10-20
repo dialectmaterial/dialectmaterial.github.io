@@ -176,6 +176,20 @@ def convert(post, known_slugs):
     return text + "\n"
 
 
+def describe(markdown, words=40):
+    """The opening of the first real paragraph, for previews and link cards."""
+    for para in markdown.split("\n\n"):
+        para = para.strip()
+        if not para or para[0] in "<*>#![-|`" or len(para.split()) < 15:
+            continue
+        para = re.sub(r"\[\^\d+\]", "", para)
+        para = re.sub(r"!?\[([^\]]*)\]\([^)]*\)", r"\1", para)
+        para = re.sub(r"[*_]", "", para)
+        cut = para.split()
+        return " ".join(cut[:words]) + ("…" if len(cut) > words else "")
+    return ""
+
+
 def yaml_str(s):
     return json.dumps(s or "", ensure_ascii=False)
 
@@ -203,6 +217,7 @@ def main():
             "---",
             f"title: {yaml_str(post['title'].strip())}",
             f"subtitle: {yaml_str(post.get('subtitle'))}",
+            f"description: {yaml_str(describe(body))}",
             f"date: {date}",
             f"permalink: /articles/{slug}/",
             f"substack: {post['canonical_url']}",

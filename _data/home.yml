@@ -1,36 +1,61 @@
 # Everything on the home page lives in this file. Edit freely.
 # Text in "|" blocks is Markdown: *italic*, **bold**, [link](https://...).
 
-welcome:
-  heading: Express Art. Explore Religion. Explicate Philosophy.
-  text: |
+# The big opening at the top of the page.
+hero:
+  kicker: Actual Spirit
+  # Each line becomes its own line in the big heading.
+  heading:
+    - Express art.
+    - Explore religion.
+    - Explicate philosophy.
+  intro: |
     Hi, I'm Dimitri. I write about Hegel, Lacan and the Slovenian School,
     and what they have to say about the self, God, enjoyment and politics today.
-    Along the way there are stories, songs and conversations.
+    Along the way there are stories, songs and conversations. Everything here is free to read.
 
-    Everything I've written is here, free to read. Pull up a chair.
-  # The button under the welcome text.
-  button_label: Get new essays by email
-  button_url: https://actualspirit.substack.com/subscribe
-
-# "Start here": essays shown as cards. Use the slug from the article's address
-# (dialectmaterial.github.io/articles/<slug>/). The blurb is optional;
-# without one, the article's subtitle is shown.
-start_here:
-  - slug: everyone-knows-perfection-is-absurd
-    blurb: Spinoza, Descartes and why perfection is both impossible and necessary.
-  - slug: communisation-in-absolute-capitalism
-    blurb: From Dawkins, Harris and Peterson to Christian Atheism, and real speculation against bad.
-  - slug: the-i-as-a-funny-circle
-    blurb: Hegel's concept, the "I", and why Kant couldn't keep up with its funny movement.
-
-# "What I'm doing now": cards with an image. Images go in assets/now/.
-now:
-  - title: Rosy Cross
-    text: My new book, on the question of right and the truth of Christianity.
-    image: /assets/now/rosy-cross.jpg
+# Small quick links under the intro, for people coming from Instagram.
+quick_links:
+  - label: Rosy Cross
     url: https://www.amazon.com/Rosy-Cross-Question-Right-Christianity/dp/B0GYZR7JQJ/
-    link_label: Get the book
+  - label: YouTube
+    url: https://www.youtube.com/@Actual_Spirit
+  - label: Spotify
+    url: https://open.spotify.com/artist/4vI2xDzOoqF995QOU4bREz
+  - label: Patreon
+    url: https://www.patreon.com/c/actualspirit/membership
+  - label: Instagram
+    url: https://www.instagram.com/objetlila
+
+# Where the Subscribe buttons go.
+subscribe_url: https://actualspirit.substack.com/subscribe
+
+# "Start here": essays for new readers. Use the slug from the article's address
+# (dialectmaterial.github.io/articles/<slug>/). The blurb is optional;
+# without one, the opening lines of the essay are shown.
+start_here:
+  intro: New here? Three essays to begin with.
+  essays:
+    - slug: everyone-knows-perfection-is-absurd
+      blurb: Spinoza, Descartes and why perfection is both impossible and necessary.
+    - slug: communisation-in-absolute-capitalism
+      blurb: From Dawkins, Harris and Peterson to Christian Atheism, and real speculation against bad.
+    - slug: the-i-as-a-funny-circle
+      blurb: Hegel's concept, the "I", and why Kant couldn't keep up with its funny movement.
+
+# The dark band about the book.
+book:
+  kicker: New book
+  title: Rosy Cross
+  subtitle: Question of Right and Truth of Christianity
+  text: |
+    My new book, on the question of right and the truth of Christianity.
+  image: /assets/now/rosy-cross.jpg
+  url: https://www.amazon.com/Rosy-Cross-Question-Right-Christianity/dp/B0GYZR7JQJ/
+  button: Get the book
+
+# "Elsewhere": other things you do. Images go in assets/now/.
+elsewhere:
   - title: Actual Spirit on YouTube
     text: Conversations on philosophy, psychoanalysis and religion, in English and Dutch.
     image: /assets/now/videos.jpg
@@ -46,3 +71,15 @@ now:
     image: /assets/now/patreon.jpg
     url: https://www.patreon.com/c/actualspirit/membership
     link_label: Join
+
+# The About block at the bottom of the home page.
+about: |
+  Dimitri F. Crooijmans writes *Actual Spirit*, a journal of speculative philosophy
+  at the crossing of German Idealism, Lacanian psychoanalysis and theology. He has led the
+  Slovenian School Reading Group at Philosophy Portal, makes music as Objet lil a,
+  and talks philosophy on YouTube. His new book is *Rosy Cross*.
+
+# A one-line bio shown at the end of every article.
+signoff: |
+  **Dimitri F. Crooijmans** writes on Hegel, Lacan and theology. New essays arrive by email
+  on Substack.

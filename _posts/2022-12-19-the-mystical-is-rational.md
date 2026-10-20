@@ -1,6 +1,7 @@
 ---
 title: "The Mystical is Rational"
 subtitle: "Mysticism and Philosophy are means by which we express contact with the Absolute, and although the two traditions may not seem commensurable, Hegel claims his own philosophy is a type of mysticism."
+description: "Christian mysticism is the element of Christian belief and practice that concerns the direct and transformative presence of God. The adjective 'mystical' means 'hidden' in Greek and refers to 'secret' realities of beliefs, rituals and practices, or the mystical meaning…"
 date: 2022-12-19
 permalink: /articles/the-mystical-is-rational/
 substack: https://actualspirit.substack.com/p/the-mystical-is-rational

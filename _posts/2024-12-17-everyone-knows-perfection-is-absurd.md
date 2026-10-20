@@ -1,6 +1,7 @@
 ---
 title: "Everyone knows perfection is absurd"
 subtitle: "Because it is both impossible and necessary"
+description: "Reality is perfect, because perfection is reality itself, apart from which nothing exists. God, or nature, is this substance, the perfect reality."
 date: 2024-12-17
 permalink: /articles/everyone-knows-perfection-is-absurd/
 substack: https://actualspirit.substack.com/p/everyone-knows-perfection-is-absurd

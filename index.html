@@ -2,70 +2,125 @@
 layout: default
 ---
 {% assign home = site.data.home %}
-<header class="hero">
-  <img src="/assets/profile.jpg" alt="{{ site.title }}" width="144" height="144">
-  <div>
-    <h1>{{ site.title }}</h1>
-    <p class="subtitle">{{ site.tagline }}</p>
-  </div>
-</header>
+{% assign latest = site.posts | first %}
 
-<section class="welcome">
-  <h2>{{ home.welcome.heading }}</h2>
-  {{ home.welcome.text | markdownify }}
-  <p><a class="button" href="{{ home.welcome.button_url }}">{{ home.welcome.button_label }}</a></p>
+<section class="hero wrap">
+  <div class="hero-text">
+    <p class="kicker">{{ home.hero.kicker }}</p>
+    <h1 class="display">{% for line in home.hero.heading %}<span>{{ line }}</span>{% endfor %}</h1>
+    <div class="lede">{{ home.hero.intro | markdownify }}</div>
+    <p class="actions">
+      <a class="btn" href="#writing">Read the essays</a>
+      <a class="btn ghost" href="{{ home.subscribe_url }}">Subscribe</a>
+    </p>
+    <ul class="quick">
+      {% for link in home.quick_links %}<li><a href="{{ link.url }}">{{ link.label }}<span aria-hidden="true">↗</span></a></li>{% endfor %}
+    </ul>
+  </div>
+  <figure class="portrait">
+    <img src="/assets/profile.jpg" alt="Portrait of {{ site.title }}" width="600" height="600">
+  </figure>
 </section>
 
-<section>
-  <h2 class="section">Start here</h2>
-  <div class="featured">
-    {% for item in home.start_here %}
+<section class="wrap block">
+  <p class="label">Latest essay</p>
+  <a class="lead" href="{{ latest.url }}">
+    {% if latest.image %}<img src="{{ latest.image }}" alt="" loading="lazy">{% endif %}
+    <div>
+      <p class="meta">{{ latest.date | date: "%-d %B %Y" }} · {% include read-time.html content=latest.content %}</p>
+      <h2 class="display">{{ latest.title }}</h2>
+      <p class="excerpt">{{ latest.description | default: latest.subtitle }}</p>
+      <span class="more">Read the essay →</span>
+    </div>
+  </a>
+</section>
+
+<section class="wrap block">
+  <div class="section-head">
+    <h2 class="label">Start here</h2>
+    <p>{{ home.start_here.intro }}</p>
+  </div>
+  <div class="trio">
+    {% for item in home.start_here.essays %}
     {% assign post = site.posts | where_exp: "p", "p.url contains item.slug" | first %}
     {% if post %}
-    <a class="feature" href="{{ post.url }}">
+    <a class="tile" href="{{ post.url }}">
+      <span class="num">0{{ forloop.index }}</span>
       {% if post.image %}<img src="{{ post.image }}" alt="" loading="lazy">{% endif %}
-      <span class="title">{{ post.title }}</span>
-      <span class="sub">{{ item.blurb | default: post.subtitle }}</span>
+      <h3>{{ post.title }}</h3>
+      <p>{{ item.blurb | default: post.description }}</p>
     </a>
     {% endif %}
     {% endfor %}
   </div>
 </section>
 
-<section>
-  <h2 class="section">What I'm doing now</h2>
-  <div class="now">
-    {% for card in home.now %}
+<section class="band" id="book">
+  <div class="wrap book">
+    <a class="cover" href="{{ home.book.url }}"><img src="{{ home.book.image }}" alt="Cover of {{ home.book.title }}" loading="lazy"></a>
+    <div>
+      <p class="kicker">{{ home.book.kicker }}</p>
+      <h2 class="display">{{ home.book.title }}</h2>
+      <p class="book-sub">{{ home.book.subtitle }}</p>
+      {{ home.book.text | markdownify }}
+      <p><a class="btn light" href="{{ home.book.url }}">{{ home.book.button }} ↗</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="wrap block" id="elsewhere">
+  <div class="section-head">
+    <h2 class="label">Elsewhere</h2>
+  </div>
+  <div class="trio">
+    {% for card in home.elsewhere %}
     <a class="card" href="{{ card.url }}">
       <img src="{{ card.image }}" alt="" loading="lazy">
-      <span>
-        <span class="title">{{ card.title }}</span>
-        <span class="sub">{{ card.text }}</span>
-        <span class="more">{{ card.link_label }} →</span>
-      </span>
+      <div>
+        <h3>{{ card.title }}</h3>
+        <p>{{ card.text }}</p>
+        <span class="more">{{ card.link_label }} ↗</span>
+      </div>
     </a>
     {% endfor %}
   </div>
 </section>
 
-<section class="articles">
-  <h2 class="section">All writing</h2>
-  {% assign years = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
-  {% for year in years %}
-  <h3>{{ year.name }}</h3>
-  <ol>
-    {% for post in year.items %}<li>
-      <a href="{{ post.url }}">
-        <span class="title">{{ post.title }}</span>
-        {% if post.subtitle != "" %}<span class="sub">{{ post.subtitle }}</span>{% endif %}
-      </a>
-      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %b" }}</time>
-    </li>
+<section class="wrap block index" id="writing">
+  <div class="index-side">
+    <h2 class="display">All writing</h2>
+    <p>{{ site.posts | size }} essays, stories and notes since {{ site.posts.last.date | date: "%Y" }}.</p>
+    <a class="btn ghost" href="{{ home.subscribe_url }}">Get new ones by email</a>
+  </div>
+  <div class="index-list">
+    {% assign years = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+    {% for year in years %}
+    <div class="year">
+      <h3>{{ year.name }}</h3>
+      <ol>
+        {% for post in year.items %}
+        <li><a href="{{ post.url }}">
+          <span class="t">{{ post.title }}</span>
+          {% if post.subtitle != "" %}<span class="s">{{ post.subtitle }}</span>{% endif %}
+          <span class="m">{{ post.date | date: "%-d %b" }} · {% include read-time.html content=post.content %}</span>
+        </a></li>
+        {% endfor %}
+      </ol>
+    </div>
     {% endfor %}
-  </ol>
-  {% endfor %}
+  </div>
 </section>
 
-<footer class="site">
-  <a href="{{ home.welcome.button_url }}">Subscribe on Substack</a> · {% for link in site.social %}<a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}
-</footer>
+<section class="about-band" id="about">
+  <div class="wrap about">
+    <img src="/assets/profile.jpg" alt="" loading="lazy">
+    <div>
+      <h2 class="label">About</h2>
+      <div class="about-text">{{ home.about | markdownify }}</div>
+      <p class="actions">
+        <a class="btn" href="{{ home.subscribe_url }}">Subscribe on Substack</a>
+        {% for link in site.social %}{% if link.label == "Email" %}<a class="btn ghost" href="{{ link.url }}">Write to me</a>{% endif %}{% endfor %}
+      </p>
+    </div>
+  </div>
+</section>
