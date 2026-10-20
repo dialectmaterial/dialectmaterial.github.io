@@ -10,9 +10,9 @@ hero:
     - Explore religion.
     - Explicate philosophy.
   intro: |
-    Hi, I'm Dimitri. I write about Hegel, Lacan and the Slovenian School,
-    and what they have to say about the self, God, enjoyment and politics today.
-    Along the way there are stories, songs and conversations. Everything here is free to read.
+    Hi, I'm Dimitri. I write about philosophy,
+    and what it has to say about the itself, science and politics today.
+    Along the way there are stories, songs and conversations.
 
 # Small quick links under the intro, for people coming from Instagram.
 quick_links:
@@ -37,11 +37,11 @@ start_here:
   intro: New here? Three essays to begin with.
   essays:
     - slug: everyone-knows-perfection-is-absurd
-      blurb: Spinoza, Descartes and why perfection is both impossible and necessary.
+      blurb: Spinoza, Descartes and why reality is the perfect absurdity.
     - slug: communisation-in-absolute-capitalism
-      blurb: From Dawkins, Harris and Peterson to Christian Atheism, and real speculation against bad.
-    - slug: the-i-as-a-funny-circle
-      blurb: Hegel's concept, the "I", and why Kant couldn't keep up with its funny movement.
+      blurb: On communism and capital
+    - slug: introduction-to-the-parallax-view
+      blurb: On dialectical materialism
 
 # The dark band about the book.
 book:
@@ -57,7 +57,7 @@ book:
 # "Elsewhere": other things you do. Images go in assets/now/.
 elsewhere:
   - title: Actual Spirit on YouTube
-    text: Conversations on philosophy, psychoanalysis and religion, in English and Dutch.
+    text: Conversations on philosophy, art, science and politics, in English and Dutch.
     image: /assets/now/videos.jpg
     url: https://www.youtube.com/@Actual_Spirit
     link_label: Watch
@@ -74,12 +74,9 @@ elsewhere:
 
 # The About block at the bottom of the home page.
 about: |
-  Dimitri F. Crooijmans writes *Actual Spirit*, a journal of speculative philosophy
-  at the crossing of German Idealism, Lacanian psychoanalysis and theology. He has led the
-  Slovenian School Reading Group at Philosophy Portal, makes music as Objet lil a,
-  and talks philosophy on YouTube. His new book is *Rosy Cross*.
+  Dimitri F. Crooijmans writes *Actual Spirit*, a place for philosophy, art and science and politics.
 
 # A one-line bio shown at the end of every article.
 signoff: |
-  **Dimitri F. Crooijmans** writes on Hegel, Lacan and theology. New essays arrive by email
+  **Dimitri F. Crooijmans** writes on... New essays arrive by email
   on Substack.
