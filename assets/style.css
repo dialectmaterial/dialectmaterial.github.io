@@ -1,21 +1,12 @@
+/* Colours taken from the Actual Spirit Substack theme */
 :root {
-  --bg: #f6f2ec;
-  --text: #1d1b19;
-  --muted: #6d665e;
-  --line: #ddd5ca;
-  --accent: #7a2e2e;
-  --card: #fffdf9;
-  color-scheme: light dark;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #161514;
-    --text: #e9e4dc;
-    --muted: #9b948a;
-    --line: #34312d;
-    --accent: #d99a8a;
-    --card: #1f1d1b;
-  }
+  --bg: #f2f2e3;
+  --text: #1f201c;
+  --muted: #6b6c64;
+  --line: #dadacc;
+  --accent: #020617;
+  --card: #f8f8ee;
+  color-scheme: light;
 }
 
 * { box-sizing: border-box; }
