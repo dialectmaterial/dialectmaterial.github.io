@@ -1,6 +1,6 @@
 ---
-title: "Introduction To The Parallax View"
-subtitle: "Slovenian School Reading Group: Starting Febuary 16th"
+title: "Introduction to The Parallax View"
+subtitle: "Slovenian School Reading Group: Starting February 16th"
 description: "Starting on the 16th of February, we will begin the second year of the Slovenian School Reading Group at Philosophy Portal."
 date: 2026-01-22
 permalink: /articles/slovenian-school-reading-group/

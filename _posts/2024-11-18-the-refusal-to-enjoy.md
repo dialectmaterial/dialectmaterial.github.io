@@ -1,5 +1,5 @@
 ---
-title: "The Refusal To Enjoy"
+title: "The Refusal to Enjoy"
 subtitle: "A disembodied case for the future"
 description: "Descartes can’t be blamed for positing the necessity of God’s existence for establishing the truth of our shared reality. On the one hand, this move can be seen as halting the solipsistic madness of the self-causing cogito, on the other…"
 date: 2024-11-18

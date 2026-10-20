@@ -1,5 +1,5 @@
 ---
-title: "Only Free Will is Thoughtful"
+title: "Only Free Will Is Thoughtful"
 subtitle: "The right to self-determination"
 description: "The will would not be the will if it wasn’t free. Whether or not I am determined by the causal chain analyzable by the natural sciences, I continue to experience myself as a free subject. No matter how much I’m…"
 date: 2024-08-12

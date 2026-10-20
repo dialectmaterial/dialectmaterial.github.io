@@ -1,0 +1,53 @@
+{%- comment -%}
+  Tells search engines who the site is about (home page) or what an article is (posts).
+  The profile links come from "search.profiles" in _data/home.yml.
+{%- endcomment -%}
+{%- assign home = site.data.home -%}
+<script type="application/ld+json">
+{%- if page.layout == "post" %}
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | default: page.subtitle | strip_html | strip_newlines | jsonify }},
+  "image": {{ site.url | append: share_image | jsonify }},
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+  "url": {{ site.url | append: page.url | jsonify }},
+  "mainEntityOfPage": {{ site.url | append: page.url | jsonify }},
+  "inLanguage": {{ page.lang | default: "en" | jsonify }},
+  "author": { "@type": "Person", "name": {{ site.author | jsonify }}, "url": {{ site.url | append: "/" | jsonify }} },
+  "publisher": { "@type": "Person", "name": {{ site.author | jsonify }}, "url": {{ site.url | append: "/" | jsonify }} }
+}
+{%- else %}
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": {{ site.url | append: "/#website" | jsonify }},
+      "url": {{ site.url | append: "/" | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "alternateName": {{ site.tagline | jsonify }},
+      "author": { "@id": {{ site.url | append: "/#person" | jsonify }} }
+    },
+    {
+      "@type": "Person",
+      "@id": {{ site.url | append: "/#person" | jsonify }},
+      "name": {{ site.author | jsonify }},
+      "alternateName": {{ home.search.other_names | jsonify }},
+      "url": {{ site.url | append: "/" | jsonify }},
+      "image": {{ site.url | append: "/assets/profile.jpg" | jsonify }},
+      "description": {{ home.search.description | strip_newlines | jsonify }},
+      "knowsAbout": {{ home.search.topics | jsonify }},
+      "sameAs": {{ home.search.profiles | jsonify }}
+    },
+    {
+      "@type": "Book",
+      "name": {{ home.book.title | append: ": " | append: home.book.subtitle | jsonify }},
+      "url": {{ home.book.url | jsonify }},
+      "author": { "@id": {{ site.url | append: "/#person" | jsonify }} }
+    }
+  ]
+}
+{%- endif %}
+</script>

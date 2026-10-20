@@ -14,6 +14,28 @@ hero:
     and what it has to say about itself, science and politics today.
     Along the way there are stories, songs and conversations.
 
+# How the site appears in Google and other search engines.
+search:
+  # The blue link in the search results for the home page.
+  title: Dimitri F. Crooijmans · Actual Spirit
+  # The grey text under it. Keep it under about 160 characters.
+  description: >-
+    Dimitri F. Crooijmans writes Actual Spirit: essays on philosophy, art,
+    science and politics, from Hegel and Spinoza to Lacan and Žižek.
+  # Other ways people might search for you.
+  other_names: [Dimitri Crooijmans, Actual Spirit, Objet lil a]
+  # What you write about.
+  topics: [Philosophy, Hegel, Spinoza, Dialectical materialism, Psychoanalysis, Slovenian School, Politics, Art]
+  # Your profiles elsewhere. These tell Google they all belong to the same person.
+  profiles:
+    - https://actualspirit.substack.com
+    - https://www.youtube.com/@Actual_Spirit
+    - https://www.instagram.com/objetlila
+    - https://open.spotify.com/artist/4vI2xDzOoqF995QOU4bREz
+    - https://www.patreon.com/c/actualspirit
+    - https://t.me/objetlila
+    - https://bio.site/Actualspirit
+
 # Small quick links under the intro, for people coming from Instagram.
 quick_links:
   - label: Rosy Cross

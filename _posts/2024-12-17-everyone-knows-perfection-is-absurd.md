@@ -1,5 +1,5 @@
 ---
-title: "Everyone knows perfection is absurd"
+title: "Everyone Knows Perfection Is Absurd"
 subtitle: "Because it is both impossible and necessary"
 description: "Reality is perfect, because perfection is reality itself, apart from which nothing exists. God, or nature, is this substance, the perfect reality."
 date: 2024-12-17

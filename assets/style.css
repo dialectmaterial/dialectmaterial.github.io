@@ -239,3 +239,8 @@ iframe.spotify { display: block; width: 100%; border: 0; border-radius: 12px; }
   .pager .next { text-align: left; }
   .footer nav { flex-wrap: wrap; gap: 14px 20px; }
 }
+
+/* Page not found */
+.notfound { min-height: 60vh; padding-top: clamp(48px, 10vw, 120px); }
+.notfound .display { font-size: clamp(56px, 9vw, 112px); margin: 8px 0 20px; }
+.notfound .lede { max-width: 34em; }
