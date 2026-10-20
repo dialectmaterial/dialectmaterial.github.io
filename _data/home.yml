@@ -6,9 +6,9 @@ hero:
   kicker: Actual Spirit
   # Each line becomes its own line in the big heading.
   heading:
-    - Express art.
-    - Explore science.
-    - Explicate philosophy.
+    - Philosophy,
+    - art and science,
+    - for real.
   intro: |
     Hi, I'm Dimitri. I write about philosophy,
     and what it has to say about itself, science and politics today.
