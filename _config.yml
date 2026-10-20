@@ -15,13 +15,12 @@ defaults:
 links:
   - label: New book — Rosy Cross
     url: https://www.amazon.com/Rosy-Cross-Question-Right-Christianity/dp/B0GYZR7JQJ/
-  - label: Patreon
-    url: https://www.patreon.com/c/actualspirit/membership
-  - label: Substack
+  - label: My videos
+    url: https://www.youtube.com/@Actual_Spirit
+  - label: My blog
     url: https://actualspirit.substack.com
-
-  - label: New single on Spotify
-    url: https://open.spotify.com/track/6f7XMD9B3mItNjOq8npVjW
+  - label: Some music
+    url: https://open.spotify.com/artist/4vI2xDzOoqF995QOU4bREz?si=lm-tor9GQHu5fR-vQM34rg
   - label: Patreon
     url: https://www.patreon.com/c/actualspirit/membership    
 # Small links at the bottom of the link list.
