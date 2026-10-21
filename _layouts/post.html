@@ -11,17 +11,19 @@ layout: default
     {% if page.subtitle != "" %}<p class="dek">{{ page.subtitle }}</p>{% endif %}
   </header>
 
-  <div class="post-body{% if toc != '' %} has-toc{% endif %}">
+  <div class="post-body">
     {% if toc != "" %}
     <details class="toc toc-inline">
       <summary>Contents</summary>
       <ol>{{ toc }}</ol>
     </details>
-    <nav class="toc toc-side" aria-label="Contents">
-      <p class="label">Contents</p>
-      <ol>{{ toc }}</ol>
-      <a class="totop" href="#top">↑ Back to top</a>
-    </nav>
+    <details class="toc toc-float" hidden>
+      <summary aria-label="Contents">Contents</summary>
+      <div class="toc-panel">
+        <ol>{{ toc }}</ol>
+        <a class="totop" href="#top">↑ Back to top</a>
+      </div>
+    </details>
     {% endif %}
 
     <div class="prose">
@@ -47,24 +49,19 @@ layout: default
 
 {% if toc != "" %}
 <script>
-  // Mark the section being read in the side contents list.
+  // The corner Contents button: shown once the reader is past the Contents box
+  // under the title, and folded again after a section is chosen.
   (function () {
-    var links = document.querySelectorAll(".toc-side a[href^='#']:not(.totop)");
-    var byId = {};
-    links.forEach(function (a) { byId[decodeURIComponent(a.hash.slice(1))] = a; });
-    var heads = Array.prototype.filter.call(document.querySelectorAll(".prose h2[id], .prose h3[id]"), function (h) { return byId[h.id]; });
-    if (!heads.length) return;
-    var current;
-    function update() {
-      var active = heads[0];
-      heads.forEach(function (h) { if (h.getBoundingClientRect().top < window.innerHeight * 0.3) active = h; });
-      if (active === current) return;
-      if (current) byId[current.id].removeAttribute("aria-current");
-      byId[active.id].setAttribute("aria-current", "true");
-      current = active;
-    }
+    var top = document.querySelector(".toc-inline");
+    var float = document.querySelector(".toc-float");
+    if (!top || !float) return;
+    float.hidden = false;
+    function update() { float.classList.toggle("shown", top.getBoundingClientRect().bottom < 0); if (!float.classList.contains("shown")) float.open = false; }
     window.addEventListener("scroll", update, { passive: true });
     update();
+    float.addEventListener("click", function (e) { if (e.target.closest("a")) float.open = false; });
+    document.addEventListener("click", function (e) { if (float.open && !float.contains(e.target)) float.open = false; });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") float.open = false; });
   })();
 </script>
 {% endif %}
