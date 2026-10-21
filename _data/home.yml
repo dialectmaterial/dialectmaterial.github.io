@@ -34,6 +34,7 @@ search:
     - https://open.spotify.com/artist/4vI2xDzOoqF995QOU4bREz
     - https://www.patreon.com/c/actualspirit
     - https://t.me/objetlila
+    - https://github.com/dialectmaterial
     - https://www.linkedin.com/in/dimitri-crooijmans-3a4209268/
 
 
@@ -41,6 +42,8 @@ search:
 quick_links:
   - label: YouTube
     url: https://www.youtube.com/@Actual_Spirit
+  - label: GitHub
+    url: https://github.com/dialectmaterial
   - label: Spotify
     url: https://open.spotify.com/artist/4vI2xDzOoqF995QOU4bREz
   - label: Patreon
