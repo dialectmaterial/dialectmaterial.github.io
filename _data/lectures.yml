@@ -1,12 +1,50 @@
-# The Lectures page (actualspirit.com/lectures/). Add a video by its YouTube id:
-# the part after "watch?v=" in its address. Then download its thumbnail to
-# assets/lectures/<id>.jpg (or ask Claude). Order here is the order on the page.
+# The Lectures page (actualspirit.com/lectures/), newest first.
+# Each talk needs: title, date, url (where to watch) and a thumbnail at
+# assets/lectures/<thumb>.jpg (ask Claude to fetch it). Optional: event (where
+# it was given), text (a line about it), essay (the slug of a related article).
 lectures:
-  - id: Cv43D6GqJds
-    title: Introduction to Slavoj Žižek's Parallax View
+  - title: Introduction to Slavoj Žižek's Parallax View
     date: 2026-02-01
-    text: On Žižek's opus magnum and the parallax gap as the key to dialectical materialism.
+    url: https://www.youtube.com/watch?v=Cv43D6GqJds
+    thumb: youtube-Cv43D6GqJds
+    event: Actual Spirit on YouTube
     essay: the-parallax-view
+
+  - title: The Truth of Communism
+    date: 2025-04-12
+    url: https://vimeo.com/1074980756
+    thumb: vimeo-1074980756
+    event: "Rosy Cross 2: Radical Theology Meets Emancipatory Politics"
+
+  - title: On Freedom
+    date: 2024-10-05
+    url: https://vimeo.com/1016548458
+    thumb: vimeo-1016548458
+    event: "Rosy Cross: Questions of Right, Power, Love and Freedom"
+
+  - title: Reading Lacan Closely
+    date: 2024-02-25
+    url: https://vimeo.com/916473716
+    thumb: vimeo-916473716
+    event: "Writing for (a) First Cause: a conference on Lacan's Écrits"
+
+  - title: So, What About Lacan's Style?
+    date: 2024-02-24
+    url: https://vimeo.com/916296612
+    thumb: vimeo-916296612
+    event: "Writing for (a) First Cause: a conference on Lacan's Écrits"
+
+  - title: The Work of Love
+    date: 2023-06-24
+    url: https://vimeo.com/839348706
+    thumb: vimeo-839348706
+    event: "Logic for the Global Brain: a conference on Hegel's Science of Logic"
+
+  - title: "The Pity of Shame and the Shame of Pity: How to Make Life Dance and Scream"
+    date: 2022-10-30
+    url: https://vimeo.com/765375877/b7fa51895a
+    thumb: vimeo-765375877
+    event: "Thus Spoke Zarathustra: Spiritual Leadership for Our Time"
 
 # Conversations with others. Same format; leave the list empty to hide the section.
 conversations: []
