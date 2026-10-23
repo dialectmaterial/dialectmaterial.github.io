@@ -1,5 +1,5 @@
 ---
-title: "The Odd One In and A Voice and Nothing More"
+title: "The Odd One In in the Voice and Nothing More"
 subtitle: "Two Short Circuits"
 description: "By Alenka Zupančič & Mladen Dolar"
 kind: note
@@ -10,9 +10,7 @@ substack: https://actualspirit.substack.com/p/the-slovenian-school-reading-group
 image:
 ---
 
-## Two Short Circuits
-
-Both of these books, *A Voice and Nothing More* and *The Odd One In*  are part of the Short Circuits Series edited by Slavoj Žižek. They contain the same Series Foreword in which Žižek starts off with the metaphor of a short circuit to describe what he takes to be critical reading.
+Both of these books, *A Voice and Nothing More* and *The Odd One In* are part of the Short Circuits Series edited by Slavoj Žižek. They contain the same Series Foreword in which Žižek starts off with the metaphor of a short circuit to describe what he takes to be critical reading.
 
 The gist of short-circuiting is
 
