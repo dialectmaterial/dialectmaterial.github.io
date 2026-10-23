@@ -1,18 +1,15 @@
 ---
 title: "To Live Philosophically"
 subtitle: "Transcript Of A Fragment On Philosophical Life"
-description: "Socates, Descartes, Žižek"
-kind: note
+description: "Socrates, Descartes, Žižek"
 date: 2025-01-06
-permalink: /articles/special-announcement-and-to-live/
+permalink: /articles/to-live-philosophically/
 related: [the-slovenian-school-reading-group, the-parallax-view]
 substack: https://actualspirit.substack.com/p/special-announcement-and-to-live
 image:
 ---
 
 <div class="embed"><iframe src="https://www.youtube-nocookie.com/embed/lbxxXufEAw4" loading="lazy" allowfullscreen title="YouTube video"></iframe></div>
-
-### To Live Philosophically
 
 Cadell Last: What does it mean to you when I pose the question of living life as a philosophical journey?[^1]
 

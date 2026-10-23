@@ -1,6 +1,6 @@
 ---
 title: "Enlightenment"
-subtitle: "A Short Story"
+subtitle: ""
 description: "Richard Apemantus O’Briar neatly placed his gold alloy fountain pen in its stand and looked out the window. Large windows such as this one, he felt, were decadent and could never compare to the serenity of blank white walls. Still,…"
 kind: story
 date: 2024-09-30

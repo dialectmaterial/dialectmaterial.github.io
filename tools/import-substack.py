@@ -219,13 +219,16 @@ def main():
     entries = [p for p in archive() if p["slug"] not in SKIP_SLUGS and p.get("audience") == "everyone"]
     known = {p["slug"] for p in entries}
     POSTS.mkdir(exist_ok=True)
+    # Posts renamed on the site still point at their Substack original
+    imported = {m.group(1) for f in POSTS.glob("*.md")
+                for m in [re.search(r"^substack: .*/p/([\w-]+)", f.read_text(), re.M)] if m}
     for entry in entries:
         slug = entry["slug"]
         date = entry["post_date"][:10]
         out = POSTS / f"{date}-{slug}.md"
         if args.slugs and slug not in args.slugs:
             continue
-        if out.exists() and not (args.force or args.slugs):
+        if (out.exists() or slug in imported) and not (args.force or args.slugs):
             continue
         post = fetch_json(f"{BASE}/api/v1/posts/{slug}")
         body = convert(post, known)

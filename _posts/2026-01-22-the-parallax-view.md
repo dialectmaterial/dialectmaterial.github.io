@@ -1,6 +1,6 @@
 ---
 title: "Introduction to The Parallax View"
-subtitle: "A word"
+subtitle: "On dialectical materialism"
 description: ""
 date: 2026-01-22
 permalink: /articles/the-parallax-view/
