@@ -172,9 +172,7 @@ a { color: inherit; }
 .topics a:hover { border-color: var(--accent); color: var(--accent); }
 .topics a[aria-current="page"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
 .topics a[aria-current="page"] span { color: var(--paper); opacity: .7; }
-.post-topics { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 22px 0 0; }
-.post-topics a { padding: 6px 12px; border-radius: 999px; background: var(--paper-2); font: 500 13px/1.2 var(--sans); color: var(--ink-2); text-decoration: none; }
-.post-topics a:hover { color: var(--accent); }
+
 .index-side p { color: var(--ink-2); margin: 16px 0 24px; }
 .year { display: grid; grid-template-columns: 72px minmax(0, 1fr); border-top: 1px solid var(--ink); }
 .year h3 { font: 400 22px/1 var(--display); color: var(--accent); margin: 22px 0 0; }

@@ -9,7 +9,6 @@ layout: default
     <p class="meta"><a href="/writing/">Writing</a> · {{ page.date | date: "%-d %B %Y" }} · {% include read-time.html content=content %}</p>
     <h1 class="display">{{ page.title }}</h1>
     {% if page.subtitle != "" %}<p class="dek">{{ page.subtitle }}</p>{% endif %}
-    {% if page.topics %}<p class="post-topics">{% for name in page.topics %}{% assign t = site.data.topics | where: "name", name | first %}{% if t %}<a href="/topics/{{ t.slug }}/">{{ name }}</a>{% endif %}{% endfor %}</p>{% endif %}
   </header>
 
   <div class="post-body">
