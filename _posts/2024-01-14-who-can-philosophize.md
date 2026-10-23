@@ -51,7 +51,7 @@ Art and philosophy are works of sublimation, which, Lacan explains consists of �
 
 The manuscript cuts off before we get to see how Hegel would build out his mythology at that time. Fortunately, he published the *Phenomenology of Spirit*, which is a project in the same vein. Mythology, a literary genre, undeniably appeals to aesthetic sense. The *Science of Logic* too, falls within the category of the mythology of reason. Whereas the *Phenomenology* functions as a *Bildungsroman* about Spirit undergoing its development and final consummation in Absolute Knowing, the *Logic* starts out from this vantage point, culminating in the Absolute Idea, that is, the beautiful. It’s not a surprise that Goethe the poet had an direct influence on Hegel. Hegel’s philosophical innovation is partially attributable to Goethe’s literary ingenuity.[^9]
 
-<figure><img src="/assets/images/who-can-philosophize/03.png" alt="" loading="lazy"><figcaption>Goethe looking at a Silhouette by Johann Ehrenfried Schumann</figcaption></figure>
+<figure><img src="/assets/images/who-can-philosophize/03.jpg" alt="" loading="lazy"><figcaption>Goethe looking at a Silhouette by Johann Ehrenfried Schumann</figcaption></figure>
 
 ## A Change of Mind on the Title Page
 

@@ -8,6 +8,10 @@ permalink: /sitemap.xml
     <loc>{{ site.url }}/</loc>
     <lastmod>{{ site.posts.first.date | date: "%Y-%m-%d" }}</lastmod>
   </url>
+  <url>
+    <loc>{{ site.url }}/writing/</loc>
+    <lastmod>{{ site.posts.first.date | date: "%Y-%m-%d" }}</lastmod>
+  </url>
   {%- for post in site.posts %}
   <url>
     <loc>{{ site.url }}{{ post.url }}</loc>

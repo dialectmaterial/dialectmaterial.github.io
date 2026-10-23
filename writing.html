@@ -1,0 +1,46 @@
+---
+layout: default
+title: Writing
+permalink: /writing/
+description: Every essay, story and note by Dimitri F. Crooijmans on Actual Spirit, from Hegel and Spinoza to Lacan and Žižek.
+---
+{% assign home = site.data.home %}
+<section class="wrap block index writing-page">
+  <div class="index-side">
+    <h1 class="display">All writing</h1>
+    {{ home.writing.text | markdownify }}
+    <div class="filters" role="group" aria-label="Show" hidden>
+      <button type="button" data-kind="" aria-pressed="true">All</button>
+      <button type="button" data-kind="essay" aria-pressed="false">Essays</button>
+      <button type="button" data-kind="story" aria-pressed="false">Stories</button>
+      <button type="button" data-kind="note" aria-pressed="false">Notes</button>
+    </div>
+    <a class="btn ghost" href="{{ home.subscribe_url }}">Get new ones by email</a>
+  </div>
+  <div class="index-list">
+    {% include writing-list.html posts=site.posts %}
+  </div>
+</section>
+
+<script>
+  // Filter buttons: show one kind of post, and hide years left empty.
+  (function () {
+    var bar = document.querySelector(".filters");
+    if (!bar) return;
+    bar.hidden = false;
+    var buttons = bar.querySelectorAll("button");
+    function show(kind) {
+      buttons.forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.kind === kind)); });
+      document.querySelectorAll(".year").forEach(function (year) {
+        var any = false;
+        year.querySelectorAll("li").forEach(function (li) {
+          var on = !kind || li.dataset.kind === kind;
+          li.hidden = !on;
+          any = any || on;
+        });
+        year.hidden = !any;
+      });
+    }
+    buttons.forEach(function (b) { b.addEventListener("click", function () { show(b.dataset.kind); }); });
+  })();
+</script>

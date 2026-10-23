@@ -8,8 +8,6 @@ related: [communisation-in-absolute-capitalism, everyone-knows-perfection-is-abs
 substack: https://actualspirit.substack.com/p/slovenian-school-reading-group
 image: /assets/images/slovenian-school-reading-group/cover.jpg
 ---
-## The Parallax View
-
 Published in 2006, *The Parallax View* was described by Žižek as his *opus magnum*. Just like *A Voice and Nothing More* (2006) and *The Odd One In* (2008), this book is in the *Short-Circuit series*.
 
 The term *parallax*, which goes back to ‘alteration’ in Ancient Greek is defined the following way according to Wiktionary:

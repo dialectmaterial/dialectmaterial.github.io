@@ -1,0 +1,19 @@
+{%- comment -%}
+  The list of posts by year, used on the home page and on /writing/.
+  Each post is labelled Essay, Story or Note ("kind" in its front matter).
+{%- endcomment -%}
+{% assign years = include.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+{% for year in years %}
+<div class="year">
+  <h3>{{ year.name }}</h3>
+  <ol>
+    {% for post in year.items %}
+    <li data-kind="{{ post.kind }}"><a href="{{ post.url }}"{% if post.lang %} lang="{{ post.lang }}"{% endif %}>
+      <span class="t">{{ post.title }}</span>
+      {% if post.subtitle != "" %}<span class="s">{{ post.subtitle }}</span>{% endif %}
+      <span class="m">{% if post.kind != "essay" %}<b>{{ post.kind }}</b> · {% endif %}{% if post.lang == "nl" %}<b>NL</b> · {% endif %}{{ post.date | date: "%-d %b" }} · {% include read-time.html content=post.content %}</span>
+    </a></li>
+    {% endfor %}
+  </ol>
+</div>
+{% endfor %}

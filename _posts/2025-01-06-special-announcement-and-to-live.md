@@ -2,6 +2,7 @@
 title: "Special Announcement & To Live Philosophically"
 subtitle: "Slovenian School Reading Group & Transcript Of A Fragment On Philosophical Life"
 description: "Starting from the 22nd of January 2025. We will begin the Slovenian School Reading Group at Philosophy Portal."
+kind: note
 date: 2025-01-06
 permalink: /articles/special-announcement-and-to-live/
 related: [the-slovenian-school-reading-group, the-parallax-view]

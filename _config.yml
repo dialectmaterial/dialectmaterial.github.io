@@ -9,7 +9,7 @@ permalink: /articles/:title/
 exclude: [tools, README.md]
 defaults:
   - scope: { type: posts }
-    values: { layout: post }
+    values: { layout: post, kind: essay }
 
 # The home page text, featured essays and project cards are in _data/home.yml.
 

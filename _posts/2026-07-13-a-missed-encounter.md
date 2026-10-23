@@ -2,6 +2,7 @@
 title: "A Missed Encounter"
 subtitle: "How we arrived in Salzburg"
 description: "There she sat in the crowded Central Station of Vienna, awaiting her meal. I walked by and chose the same Vietnamese place."
+kind: story
 date: 2026-07-13
 permalink: /articles/a-missed-encounter/
 related: [trauma, enlightenment]
@@ -178,7 +179,7 @@ I step back on the train and head back to the compartment I was at. As I walk ba
 
 To add insult to injury, assuming she won’t come back since she was in a rush to get her bus, I sent the poem.
 
-<figure><img src="/assets/images/a-missed-encounter/06.png" alt="" loading="lazy"></figure>
+<figure><img src="/assets/images/a-missed-encounter/06.jpg" alt="" loading="lazy"></figure>
 
 My train was at a stand-still as if in a limbo. We texted back and forth.
 

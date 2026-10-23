@@ -11,7 +11,7 @@ layout: default
     <h1 class="display">{% for line in home.hero.heading %}<span>{{ line }}</span>{% endfor %}</h1>
     <div class="lede">{{ home.hero.intro | markdownify }}</div>
     <p class="actions">
-      <a class="btn" href="#writing">Read the essays</a>
+      <a class="btn" href="#start-here">Read the essays</a>
       <a class="btn ghost" href="{{ home.subscribe_url }}">Subscribe</a>
     </p>
     <ul class="quick">
@@ -36,7 +36,7 @@ layout: default
   </a>
 </section>
 
-<section class="wrap block">
+<section class="wrap block" id="start-here">
   <div class="section-head">
     <h2 class="label">Start here</h2>
     <p>{{ home.start_here.intro }}</p>
@@ -95,21 +95,9 @@ layout: default
     <a class="btn ghost" href="{{ home.subscribe_url }}">Get new ones by email</a>
   </div>
   <div class="index-list">
-    {% assign years = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
-    {% for year in years %}
-    <div class="year">
-      <h3>{{ year.name }}</h3>
-      <ol>
-        {% for post in year.items %}
-        <li><a href="{{ post.url }}">
-          <span class="t">{{ post.title }}</span>
-          {% if post.subtitle != "" %}<span class="s">{{ post.subtitle }}</span>{% endif %}
-          <span class="m">{{ post.date | date: "%-d %b" }} · {% include read-time.html content=post.content %}</span>
-        </a></li>
-        {% endfor %}
-      </ol>
-    </div>
-    {% endfor %}
+    {% assign recent = site.posts | slice: 0, home.writing.show %}
+    {% include writing-list.html posts=recent %}
+    <p class="all-writing"><a href="/writing/">All {{ site.posts.size }} pieces, with filters →</a></p>
   </div>
 </section>
 

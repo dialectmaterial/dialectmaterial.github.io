@@ -6,7 +6,7 @@ layout: default
 {% assign toc = toc | strip %}
 <article class="post">
   <header class="post-head">
-    <p class="meta"><a href="/#writing">Writing</a> · {{ page.date | date: "%-d %B %Y" }} · {% include read-time.html content=content %}</p>
+    <p class="meta"><a href="/writing/">Writing</a> · {{ page.date | date: "%-d %B %Y" }} · {% include read-time.html content=content %}</p>
     <h1 class="display">{{ page.title }}</h1>
     {% if page.subtitle != "" %}<p class="dek">{{ page.subtitle }}</p>{% endif %}
   </header>
@@ -27,25 +27,24 @@ layout: default
     {% endif %}
 
     <div class="prose">
+{% if page.image %}{% unless content contains page.image %}<figure class="cover"><img src="{{ page.image }}" alt=""></figure>{% endunless %}{% endif %}
 {{ content }}
     </div>
   </div>
 
   <p class="totop-end"><a class="totop" href="#top">↑ Back to top</a></p>
 
-  <aside class="signoff">
-    <img src="/assets/profile.jpg" alt="" loading="lazy">
-    <div>
-      {{ home.signoff | markdownify }}
-      <p class="actions">
-        <a class="btn" href="{{ home.subscribe_url }}">Subscribe</a>
-        {% if page.substack %}<a class="btn ghost" href="{{ page.substack }}">Comment on Substack</a>{% endif %}
-      </p>
-    </div>
-  </aside>
 </article>
 
 {% include read-next.html %}
+
+<aside class="signoff">
+  {{ home.signoff | markdownify }}
+  <p class="actions">
+    <a class="btn" href="{{ home.subscribe_url }}">Subscribe</a>
+    {% if page.substack %}<a class="comment" href="{{ page.substack }}">Comment on Substack ↗</a>{% endif %}
+  </p>
+</aside>
 
 {% if toc != "" %}
 <script>

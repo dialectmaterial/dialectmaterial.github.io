@@ -82,6 +82,8 @@ book:
 # The heading and text beside the list of articles.
 writing:
   heading: Selected writings
+  # How many of the newest pieces the home page lists; the rest are on /writing/.
+  show: 8
   text: |
     Essays, stories and notes from *Actual Spirit*.
 
