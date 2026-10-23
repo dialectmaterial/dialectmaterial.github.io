@@ -46,6 +46,8 @@ layout: default
   </p>
 </aside>
 
+{% if content contains 'class="footnote"' %}<script src="/assets/notes.js" defer></script>{% endif %}
+
 {% if toc != "" %}
 <script>
   // The corner Contents button: shown once the reader is past the Contents box

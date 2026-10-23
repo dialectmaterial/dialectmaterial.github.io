@@ -29,7 +29,12 @@
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" href="/assets/icons/favicon-32.png" type="image/png">
   <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
-  <meta name="theme-color" content="#f3f0e6">
+  <meta name="theme-color" content="#f3f0e6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#17151b" media="(prefers-color-scheme: dark)">
+  <script>
+    // Light or dark as the reader last chose; otherwise the device decides.
+    try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml">
   {% include structured-data.html %}
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,6 +50,10 @@
         <a href="/writing/">Writing</a>
         <a class="hide-sm" href="/#elsewhere">Elsewhere</a>
         <a class="hide-sm" href="/#about">About</a>
+        <button class="theme" type="button" aria-label="Switch between light and dark">
+          <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg>
+          <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></svg>
+        </button>
         <a class="pill" href="{{ site.data.home.subscribe_url }}">Subscribe</a>
       </nav>
     </div>
@@ -62,5 +71,13 @@
       <p class="fine">© {{ site.time | date: "%Y" }} {{ site.title }}</p>
     </div>
   </footer>
+  <script>
+    document.querySelector(".theme").addEventListener("click", function () {
+      var root = document.documentElement;
+      var dark = root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+      root.dataset.theme = dark ? "light" : "dark";
+      try { localStorage.setItem("theme", root.dataset.theme); } catch (e) {}
+    });
+  </script>
 </body>
 </html>

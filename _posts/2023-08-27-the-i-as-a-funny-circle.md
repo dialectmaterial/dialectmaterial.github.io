@@ -4,6 +4,7 @@ subtitle: "Inspired by my reading of specific passages in the Science of Logic, 
 description: "A year ago, I started venturing into an attempt to think the “I”, mainly being inspired by its dialectic as explicated by Hegel in his Phenomenology of Spirit. You can find the article here."
 date: 2023-08-27
 permalink: /articles/the-i-as-a-funny-circle/
+topics: [Hegel]
 related: [the-dialectic-of-the-i, how-to-regrow-the-souls-wings]
 substack: https://actualspirit.substack.com/p/the-i-as-a-funny-circle
 image: /assets/images/the-i-as-a-funny-circle/01.jpg

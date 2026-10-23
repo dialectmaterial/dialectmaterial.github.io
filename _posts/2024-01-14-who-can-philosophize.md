@@ -4,6 +4,7 @@ subtitle: "Or: Why there's no such thing as non-aesthetic philosophy"
 description: "Who wrote the Oldest Systematic program of German Idealism? We have no definitive evidence of Hegel having written the text (the title was given to it by Franz Rosenzweig in 1917). Thinkers like Lukács and Habermas were convinced Schelling wrote…"
 date: 2024-01-14
 permalink: /articles/who-can-philosophize/
+topics: [Hegel]
 related: [how-to-regrow-the-souls-wings, only-free-will-is-thoughtful]
 substack: https://actualspirit.substack.com/p/who-can-philosophize
 image: /assets/images/who-can-philosophize/01.jpg

@@ -4,6 +4,7 @@ subtitle: "Two Short Circuits"
 description: "By Alenka Zupančič & Mladen Dolar"
 date: 2025-01-16
 permalink: /articles/the-odd-one-in-the-voice-and-nothing-more/
+topics: [Žižek and the Slovenian School, Psychoanalysis]
 related: [the-parallax-view, communisation-in-absolute-capitalism]
 substack: https://actualspirit.substack.com/p/the-slovenian-school-reading-group
 image:

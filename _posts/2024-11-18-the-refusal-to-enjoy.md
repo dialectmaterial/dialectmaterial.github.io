@@ -4,6 +4,7 @@ subtitle: "A disembodied case for the future"
 description: "Descartes can’t be blamed for positing the necessity of God’s existence for establishing the truth of our shared reality. On the one hand, this move can be seen as halting the solipsistic madness of the self-causing cogito, on the other…"
 date: 2024-11-18
 permalink: /articles/the-refusal-to-enjoy/
+topics: [Spinoza and Descartes, Psychoanalysis]
 related: [everyone-knows-perfection-is-absurd, trauma]
 substack: https://actualspirit.substack.com/p/the-refusal-to-enjoy
 image: /assets/images/the-refusal-to-enjoy/01.jpg

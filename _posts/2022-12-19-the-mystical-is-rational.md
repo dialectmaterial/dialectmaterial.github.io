@@ -4,6 +4,7 @@ subtitle: "Mysticism and Philosophy are means by which we express contact with t
 description: "Christian mysticism is the element of Christian belief and practice that concerns the direct and transformative presence of God. The adjective 'mystical' means 'hidden' in Greek and refers to 'secret' realities of beliefs, rituals and practices, or the mystical meaning…"
 date: 2022-12-19
 permalink: /articles/the-mystical-is-rational/
+topics: [Hegel, Religion and mysticism]
 related: [spiritual-practice-the-forward-return, how-to-regrow-the-souls-wings]
 substack: https://actualspirit.substack.com/p/the-mystical-is-rational
 image: /assets/images/the-mystical-is-rational/01.png

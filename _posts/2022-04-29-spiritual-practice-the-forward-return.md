@@ -4,6 +4,7 @@ subtitle: "Here is a brief account of the slippery elusiveness of the contradict
 description: "Spirit in Hegel’s book ‘Phenomenology of Spirit’ is the process of its own self-becoming. It is the movement of knowing that is aimed at forming a deeper knowing of itself. Its power lies in staying self-same in externalizing itself, i.e.…"
 date: 2022-04-29
 permalink: /articles/spiritual-practice-the-forward-return/
+topics: [Hegel, Religion and mysticism]
 related: [the-dialectic-of-the-i, the-mystical-is-rational]
 substack: https://actualspirit.substack.com/p/spiritual-practice-the-forward-return
 image: /assets/images/spiritual-practice-the-forward-return/01.jpg

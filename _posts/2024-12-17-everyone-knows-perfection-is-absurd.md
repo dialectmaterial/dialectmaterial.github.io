@@ -4,6 +4,7 @@ subtitle: "Because it is both impossible and necessary"
 description: "Reality is perfect, because perfection is reality itself, apart from which nothing exists. God, or nature, is this substance, the perfect reality."
 date: 2024-12-17
 permalink: /articles/everyone-knows-perfection-is-absurd/
+topics: [Spinoza and Descartes, Religion and mysticism]
 related: [the-refusal-to-enjoy, only-free-will-is-thoughtful]
 substack: https://actualspirit.substack.com/p/everyone-knows-perfection-is-absurd
 image: /assets/images/everyone-knows-perfection-is-absurd/01.jpg
