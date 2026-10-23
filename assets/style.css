@@ -162,7 +162,7 @@ a { color: inherit; }
 .filters button:hover { border-color: var(--accent); color: var(--accent); }
 .filters button[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
 .writing-page { padding-top: clamp(32px, 5vw, 64px); padding-bottom: clamp(64px, 8vw, 104px); }
-.writing-page .index-list .year:last-child { border-bottom: 1px solid var(--ink); }
+.writing-page .index-list { align-self: start; border-bottom: 1px solid var(--ink); }
 .writing-page .kicker { margin-bottom: 12px; }
 .topics-label { margin: 8px 0 12px; }
 .topics { list-style: none; margin: 0 0 28px; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
@@ -175,6 +175,7 @@ a { color: inherit; }
 
 .index-side p { color: var(--ink-2); margin: 16px 0 24px; }
 .year { display: grid; grid-template-columns: 72px minmax(0, 1fr); border-top: 1px solid var(--ink); }
+.year[hidden], .year li[hidden] { display: none; }   /* years a filter leaves empty */
 .year h3 { font: 400 22px/1 var(--display); color: var(--accent); margin: 22px 0 0; }
 .year ol { list-style: none; margin: 0; padding: 0; }
 .year li + li { border-top: 1px solid var(--rule); }
