@@ -4,7 +4,7 @@ subtitle: "Transcript Of A Fragment On Philosophical Life"
 description: "Socrates, Descartes, Žižek"
 date: 2025-01-06
 permalink: /articles/to-live-philosophically/
-related: [the-slovenian-school-reading-group, the-parallax-view]
+related: [the-odd-one-in-in-the-voice-and-nothing-more, the-parallax-view]
 substack: https://actualspirit.substack.com/p/special-announcement-and-to-live
 image:
 ---

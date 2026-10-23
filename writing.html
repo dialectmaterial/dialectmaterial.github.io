@@ -11,9 +11,13 @@ description: Every essay, story and note by Dimitri F. Crooijmans on Actual Spir
     {{ home.writing.text | markdownify }}
     <div class="filters" role="group" aria-label="Show" hidden>
       <button type="button" data-kind="" aria-pressed="true">All</button>
-      <button type="button" data-kind="essay" aria-pressed="false">Essays</button>
-      <button type="button" data-kind="story" aria-pressed="false">Stories</button>
-      <button type="button" data-kind="note" aria-pressed="false">Notes</button>
+      {%- assign kinds = site.posts | map: "kind" | uniq %}
+      {%- if kinds contains "essay" %}
+      <button type="button" data-kind="essay" aria-pressed="false">Essays</button>{% endif %}
+      {%- if kinds contains "story" %}
+      <button type="button" data-kind="story" aria-pressed="false">Stories</button>{% endif %}
+      {%- if kinds contains "note" %}
+      <button type="button" data-kind="note" aria-pressed="false">Notes</button>{% endif %}
     </div>
     <a class="btn ghost" href="{{ home.subscribe_url }}">Get new ones by email</a>
   </div>
