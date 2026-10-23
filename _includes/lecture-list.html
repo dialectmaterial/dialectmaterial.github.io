@@ -1,16 +1,16 @@
-{%- comment -%} A list of talks from _data/lectures.yml. Thumbnails are served from this site. {%- endcomment -%}
+{%- comment -%} A list of videos from _data/lectures.yml. Thumbnails are served from this site. {%- endcomment -%}
 <ol class="lecture-list">
   {%- for v in include.items %}
   {%- if v.url contains "vimeo.com" %}{% assign where = "Vimeo" %}{% else %}{% assign where = "YouTube" %}{% endif %}
   <li>
     <a class="lecture" href="{{ v.url }}">
-      <span class="thumb"><img src="/assets/lectures/{{ v.thumb }}.jpg" alt="" loading="lazy"><span class="play" aria-hidden="true"></span></span>
+      <span class="thumb"><img src="/assets/lectures/{{ v.thumb }}.jpg" alt="" loading="lazy" width="640" height="360"><span class="play" aria-hidden="true"></span></span>
       <span class="body">
-        <span class="meta">{{ v.date | date: "%-d %B %Y" }}</span>
+        <span class="meta">{{ v.date | date: "%-d %b %Y" }} · {{ where }}</span>
         <span class="t">{{ v.title }}</span>
-        {% if v.event %}<span class="s">{{ v.event }}</span>{% endif %}
+        {% if v.with %}<span class="s">With {{ v.with }}</span>{% endif %}
+        {% if v.event %}<span class="s ev">{{ v.event }}</span>{% endif %}
         {% if v.text %}<span class="s">{{ v.text }}</span>{% endif %}
-        <span class="more">Watch on {{ where }} ↗</span>
       </span>
     </a>
     {%- if v.essay %}{% assign eu = "/articles/" | append: v.essay | append: "/" %}{% assign e = site.posts | where: "url", eu | first %}{% if e %}

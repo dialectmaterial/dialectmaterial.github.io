@@ -1,44 +1,58 @@
-# The Lectures page (actualspirit.com/lectures/), newest first.
-# Each talk needs: title, date, url (where to watch) and a thumbnail at
-# assets/lectures/<thumb>.jpg (ask Claude to fetch it). Optional: event (where
-# it was given), text (a line about it), essay (the slug of a related article).
+# The Lectures page (actualspirit.com/lectures/): lectures on the left, conversations on the right, newest first.
+# Each video needs: title, date, url (where to watch) and a thumbnail at
+# assets/lectures/<thumb>.jpg (ask Claude to fetch it). Optional: event (where it was
+# given), with (who else is in it), text (a short line), essay (slug of a related article).
+
 lectures:
-  - title: Introduction to Slavoj Žižek's Parallax View
+  - title: "Introduction to Slavoj Žižek's Parallax View"
     date: 2026-02-01
     url: https://www.youtube.com/watch?v=Cv43D6GqJds
     thumb: youtube-Cv43D6GqJds
     event: Actual Spirit on YouTube
     essay: the-parallax-view
 
-  - title: The Truth of Communism
+  - title: "Waarom de joods-christelijke traditie bijzonder is"
+    date: 2026-01-30
+    url: https://www.youtube.com/watch?v=y4gtuVpTRLc
+    thumb: youtube-y4gtuVpTRLc
+    event: Actual Spirit on YouTube
+    text: In Dutch
+
+  - title: "The Truth of Communism"
     date: 2025-04-12
     url: https://vimeo.com/1074980756
     thumb: vimeo-1074980756
     event: "Rosy Cross 2: Radical Theology Meets Emancipatory Politics"
 
-  - title: On Freedom
+  - title: "On Freedom"
     date: 2024-10-05
     url: https://vimeo.com/1016548458
     thumb: vimeo-1016548458
     event: "Rosy Cross: Questions of Right, Power, Love and Freedom"
 
-  - title: Reading Lacan Closely
+  - title: "Reading Lacan Closely"
     date: 2024-02-25
     url: https://vimeo.com/916473716
     thumb: vimeo-916473716
     event: "Writing for (a) First Cause: a conference on Lacan's Écrits"
 
-  - title: So, What About Lacan's Style?
+  - title: "So, What About Lacan's Style?"
     date: 2024-02-24
     url: https://vimeo.com/916296612
     thumb: vimeo-916296612
     event: "Writing for (a) First Cause: a conference on Lacan's Écrits"
 
-  - title: The Work of Love
+  - title: "The Work of Love"
     date: 2023-06-24
     url: https://vimeo.com/839348706
     thumb: vimeo-839348706
     event: "Logic for the Global Brain: a conference on Hegel's Science of Logic"
+
+  - title: "Hegel's Concept of True Infinity"
+    date: 2023-03-12
+    url: https://www.youtube.com/watch?v=ztop5svCKDA
+    thumb: youtube-ztop5svCKDA
+    event: Actual Spirit on YouTube
 
   - title: "Shame and Pity: The Birth of the Spirit Child"
     date: 2022-10-30
@@ -46,5 +60,156 @@ lectures:
     thumb: vimeo-765375877
     event: "Thus Spoke Zarathustra: Spiritual Leadership for Our Time"
 
-# Conversations with others. Same format; leave the list empty to hide the section.
-conversations: []
+  - title: "Introduction to Hegel: The Absolute Idea"
+    date: 2022-10-09
+    url: https://www.youtube.com/watch?v=Sl9DIqlkMx0
+    thumb: youtube-Sl9DIqlkMx0
+    event: Actual Spirit on YouTube
+
+conversations:
+  - title: "De Aanval op Europa"
+    date: 2026-09-21
+    url: https://www.youtube.com/watch?v=sPqUMmwDbR8
+    thumb: youtube-sPqUMmwDbR8
+    with: "Roel van Duijn"
+    event: "Actual Spirit · in Dutch"
+
+  - title: "Žižek's The Parallax View"
+    date: 2026-02-09
+    url: https://www.youtube.com/watch?v=1WBpoApXLcA
+    thumb: youtube-1WBpoApXLcA
+    with: "Cadell Last"
+    event: "Philosophy Portal"
+
+  - title: "Critique of Marxist Politics"
+    date: 2025-11-05
+    url: https://www.youtube.com/watch?v=sLbT4kVeN1I
+    thumb: youtube-sLbT4kVeN1I
+    with: "Cadell Last"
+    event: "Philosophy Portal"
+
+  - title: "Jacques Lacan's Crazy Wisdom in the World of AI"
+    date: 2025-08-16
+    url: https://www.youtube.com/watch?v=ug4wqwxiviE
+    thumb: youtube-ug4wqwxiviE
+    with: "Thomas Hamelryck"
+    event: "Actual Spirit"
+
+  - title: "Metaphysics Resurrected (Part 2)"
+    date: 2025-08-03
+    url: https://www.youtube.com/watch?v=9xdwGC3_TnA
+    thumb: youtube-9xdwGC3_TnA
+    with: "Dylan Shaul, Daniel Coughlan and Cadell Last"
+    event: "Philosophy Portal"
+
+  - title: "Preparing for Early Marx 101"
+    date: 2025-06-07
+    url: https://www.youtube.com/watch?v=GnogC2TCnuc
+    thumb: youtube-GnogC2TCnuc
+    with: "Cadell Last"
+    event: "Philosophy Portal"
+
+  - title: "Philosophy as a Way of Life"
+    date: 2025-01-21
+    url: https://www.youtube.com/watch?v=wXv-z7FVi-U
+    thumb: youtube-wXv-z7FVi-U
+    with: "Quinn Whelehan, Jason Bernstein and Cadell Last"
+    event: "Philosophy Portal"
+
+  - title: "Slovenian School Reading Group"
+    date: 2025-01-19
+    url: https://www.youtube.com/watch?v=NsvJ2YkES9Q
+    thumb: youtube-NsvJ2YkES9Q
+    with: "Cadell Last"
+    event: "Philosophy Portal"
+
+  - title: "To Live Philosophically"
+    date: 2025-01-02
+    url: https://www.youtube.com/watch?v=lbxxXufEAw4
+    thumb: youtube-lbxxXufEAw4
+    with: "Cadell Last"
+    event: "Actual Spirit"
+
+  - title: "Dante's Divine Comedy"
+    date: 2024-11-26
+    url: https://www.youtube.com/watch?v=Tm6fGvqX9xE
+    thumb: youtube-Tm6fGvqX9xE
+    with: "Cleo Kearns and Daniel Garner"
+    event: "Actual Spirit"
+
+  - title: "Christian Atheism"
+    date: 2024-10-14
+    url: https://www.youtube.com/watch?v=uphRcpLNWOg
+    thumb: youtube-uphRcpLNWOg
+    with: "Cadell Last"
+    event: "Actual Spirit"
+
+  - title: "True Infinity and the Work of Love"
+    date: 2024-08-27
+    url: https://www.youtube.com/watch?v=FLC5ZWrqLAw
+    thumb: youtube-FLC5ZWrqLAw
+    with: "Cadell Last"
+    event: "Philosophy Portal"
+
+  - title: "Philosophy of Right"
+    date: 2024-04-24
+    url: https://www.youtube.com/watch?v=jVBzdiOgBn8
+    thumb: youtube-jVBzdiOgBn8
+    with: "Cadell Last"
+    event: "Actual Spirit"
+
+  - title: "More Than Machine, Less Than Human"
+    date: 2024-01-15
+    url: https://www.youtube.com/watch?v=AcrZ6s4llOw
+    thumb: youtube-AcrZ6s4llOw
+    with: "Owen Cox, Filip Lundström, David Högberg and Cadell Last"
+    event: "Philosophy Portal"
+
+  - title: "Power & Knowledge"
+    date: 2023-10-04
+    url: https://www.youtube.com/watch?v=7DYdRVAD6wE
+    thumb: youtube-7DYdRVAD6wE
+    with: "Raven Connolly, Daniel Fraga and Owen Cox"
+    event: "Actual Spirit"
+
+  - title: "Livestream for the Écrits"
+    date: 2023-08-27
+    url: https://www.youtube.com/watch?v=_ivW9aUZKns
+    thumb: youtube-_ivW9aUZKns
+    with: "Nick Castellucci, Andrew Flores and Cadell Last"
+    event: "Philosophy Portal"
+
+  - title: "Hegel's Concept of Reconciliation: On Absolute Spirit"
+    date: 2023-07-10
+    url: https://www.youtube.com/watch?v=_wpXle24ysA
+    thumb: youtube-_wpXle24ysA
+    with: "Dylan Shaul"
+    event: "Actual Spirit"
+
+  - title: "Religion and Spirituality for the 21st Century"
+    date: 2023-06-15
+    url: https://www.youtube.com/watch?v=7TkLjFLgBuc
+    thumb: youtube-7TkLjFLgBuc
+    with: "Layman Pascal, Daniel Garner and Cadell Last"
+    event: "Actual Spirit"
+
+  - title: "Voyeurism and Exhibitionism on the Internet"
+    date: 2023-06-04
+    url: https://www.youtube.com/watch?v=MQwzBH_clQU
+    thumb: youtube-MQwzBH_clQU
+    with: "Bara Kolenc"
+    event: "Actual Spirit"
+
+  - title: "Hegel on Psychedelics"
+    date: 2022-12-23
+    url: https://www.youtube.com/watch?v=ViveJvb0tWE
+    thumb: youtube-ViveJvb0tWE
+    with: "Cadell Last"
+    event: "Actual Spirit"
+
+  - title: "What Is Christianity?"
+    date: 2022-12-13
+    url: https://www.youtube.com/watch?v=WzqwwGy5DKI
+    thumb: youtube-WzqwwGy5DKI
+    with: "Daniel Garner (O.G. Rose)"
+    event: "Actual Spirit"
