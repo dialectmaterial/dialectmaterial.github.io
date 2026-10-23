@@ -1,0 +1,11 @@
+{%- comment -%}
+  Email box for new essays. Substack doesn't accept sign-ups posted from other
+  sites, so this opens its subscribe page with the address already filled in.
+{%- endcomment -%}
+<form class="subscribe" action="{{ site.data.home.subscribe_url }}" method="get" target="_blank">
+  <label for="sub-email-{{ include.id | default: 'x' }}">{{ include.label | default: "New essays by email" }}</label>
+  <div class="row">
+    <input id="sub-email-{{ include.id | default: 'x' }}" name="email" type="email" required placeholder="you@example.com" autocomplete="email">
+    <button class="btn" type="submit">Subscribe</button>
+  </div>
+</form>

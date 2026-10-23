@@ -41,11 +41,11 @@ layout: default
 {% include read-next.html %}
 
 <aside class="signoff">
-  {{ home.signoff | markdownify }}
-  <p class="actions">
-    <a class="btn" href="{{ home.subscribe_url }}">Subscribe</a>
+  <div class="signoff-text">
+    {{ home.signoff | markdownify }}
     {% if page.substack %}<a class="comment" href="{{ page.substack }}">Comment on Substack ↗</a>{% endif %}
-  </p>
+  </div>
+  {% include subscribe.html id="end" %}
 </aside>
 
 {% if content contains 'class="footnote"' %}<script src="/assets/notes.js" defer></script>{% endif %}

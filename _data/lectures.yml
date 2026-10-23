@@ -1,0 +1,12 @@
+# The Lectures page (actualspirit.com/lectures/). Add a video by its YouTube id:
+# the part after "watch?v=" in its address. Then download its thumbnail to
+# assets/lectures/<id>.jpg (or ask Claude). Order here is the order on the page.
+lectures:
+  - id: Cv43D6GqJds
+    title: Introduction to Slavoj Žižek's Parallax View
+    date: 2026-02-01
+    text: On Žižek's opus magnum and the parallax gap as the key to dialectical materialism.
+    essay: the-parallax-view
+
+# Conversations with others. Same format; leave the list empty to hide the section.
+conversations: []

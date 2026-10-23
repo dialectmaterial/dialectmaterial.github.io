@@ -107,8 +107,8 @@ layout: default
     <div>
       <h2 class="label">About</h2>
       <div class="about-text">{{ home.about | markdownify }}</div>
+      {% include subscribe.html id="about" %}
       <p class="actions">
-        <a class="btn" href="{{ home.subscribe_url }}">Subscribe on Substack</a>
         {% for link in site.social %}{% if link.label == "Email" %}<a class="btn ghost" href="{{ link.url }}">Write to me</a>{% endif %}{% endfor %}
       </p>
     </div>
