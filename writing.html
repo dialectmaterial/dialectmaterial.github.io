@@ -19,6 +19,8 @@ description: Every essay, story and note by Dimitri F. Crooijmans on Actual Spir
       {%- if kinds contains "note" %}
       <button type="button" data-kind="note" aria-pressed="false">Notes</button>{% endif %}
     </div>
+    <p class="label topics-label">Topics</p>
+    {% include topic-list.html %}
     <a class="btn ghost" href="{{ home.subscribe_url }}">Get new ones by email</a>
   </div>
   <div class="index-list">

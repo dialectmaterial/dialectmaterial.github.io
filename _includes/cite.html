@@ -1,0 +1,33 @@
+{%- comment -%}
+  "Cite this essay": a ready-made citation (Chicago style) and BibTeX, with copy buttons.
+{%- endcomment -%}
+{%- assign url = site.url | append: page.url -%}
+{%- assign year = page.date | date: "%Y" -%}
+{%- assign key = site.author | split: " " | last | downcase | append: year | append: ":" | append: page.slug -%}
+<details class="cite">
+  <summary>Cite this essay</summary>
+  <div class="cite-body">
+    <p class="cite-text" id="cite-chicago">{{ site.author_cite }} “{{ page.title }}.” <i>{{ site.tagline }}</i>, {{ page.date | date: "%B %-d, %Y" }}. {{ url }}.</p>
+    <button type="button" class="copy" data-copy="cite-chicago">Copy citation</button>
+    <details class="bibtex">
+      <summary>BibTeX</summary>
+<pre id="cite-bibtex">@online{ {{- key -}},
+  author = { {{- site.author -}} },
+  title = { {{- page.title -}} },
+  journal = { {{- site.tagline -}} },
+  date = { {{- page.date | date: "%Y-%m-%d" -}} },
+  url = { {{- url -}} }
+}</pre>
+      <button type="button" class="copy" data-copy="cite-bibtex">Copy BibTeX</button>
+    </details>
+  </div>
+</details>
+<script>
+  document.querySelectorAll(".cite .copy").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var text = document.getElementById(b.dataset.copy).innerText.trim();
+      var done = function () { var t = b.textContent; b.textContent = "Copied"; setTimeout(function () { b.textContent = t; }, 1600); };
+      if (navigator.clipboard) navigator.clipboard.writeText(text).then(done, function () {});
+    });
+  });
+</script>

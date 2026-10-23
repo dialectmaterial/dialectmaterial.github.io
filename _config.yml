@@ -3,6 +3,7 @@ tagline: Actual Spirit
 description: Philosophy, art, science.
 url: https://actualspirit.com
 author: Dimitri F. Crooijmans
+author_cite: Crooijmans, Dimitri F.   # surname first, as in a citation
 
 markdown: kramdown
 permalink: /articles/:title/
@@ -10,6 +11,10 @@ exclude: [tools, README.md]
 defaults:
   - scope: { type: posts }
     values: { layout: post, kind: essay }
+
+# Visitor counts (Cloudflare Web Analytics). Paste the token from the Cloudflare
+# dashboard here; leave it empty to switch counting off.
+cloudflare_analytics: ""
 
 # The home page text, featured essays and project cards are in _data/home.yml.
 

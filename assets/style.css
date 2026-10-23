@@ -174,6 +174,18 @@ a { color: inherit; }
 .filters button:hover { border-color: var(--accent); color: var(--accent); }
 .filters button[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
 .writing-page { padding-top: clamp(32px, 5vw, 64px); }
+.writing-page .kicker { margin-bottom: 12px; }
+.topics-label { margin: 8px 0 12px; }
+.topics { list-style: none; margin: 0 0 28px; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.topics a { display: inline-flex; gap: 6px; align-items: baseline; padding: 7px 12px; border-radius: 999px; border: 1px solid var(--rule);
+  font: 500 13px/1.2 var(--sans); color: var(--ink-2); text-decoration: none; }
+.topics a span { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+.topics a:hover { border-color: var(--accent); color: var(--accent); }
+.topics a[aria-current="page"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.topics a[aria-current="page"] span { color: var(--paper); opacity: .7; }
+.post-topics { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 22px 0 0; }
+.post-topics a { padding: 6px 12px; border-radius: 999px; background: var(--paper-2); font: 500 13px/1.2 var(--sans); color: var(--ink-2); text-decoration: none; }
+.post-topics a:hover { color: var(--accent); }
 .index-side p { color: var(--ink-2); margin: 16px 0 24px; }
 .year { display: grid; grid-template-columns: 72px minmax(0, 1fr); border-top: 1px solid var(--ink); }
 .year h3 { font: 400 22px/1 var(--display); color: var(--accent); margin: 22px 0 0; }
@@ -247,11 +259,24 @@ iframe.spotify { display: block; width: 100%; border: 0; border-radius: 12px; }
 .signoff .comment { font: 500 14px/1 var(--sans); color: var(--ink-2); text-decoration: none; }
 .signoff .comment:hover { color: var(--accent); }
 .prose .cover { margin-top: 0; }
+.about-photo { float: right; width: 200px; margin: 0 0 1em 32px !important; }
+.prose .about-photo img { aspect-ratio: 1; object-fit: cover; border-radius: 50%; filter: grayscale(1); }
+@media (max-width: 640px) { .about-photo { float: none; width: 140px; margin: 0 0 1.2em !important; } }
 
 .prose h2, .prose h3 { scroll-margin-top: 24px; }
 .totop { font: 500 14px/1 var(--sans); color: var(--muted); text-decoration: none; }
 .totop:hover { color: var(--accent); }
-.totop-end { max-width: var(--measure); margin: 48px auto 0; }
+.totop-end { max-width: var(--measure); margin: 28px auto 0; }
+.cite { max-width: var(--measure); margin: 56px auto 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.cite > summary, .bibtex > summary { cursor: pointer; padding: 14px 0; font: 600 12px/1.4 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.cite > summary:hover, .bibtex > summary:hover { color: var(--accent); }
+.cite-body { padding: 0 0 20px; display: grid; gap: 12px; justify-items: start; }
+.cite-text { margin: 0; font-size: 17px; line-height: 1.55; overflow-wrap: anywhere; }
+.bibtex { width: 100%; }
+.bibtex > summary { padding: 6px 0; }
+.bibtex pre { margin: 6px 0 12px; padding: 14px 16px; background: var(--paper-2); border-radius: 6px; overflow-x: auto; font: 13px/1.6 ui-monospace, "SF Mono", Menlo, monospace; }
+.copy { font: 500 13px/1 var(--sans); padding: 9px 14px; border-radius: 999px; cursor: pointer; border: 1px solid var(--rule); background: transparent; color: var(--ink-2); }
+.copy:hover { border-color: var(--accent); color: var(--accent); }
 
 /* Contents: a tap-to-open box under the title, or a list in the margin on wide screens */
 .toc ol { list-style: none; margin: 0; padding: 0; }

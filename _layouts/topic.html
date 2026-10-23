@@ -1,0 +1,18 @@
+---
+layout: default
+---
+{% assign home = site.data.home %}
+{% assign topic = site.data.topics | where: "name", page.topic | first %}
+{% assign posts = site.posts | where_exp: "p", "p.topics contains page.topic" %}
+<section class="wrap block index writing-page">
+  <div class="index-side">
+    <p class="kicker">Topic</p>
+    <h1 class="display">{{ page.topic }}</h1>
+    <p>{{ topic.text }}</p>
+    {% include topic-list.html current=page.topic %}
+    <a class="btn ghost" href="/writing/">All writing</a>
+  </div>
+  <div class="index-list">
+    {% include writing-list.html posts=posts %}
+  </div>
+</section>

@@ -12,6 +12,7 @@
     {% assign head_title = page.title | append: " · " | append: site.title %}
   {% endif %}
   {% assign share_image = page.image | default: "/assets/share.jpg" %}
+  {% if page.layout == "post" %}{% assign own = "/assets/share/" | append: page.slug | append: ".jpg" %}{% assign found = site.static_files | where: "path", own | first %}{% if found %}{% assign share_image = own %}{% endif %}{% endif %}
   <title>{{ head_title | strip_html }}</title>
   <meta name="description" content="{{ desc | strip_html | strip_newlines | escape }}">
   <meta name="author" content="{{ site.author }}">
@@ -26,6 +27,10 @@
   {% if page.layout == "post" %}<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
   <meta property="article:author" content="{{ site.author }}">{% endif %}
   <meta name="twitter:card" content="summary_large_image">
+  {% if page.layout == "post" %}<meta name="citation_title" content="{{ page.title | escape }}">
+  <meta name="citation_author" content="{{ site.author }}">
+  <meta name="citation_publication_date" content="{{ page.date | date: '%Y/%m/%d' }}">
+  <meta name="citation_journal_title" content="{{ site.tagline }}">{% endif %}
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" href="/assets/icons/favicon-32.png" type="image/png">
   <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
@@ -71,6 +76,7 @@
       <p class="fine">© {{ site.time | date: "%Y" }} {{ site.title }}</p>
     </div>
   </footer>
+  {% if site.cloudflare_analytics != "" %}<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ site.cloudflare_analytics }}"}'></script>{% endif %}
   <script>
     document.querySelector(".theme").addEventListener("click", function () {
       var root = document.documentElement;

@@ -1,0 +1,23 @@
+# Topics. Each essay lists its topics in its front matter ("topics: [Hegel, Politics]"),
+# using the names below. Every topic has a page at actualspirit.com/topics/<slug>/.
+- name: Hegel
+  slug: hegel
+  text: Essays on Hegel's dialectic, the Phenomenology of Spirit and the Science of Logic.
+- name: Spinoza and Descartes
+  slug: spinoza-and-descartes
+  text: Substance, God, the cogito and doubt in early modern philosophy.
+- name: Psychoanalysis
+  slug: psychoanalysis
+  text: Freud, Lacan and the Lacanians on desire, enjoyment, trauma and the subject.
+- name: Žižek and the Slovenian School
+  slug: zizek-and-the-slovenian-school
+  text: Readings of Žižek, Zupančič and Dolar.
+- name: Politics
+  slug: politics
+  text: Capital, communism, freedom and the political deed of thinking.
+- name: Religion and mysticism
+  slug: religion-and-mysticism
+  text: God, the soul and spiritual practice, read through philosophy.
+- name: Ancient philosophy
+  slug: ancient-philosophy
+  text: Socrates, Plato and what it means to live philosophically.

@@ -1,0 +1,9 @@
+{%- comment -%} Links to every topic page, with how many pieces each has. {%- endcomment -%}
+<ul class="topics">
+  {%- for t in site.data.topics %}
+  {%- assign n = site.posts | where_exp: "p", "p.topics contains t.name" | size %}
+  {%- if n > 0 %}
+  <li><a href="/topics/{{ t.slug }}/"{% if t.name == include.current %} aria-current="page"{% endif %}>{{ t.name }} <span>{{ n }}</span></a></li>
+  {%- endif %}
+  {%- endfor %}
+</ul>

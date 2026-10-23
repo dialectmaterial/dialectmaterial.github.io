@@ -12,6 +12,11 @@ permalink: /sitemap.xml
     <loc>{{ site.url }}/writing/</loc>
     <lastmod>{{ site.posts.first.date | date: "%Y-%m-%d" }}</lastmod>
   </url>
+  {%- for t in site.data.topics %}
+  <url>
+    <loc>{{ site.url }}/topics/{{ t.slug }}/</loc>
+  </url>
+  {%- endfor %}
   {%- for post in site.posts %}
   <url>
     <loc>{{ site.url }}{{ post.url }}</loc>
