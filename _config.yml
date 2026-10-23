@@ -14,7 +14,7 @@ defaults:
 
 # Visitor counts (Cloudflare Web Analytics). Paste the token from the Cloudflare
 # dashboard here; leave it empty to switch counting off.
-cloudflare_analytics: ""
+cloudflare_analytics: "3c58669229c2495489e2427e2285a4f6"
 
 # The home page text, featured essays and project cards are in _data/home.yml.
 

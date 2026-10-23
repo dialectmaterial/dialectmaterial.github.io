@@ -3,15 +3,15 @@
 - name: Hegel
   slug: hegel
   text: Essays on Hegel's dialectic, the Phenomenology of Spirit and the Science of Logic.
-- name: Spinoza and Descartes
-  slug: spinoza-and-descartes
-  text: Substance, God, the cogito and doubt in early modern philosophy.
+- name: Modern philosophy
+  slug: modern-philosophy
+  text: Descartes, Spinoza and the moderns on substance, God, the cogito and doubt.
 - name: Psychoanalysis
   slug: psychoanalysis
   text: Freud, Lacan and the Lacanians on desire, enjoyment, trauma and the subject.
-- name: Žižek and the Slovenian School
-  slug: zizek-and-the-slovenian-school
-  text: Readings of Žižek, Zupančič and Dolar.
+- name: Dialectical materialism
+  slug: dialectical-materialism
+  text: Žižek, Zupančič, Dolar and the Slovenian School's return to Hegel through Lacan.
 - name: Politics
   slug: politics
   text: Capital, communism, freedom and the political deed of thinking.

@@ -4,7 +4,7 @@ subtitle: "On dialectical materialism"
 description: ""
 date: 2026-01-22
 permalink: /articles/the-parallax-view/
-topics: [Žižek and the Slovenian School]
+topics: [Dialectical materialism]
 related: [communisation-in-absolute-capitalism, everyone-knows-perfection-is-absurd]
 substack: https://actualspirit.substack.com/p/slovenian-school-reading-group
 image: /assets/images/slovenian-school-reading-group/cover.jpg

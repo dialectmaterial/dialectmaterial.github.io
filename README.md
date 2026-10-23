@@ -20,3 +20,12 @@ python3 -m venv /tmp/venv && /tmp/venv/bin/pip install markdownify beautifulsoup
 /tmp/venv/bin/python tools/import-substack.py   # only fetches posts not imported yet
 git add -A && git commit -m "Import new articles" && git push
 ```
+
+## Topics, share images, citations, About
+
+- **Topics:** each essay has a `topics: [Hegel, Politics]` line. The names and their page texts are in `_data/topics.yml`; each has a page at `/topics/<slug>/`. A new topic also needs a file in `topics/` (copy one).
+- **Share images:** `python3 tools/make-share-images.py` makes `assets/share/<slug>.jpg` for articles that have none; `--force` remakes them all (after a title or cover change).
+- **Daily import:** `.github/workflows/import-substack.yml` imports new Substack posts every morning and makes their share images. Run it by hand under Actions → "Import from Substack". Always `git pull` before editing locally.
+- **Citations:** essays (not stories) end with "Cite this essay"; the name format is `author_cite` in `_config.yml`.
+- **Visitor counts:** Cloudflare Web Analytics, token `cloudflare_analytics` in `_config.yml`.
+- **About page:** `about.md` is a draft, offline while it has `published: false`.

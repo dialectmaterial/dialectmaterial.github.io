@@ -4,7 +4,7 @@ subtitle: "Real Speculations versus Bad Speculation"
 description: "Since before the dawn of my intellectual activities I’ve always read texts out of context. And far from being a bug that prevents me from reaching the true core of a theoretical edifice, it is a feature that comes with…"
 date: 2025-06-27
 permalink: /articles/communisation-in-absolute-capitalism/
-topics: [Politics, Hegel, Psychoanalysis, Žižek and the Slovenian School]
+topics: [Politics, Hegel, Psychoanalysis, Dialectical materialism]
 related: [the-parallax-view, only-free-will-is-thoughtful]
 substack: https://actualspirit.substack.com/p/communisation-in-absolute-capitalism
 image: /assets/images/communisation-in-absolute-capitalism/cover.jpg
