@@ -13,7 +13,7 @@ permalink: /sitemap.xml
     <lastmod>{{ site.posts.first.date | date: "%Y-%m-%d" }}</lastmod>
   </url>
   <url>
-    <loc>{{ site.url }}/lectures/</loc>
+    <loc>{{ site.url }}/talks/</loc>
   </url>
   {%- for t in site.data.topics %}
   <url>

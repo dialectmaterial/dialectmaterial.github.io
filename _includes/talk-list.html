@@ -1,0 +1,17 @@
+{%- comment -%} A list of videos from _data/talks.yml, without the featured one. Thumbnails are served from this site. {%- endcomment -%}
+<ol class="talk-list">
+  {%- for v in include.items %}
+  {%- if v.thumb == include.skip %}{% continue %}{% endif %}
+  <li{% if v.lang %} lang="{{ v.lang }}"{% endif %}>
+    <a class="talk" href="{{ v.url }}">
+      <span class="thumb"><img src="/assets/talks/{{ v.thumb }}.jpg" alt="" loading="lazy" width="640" height="360"><span class="play" aria-hidden="true"></span></span>
+      <span class="body">
+        <span class="t">{{ v.title }}</span>
+        {% include talk-meta.html v=v %}
+      </span>
+    </a>
+    {%- if v.essay %}{% assign eu = "/articles/" | append: v.essay | append: "/" %}{% assign e = site.posts | where: "url", eu | first %}{% if e %}
+    <p class="talk-essay" lang="en">Related essay: <a href="{{ e.url }}">{{ e.title }}</a></p>{% endif %}{% endif %}
+  </li>
+  {%- endfor %}
+</ol>

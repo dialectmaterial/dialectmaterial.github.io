@@ -1,0 +1,6 @@
+{%- assign v = include.v -%}
+{%- if v.url contains "vimeo.com" %}{% assign where = "Vimeo" %}{% else %}{% assign where = "YouTube" %}{% endif -%}
+{%- if v.minutes >= 60 %}{% assign h = v.minutes | divided_by: 60 %}{% assign m = v.minutes | modulo: 60 %}{% capture len %}{{ h }} h {{ m }} min{% endcapture %}{% else %}{% capture len %}{{ v.minutes }} min{% endcapture %}{% endif -%}
+<span class="meta">{{ v.date | date: "%-d %b %Y" }}{% if v.minutes %} · {{ len }}{% endif %} · {{ where }}{% if v.lang == "nl" %} · <b>NL</b>{% endif %}</span>
+{% if v.with %}<span class="s">With {{ v.with }}</span>{% endif %}
+{% if v.event %}<span class="s ev">{{ v.event }}</span>{% elsif v.channel == "Philosophy Portal" %}<span class="s ev">Philosophy Portal</span>{% endif %}
