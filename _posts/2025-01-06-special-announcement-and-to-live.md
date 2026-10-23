@@ -7,7 +7,7 @@ date: 2025-01-06
 permalink: /articles/special-announcement-and-to-live/
 related: [the-slovenian-school-reading-group, the-parallax-view]
 substack: https://actualspirit.substack.com/p/special-announcement-and-to-live
-image: /assets/images/special-announcement-and-to-live/01.jpg
+image:
 ---
 
 <div class="embed"><iframe src="https://www.youtube-nocookie.com/embed/lbxxXufEAw4" loading="lazy" allowfullscreen title="YouTube video"></iframe></div>
