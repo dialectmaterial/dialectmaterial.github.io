@@ -23,16 +23,8 @@
   --gutter: clamp(16px, 4vw, 40px);
   color-scheme: light;
 }
-/* Night reading: the same rose purple, lightened, on a deep violet-black.
-   Follows the device unless the reader picks light or dark with the toggle. */
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --paper: #17151b; --paper-2: #211e26; --ink: #ebe6da; --ink-2: #c3bdc9; --muted: #9d97a6; --rule: #36313d;
-    --accent: #b99be6; --accent-ink: #17151b; --accent-hover: #cdb6f0; --soft: #2d2539;
-    --band: #0f0e12; --band-ink: #ece7da; --band-muted: #a29cae;
-    color-scheme: dark;
-  }
-}
+/* Night reading, when the reader picks it with the toggle: the same rose purple,
+   lightened, on a deep violet-black. Every visit starts light. */
 :root[data-theme="dark"] {
   --paper: #17151b; --paper-2: #211e26; --ink: #ebe6da; --ink-2: #c3bdc9; --muted: #9d97a6; --rule: #36313d;
   --accent: #b99be6; --accent-ink: #17151b; --accent-hover: #cdb6f0; --soft: #2d2539;
@@ -93,10 +85,6 @@ a { color: inherit; }
 .theme svg { width: 16px; height: 16px; }
 .theme .moon, :root[data-theme="dark"] .theme .sun { display: none; }
 :root[data-theme="dark"] .theme .moon { display: block; }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .theme .sun { display: none; }
-  :root:not([data-theme="light"]) .theme .moon { display: block; }
-}
 
 .footer { border-top: 1px solid var(--rule); padding: 40px 0 48px; }
 .footer .wrap { flex-wrap: wrap; }
@@ -173,7 +161,8 @@ a { color: inherit; }
   border: 1px solid var(--rule); background: transparent; color: var(--ink-2); }
 .filters button:hover { border-color: var(--accent); color: var(--accent); }
 .filters button[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
-.writing-page { padding-top: clamp(32px, 5vw, 64px); }
+.writing-page { padding-top: clamp(32px, 5vw, 64px); padding-bottom: clamp(64px, 8vw, 104px); }
+.writing-page .index-list .year:last-child { border-bottom: 1px solid var(--ink); }
 .writing-page .kicker { margin-bottom: 12px; }
 .topics-label { margin: 8px 0 12px; }
 .topics { list-style: none; margin: 0 0 28px; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
@@ -236,12 +225,16 @@ a { color: inherit; }
 .prose .footnotes p { margin: 0 0 .5em; }
 .prose a.reversefootnote { text-decoration: none; }
 .prose { position: relative; }
-.sidenote { position: absolute; left: calc(100% + 56px); width: 240px; margin: 0;
-  font: 14px/1.55 var(--serif); color: var(--ink-2); }
+.sidenote { position: absolute; left: calc(100% + 56px); width: 260px; margin: 0; padding: 12px 34px 12px 14px;
+  background: var(--paper-2); border-left: 2px solid var(--accent); border-radius: 0 6px 6px 0;
+  font: 14px/1.55 var(--serif); color: var(--ink-2); animation: note-in .18s ease-out; }
+.sidenote .fn-close { top: 4px; right: 4px; }
+@keyframes note-in { from { opacity: 0; transform: translateX(-6px); } }
+@media (prefers-reduced-motion: reduce) { .sidenote { animation: none; } }
+.prose a.footnote[aria-expanded="true"] { background: var(--accent); color: var(--accent-ink); border-radius: 3px; }
 .sidenote .n { font: 600 11px/1 var(--sans); color: var(--accent); margin-right: 6px; vertical-align: 1px; }
 .sidenote p { margin: 0 0 .4em; display: inline; }
 .sidenote a { overflow-wrap: anywhere; }
-.has-sidenotes .footnotes { opacity: .75; }
 .fn-pop { display: block; position: relative; margin: .6em 0 .8em; padding: 12px 40px 12px 16px; background: var(--paper-2);
   border-left: 2px solid var(--accent); border-radius: 0 6px 6px 0; font: 15.5px/1.55 var(--serif); color: var(--ink-2); }
 .fn-pop a { overflow-wrap: anywhere; }
