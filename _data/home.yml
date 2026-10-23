@@ -90,7 +90,7 @@ writing:
 # "Elsewhere": other things you do. Images go in assets/now/.
 elsewhere:
   - title: Actual Spirit on YouTube
-    text: Lectures and conversations on philosophy, art, science and politics, in English and Dutch.
+    text: Lectures and conversations, in English and Dutch.
     image: /assets/now/videos.jpg
     url: https://www.youtube.com/@Actual_Spirit
     link_label: Watch
