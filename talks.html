@@ -14,16 +14,16 @@ description: Lectures and conversations by Dimitri F. Crooijmans on Hegel, Lacan
   </header>
 
   {% if featured %}
-  <a class="talk-featured" href="{{ featured.url }}">
-    <span class="thumb"><img src="/assets/talks/{{ featured.thumb }}.jpg" alt="" width="640" height="360"><span class="play" aria-hidden="true"></span></span>
-    <span class="body">
-      <span class="kicker">Start with this one</span>
-      <span class="t">{{ featured.title }}</span>
-      {% include talk-meta.html v=featured %}
-      <span class="more">Watch ↗</span>
-    </span>
-  </a>
-  {% if featured.essay %}{% assign eu = "/articles/" | append: featured.essay | append: "/" %}{% assign e = site.posts | where: "url", eu | first %}{% if e %}<p class="talk-essay featured-essay">Read the essay: <a href="{{ e.url }}">{{ e.title }}</a></p>{% endif %}{% endif %}
+  {% if featured.essay %}{% assign eu = "/articles/" | append: featured.essay | append: "/" %}{% assign fe = site.posts | where: "url", eu | first %}{% endif %}
+  <div class="talk-featured">
+    <a class="thumb" href="{{ featured.url }}"><img src="/assets/talks/{{ featured.thumb }}-large.jpg" alt="" width="1280" height="720"><span class="play" aria-hidden="true"></span></a>
+    <div class="body">
+      <p class="kicker">Start with this one</p>
+      <h2><a href="{{ featured.url }}">{{ featured.title }}</a></h2>
+      <p class="talk-facts">{% include talk-meta.html v=featured %}</p>
+      <p class="actions"><a class="btn" href="{{ featured.url }}">Watch the lecture ↗</a>{% if fe %}<a class="btn ghost" href="{{ fe.url }}">Read the essay</a>{% endif %}</p>
+    </div>
+  </div>
   {% endif %}
 
   <div class="talk-columns">
