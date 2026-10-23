@@ -11,7 +11,7 @@ image: /assets/images/how-to-regrow-the-souls-wings/01.jpg
 ---
 As I’ve expounded in [my previous article](/articles/the-i-as-a-funny-circle/), Nietzsche and Hegel have homologous ideas regarding the fact that the soul can fly. I believe that both of them get this from Plato, who two thousand years before, spoke of the soul as a flying entity.
 
-<figure><img src="/assets/images/how-to-regrow-the-souls-wings/01.jpg" alt="" loading="lazy"></figure>
+<figure><img src="/assets/images/how-to-regrow-the-souls-wings/01.jpg" srcset="/assets/images/how-to-regrow-the-souls-wings/01-800.jpg 800w, /assets/images/how-to-regrow-the-souls-wings/01.jpg 973w" sizes="(max-width: 900px) 100vw, 860px" alt="" loading="lazy"></figure>
 
 ## Blessed with Madness from the Heavens
 
@@ -41,7 +41,7 @@ In the myth, Plato tells of the soul as a flying charioteer with two horses, one
 
 > ”Not by wrath does one kill, but by laughing. Up, let us kill the spirit of gravity! I learned to walk, since then I let myself run. I learned to fly, since then I do not wait to be pushed to move from the spot. Now I am light, now I fly, now I see myself beneath me, now a god dances through me.”[^7]
 
-<figure><img src="/assets/images/how-to-regrow-the-souls-wings/02.jpg" alt="" loading="lazy"><figcaption>The Fall of Phaethon by Peter Paul Rubens</figcaption></figure>
+<figure><img src="/assets/images/how-to-regrow-the-souls-wings/02.jpg" srcset="/assets/images/how-to-regrow-the-souls-wings/02-800.jpg 800w, /assets/images/how-to-regrow-the-souls-wings/02.jpg 1400w" sizes="(max-width: 900px) 100vw, 860px" alt="" loading="lazy"><figcaption>The Fall of Phaethon by Peter Paul Rubens</figcaption></figure>
 
 ## Get refuted and Recollect to Purify and Fly
 
@@ -65,7 +65,7 @@ To delve deeper into the analogy between the eyes and philosophical contemplatio
 
 Thought is thus a beholding, or an *inner intuiting done by the internal eye*. The intellect, this internal eye of the soul, takes up what is there, does not impose external opinion on it that would change it, but by looking on, by inner intuiting, recollects the essence out of the immediate being. The external eye is caught up in sense-perception and the perishable semblances that for Plato, as well as Hegel, are below the realm of absolute, ideal truth.
 
-<figure><img src="/assets/images/how-to-regrow-the-souls-wings/03.jpg" alt="Magritte's Realistic Surrealism – One Kings Lane — Our Style Blog" loading="lazy"><figcaption>The false mirror by Rene Magritte</figcaption></figure>
+<figure><img src="/assets/images/how-to-regrow-the-souls-wings/03.jpg" srcset="/assets/images/how-to-regrow-the-souls-wings/03-800.jpg 800w, /assets/images/how-to-regrow-the-souls-wings/03.jpg 1000w" sizes="(max-width: 900px) 100vw, 860px" alt="Magritte's Realistic Surrealism – One Kings Lane — Our Style Blog" loading="lazy"><figcaption>The false mirror by Rene Magritte</figcaption></figure>
 
 Now, back to the true reality, and the question of how the soul is to regrow its wings. In the story, the intellect, prior to creation, beheld the absolute truth. The winged soul was borne aloft and nourished by the vision, and, somehow, in its circuiting, it eventually fell to the earth, becoming human. Plato tells us that it will take *10.000 years* for the soul to fully regrow its wings and win its release. Fortunately, the soul which chooses the life of the philosopher three times successively can re-enter the bodiless state in just 3.000 years. How are we to interpret this? At the very least it’s clear that it will take a few deaths, a long time, and a soul dedicated to the pursuit of truth to regrow one’s wings. Some of the aspects of the process are described as follows:
 

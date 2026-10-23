@@ -26,7 +26,7 @@ layout: default
 <section class="wrap block">
   <p class="label">Latest essay</p>
   <a class="lead" href="{{ latest.url }}">
-    {% if latest.image %}<img src="{{ latest.image }}" alt="" loading="lazy">{% endif %}
+    {% if latest.image %}{% include img.html src=latest.image sizes="(max-width: 900px) 100vw, 620px" %}{% endif %}
     <div>
       <p class="meta">{{ latest.date | date: "%-d %B %Y" }} · {% include read-time.html content=latest.content %}</p>
       <h2 class="display">{{ latest.title }}</h2>
@@ -48,7 +48,7 @@ layout: default
     {% if post %}
     <a class="tile" href="{{ post.url }}">
       <span class="num">0{{ forloop.index }}</span>
-      {% if post.image %}<img src="{{ post.image }}" alt="" loading="lazy">{% endif %}
+      {% if post.image %}{% include img.html src=post.image sizes="(max-width: 640px) 132px, (max-width: 900px) 100vw, 360px" %}{% endif %}
       <h3>{{ post.title }}</h3>
       <p>{{ item.blurb | default: post.description }}</p>
     </a>

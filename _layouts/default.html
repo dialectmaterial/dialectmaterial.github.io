@@ -17,6 +17,8 @@
   <meta name="description" content="{{ desc | strip_html | strip_newlines | escape }}">
   <meta name="author" content="{{ site.author }}">
   {% if page.sitemap == false %}<meta name="robots" content="noindex">{% endif %}
+  {% if page.translation %}{% assign other_url = "/articles/" | append: page.translation | append: "/" %}{% assign other = site.posts | where: "url", other_url | first %}{% if other %}<link rel="alternate" hreflang="{{ page.lang | default: 'en' }}" href="{{ site.url }}{{ page.url }}">
+  <link rel="alternate" hreflang="{{ other.lang | default: 'en' }}" href="{{ site.url }}{{ other.url }}">{% endif %}{% endif %}
   <link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
@@ -40,9 +42,9 @@
   </script>
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml">
   {% include structured-data.html %}
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600&display=swap">
+  <link rel="preload" href="/assets/fonts/source-serif-4-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/instrument-serif-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/fonts.css">
   <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>

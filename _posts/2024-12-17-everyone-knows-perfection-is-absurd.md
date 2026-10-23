@@ -9,7 +9,7 @@ related: [the-refusal-to-enjoy, only-free-will-is-thoughtful]
 substack: https://actualspirit.substack.com/p/everyone-knows-perfection-is-absurd
 image: /assets/images/everyone-knows-perfection-is-absurd/01.jpg
 ---
-<figure><img src="/assets/images/everyone-knows-perfection-is-absurd/01.jpg" alt="" loading="lazy"></figure>
+<figure><img src="/assets/images/everyone-knows-perfection-is-absurd/01.jpg" srcset="/assets/images/everyone-knows-perfection-is-absurd/01-800.jpg 800w, /assets/images/everyone-knows-perfection-is-absurd/01.jpg 1024w" sizes="(max-width: 900px) 100vw, 860px" alt="" loading="lazy"></figure>
 
 Reality is perfect, because perfection is reality itself, apart from which nothing exists. God, or nature, is this substance, the perfect reality.
 
@@ -352,7 +352,7 @@ I hope to have shown that whenever Spinoza is referred to as a monist/pantheist 
 
 Spinoza’s strength as a thinker, is that he fails to seal up his own formal system and inserts gaps of knowledge with non-mediated speech acts that stain the entirety of the *Ethics* with zealous engagement. Inconceivable without the drive and far from a dispassionate attitude, this dislocated subjective involvement is a rarity indispensable to think ontology, ethics and politics today.
 
-<figure><img src="/assets/images/everyone-knows-perfection-is-absurd/02.jpg" alt="" loading="lazy"><figcaption>Excommunicated Spinoza</figcaption></figure>
+<figure><img src="/assets/images/everyone-knows-perfection-is-absurd/02.jpg" srcset="/assets/images/everyone-knows-perfection-is-absurd/02-800.jpg 800w, /assets/images/everyone-knows-perfection-is-absurd/02.jpg 1248w" sizes="(max-width: 900px) 100vw, 860px" alt="" loading="lazy"><figcaption>Excommunicated Spinoza</figcaption></figure>
 
 
 [^1]: *Ethics*, Part I Axiom I. (e1a1)  

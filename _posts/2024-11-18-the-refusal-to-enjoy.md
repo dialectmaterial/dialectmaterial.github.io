@@ -9,7 +9,7 @@ related: [everyone-knows-perfection-is-absurd, trauma]
 substack: https://actualspirit.substack.com/p/the-refusal-to-enjoy
 image: /assets/images/the-refusal-to-enjoy/01.jpg
 ---
-<figure><img src="/assets/images/the-refusal-to-enjoy/01.jpg" alt="" loading="lazy"></figure>
+<figure><img src="/assets/images/the-refusal-to-enjoy/01.jpg" srcset="/assets/images/the-refusal-to-enjoy/01-800.jpg 800w, /assets/images/the-refusal-to-enjoy/01.jpg 1024w" sizes="(max-width: 900px) 100vw, 860px" alt="" loading="lazy"></figure>
 
 Descartes can’t be blamed for positing the necessity of God’s existence for establishing the truth of our shared reality. On the one hand, this move can be seen as halting the solipsistic madness of the self-causing cogito, on the other hand — and this falls outside the anachronistic light of reason — God’s existence constitutes the madness of the embodiment in reality.
 

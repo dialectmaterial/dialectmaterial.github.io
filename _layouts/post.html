@@ -9,6 +9,7 @@ layout: default
     <p class="meta"><a href="/writing/">Writing</a> · {{ page.date | date: "%-d %B %Y" }} · {% include read-time.html content=content %}</p>
     <h1 class="display">{{ page.title }}</h1>
     {% if page.subtitle != "" %}<p class="dek">{{ page.subtitle }}</p>{% endif %}
+    {% if page.translation %}{% assign other_url = "/articles/" | append: page.translation | append: "/" %}{% assign other = site.posts | where: "url", other_url | first %}{% if other %}<p class="translation"><a href="{{ other.url }}" hreflang="{{ other.lang | default: 'en' }}" lang="{{ other.lang | default: 'en' }}">{% if other.lang == "nl" %}Lees dit in het Nederlands{% else %}Read this in English{% endif %} →</a></p>{% endif %}{% endif %}
   </header>
 
   <div class="post-body">
@@ -27,7 +28,7 @@ layout: default
     {% endif %}
 
     <div class="prose">
-{% if page.image %}{% unless content contains page.image %}<figure class="cover"><img src="{{ page.image }}" alt=""></figure>{% endunless %}{% endif %}
+{% if page.image %}{% unless content contains page.image %}<figure class="cover">{% include img.html src=page.image sizes="(max-width: 900px) 100vw, 860px" lazy=false %}</figure>{% endunless %}{% endif %}
 {{ content }}
     </div>
   </div>

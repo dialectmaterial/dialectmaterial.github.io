@@ -1,0 +1,7 @@
+{%- comment -%}
+  An image with its smaller copy (made by tools/make-image-sizes.py) when there is one.
+  Parameters: src, sizes, alt (optional), lazy (optional, default true).
+{%- endcomment -%}
+{%- assign small = include.src | split: "." | pop | join: "." | append: "-800.jpg" -%}
+{%- assign found = site.static_files | where: "path", small | first -%}
+<img src="{{ include.src }}"{% if found %} srcset="{{ small }} 800w, {{ include.src }} 1600w" sizes="{{ include.sizes }}"{% endif %} alt="{{ include.alt }}"{% unless include.lazy == false %} loading="lazy"{% endunless %}>

@@ -5,13 +5,14 @@ description: "Spirit in Hegel’s book ‘Phenomenology of Spirit’ is the proc
 date: 2022-04-29
 permalink: /articles/spiritual-practice-the-forward-return/
 topics: [Hegel, Religion and mysticism]
+translation: spirituele-praktijk-de-voorwaartse   # the same essay in the other language
 related: [the-dialectic-of-the-i, the-mystical-is-rational]
 substack: https://actualspirit.substack.com/p/spiritual-practice-the-forward-return
 image: /assets/images/spiritual-practice-the-forward-return/01.jpg
 ---
 Spirit in Hegel’s book ‘Phenomenology of Spirit’ is the process of its own self-becoming. It is the movement of knowing that is aimed at forming a deeper knowing of itself. Its power lies in staying self-same in externalizing itself, i.e. becoming other to itself. Its supreme freedom and certainty of the knowledge of itself is the release from the form of its self. By moving forward, Spirit returns to itself.
 
-<figure><img src="/assets/images/spiritual-practice-the-forward-return/01.jpg" alt="" loading="lazy"></figure>
+<figure><img src="/assets/images/spiritual-practice-the-forward-return/01.jpg" srcset="/assets/images/spiritual-practice-the-forward-return/01-800.jpg 800w, /assets/images/spiritual-practice-the-forward-return/01.jpg 1280w" sizes="(max-width: 900px) 100vw, 860px" alt="" loading="lazy"></figure>
 
 > “The force of spirit is only as great as its expression, and its depth goes only as deep as it trusts itself to disperse itself and to lose itself in its explication of itself.” - Hegel, PoS, (transl. Pinkard).
 
@@ -25,7 +26,7 @@ Immanuel Kant argues that pure reason is not a truthful instrument to arrive at 
 
 > “One cannot step in the same river twice.” - Heraclitus
 
-<figure><img src="/assets/images/spiritual-practice-the-forward-return/02.jpg" alt="" loading="lazy"></figure>
+<figure><img src="/assets/images/spiritual-practice-the-forward-return/02.jpg" srcset="/assets/images/spiritual-practice-the-forward-return/02-800.jpg 800w, /assets/images/spiritual-practice-the-forward-return/02.jpg 1024w" sizes="(max-width: 900px) 100vw, 860px" alt="" loading="lazy"></figure>
 
 > “Something moves not because at one moment of time it is here and at another there, but because at one and the same moment it is here and not here.” - G.W.F. Hegel, SoL.
 
@@ -47,4 +48,4 @@ Fundamental to the transformative spiritual practice is the revelation of the ne
 
 The meeting of one’s demons is inevitable. The contingency of the spiritual practice lies in the formative work one puts in after having acknowledged the meeting as a negative and therefore crucial self-encounter. This formative work transforms the destructive demons into zealous angels and is the supersession of oneself. This rebirth is the attainment of a newer, livelier, more real, more present and more aware self. It is the attainment of a new way to *be for self and others* as a more actual self.
 
-<figure><img src="/assets/images/spiritual-practice-the-forward-return/03.jpg" alt="" loading="lazy"></figure>
+<figure><img src="/assets/images/spiritual-practice-the-forward-return/03.jpg" srcset="/assets/images/spiritual-practice-the-forward-return/03-800.jpg 800w, /assets/images/spiritual-practice-the-forward-return/03.jpg 1066w" sizes="(max-width: 900px) 100vw, 860px" alt="" loading="lazy"></figure>

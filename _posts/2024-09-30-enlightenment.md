@@ -147,7 +147,7 @@ Dickie’s eyelids came down, as he was carried away by the relaxation of his re
 
 Then, he finally awoke from the dream that was his former life, into his truest dream. Wherever he went, wherever he used to leak, he would now seep. As ever, he was still made out to be a freak, yet he refound his foundation time and time and time again, each as ever slightly oblique, rearranging his shape, reaping the misfitted benefits. Time and time and time again.[^1]
 
-<figure><img src="/assets/images/enlightenment/01.jpg" alt="" loading="lazy"></figure>
+<figure><img src="/assets/images/enlightenment/01.jpg" srcset="/assets/images/enlightenment/01-800.jpg 800w, /assets/images/enlightenment/01.jpg 1400w" sizes="(max-width: 900px) 100vw, 860px" alt="" loading="lazy"></figure>
 
 
 [^1]: The authors took turns writing each scene. The one rule during the writing process was that they could not speak about that which was not written yet, or what was to come.

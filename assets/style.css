@@ -251,6 +251,9 @@ iframe.spotify { display: block; width: 100%; border: 0; border-radius: 12px; }
 .signoff .comment { font: 500 14px/1 var(--sans); color: var(--ink-2); text-decoration: none; }
 .signoff .comment:hover { color: var(--accent); }
 .prose .cover { margin-top: 0; }
+.translation { margin: 18px 0 0; font: 500 14px/1.4 var(--sans); }
+.translation a { color: var(--accent); text-decoration: none; }
+.translation a:hover { text-decoration: underline; }
 .about-photo { float: right; width: 200px; margin: 0 0 1em 32px !important; }
 .prose .about-photo img { aspect-ratio: 1; object-fit: cover; border-radius: 50%; filter: grayscale(1); }
 @media (max-width: 640px) { .about-photo { float: none; width: 140px; margin: 0 0 1.2em !important; } }

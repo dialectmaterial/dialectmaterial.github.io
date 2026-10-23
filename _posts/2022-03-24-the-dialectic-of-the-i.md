@@ -11,7 +11,7 @@ image: /assets/images/the-dialectic-of-the-i/01.jpg
 ---
 Section 508 in the Phenomenology of Spirit is an extremely interesting and important section in which Hegel aims to explicate the self-alienation which is a necessity in the realm of actual language, as well as show how language makes an individual universal through the particular. What I find especially thought-provoking is how the singular relates to universality in the "third dialectical moment (negation of the negation)". Singularity seems like the coincidence of universal and particular expressed in language *as* an universality, which is the way it remains/persists in the tension between particular and universal.
 
-<figure><img src="/assets/images/the-dialectic-of-the-i/01.jpg" alt="" loading="lazy"></figure>
+<figure><img src="/assets/images/the-dialectic-of-the-i/01.jpg" srcset="/assets/images/the-dialectic-of-the-i/01-800.jpg 800w, /assets/images/the-dialectic-of-the-i/01.jpg 1063w" sizes="(max-width: 900px) 100vw, 860px" alt="" loading="lazy"></figure>
 
 The alienation of Spirit takes place solely in language. In the actual world, language has the essence for its content and is the form of that content. In other words, the content of language is its essence, and language is the form of the content which it has. In its self-alienation its content is the form, which language itself is, and is authoritative as language.
 

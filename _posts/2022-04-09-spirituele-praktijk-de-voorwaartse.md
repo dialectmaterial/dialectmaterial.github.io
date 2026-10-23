@@ -6,6 +6,7 @@ description: "Hegels geest is een zelf-bewust wordende eenheid die zichzelf door
 date: 2022-04-09
 permalink: /articles/spirituele-praktijk-de-voorwaartse/
 topics: [Hegel, Religion and mysticism]
+translation: spiritual-practice-the-forward-return   # the same essay in the other language
 related: [spiritual-practice-the-forward-return, the-dialectic-of-the-i]
 substack: https://actualspirit.substack.com/p/spirituele-praktijk-de-voorwaartse
 image: /assets/images/spirituele-praktijk-de-voorwaartse/01.jpg
@@ -14,7 +15,7 @@ Hegels geest is een zelf-bewust wordende eenheid die zichzelf door middel van co
 
 > "Aldus zien we de *taal* weer als het er-zijn van de geest. De taal is het*voor anderen* zijnde zelfbewustzijn, dat onmiddellijk als *zodanig* *aanwezig,* en als *dit zelfbewustzijn* algemeen is. De taal is het zich van zichzelf afgescheidene zelf, dat als zuiver ik = ik voor zichzelf voorwerpelijk wordt, en zich in deze voorwerpelijkheid zowel als dit *Zelf* handhaaft, als onmiddellijk samenvloeit met de anderen en *hun* zelfbewustzijn is; het verneemt zichzelf net zo als het door de anderen vernomen wordt, en dit vernemen is precies het *tot Zelf geworden er-zijn" -* G.W.F. Hegel, FvdG, sectie 651.
 
-<figure><img src="/assets/images/spirituele-praktijk-de-voorwaartse/01.jpg" alt="" loading="lazy"></figure>
+<figure><img src="/assets/images/spirituele-praktijk-de-voorwaartse/01.jpg" srcset="/assets/images/spirituele-praktijk-de-voorwaartse/01-800.jpg 800w, /assets/images/spirituele-praktijk-de-voorwaartse/01.jpg 1200w" sizes="(max-width: 900px) 100vw, 860px" alt="" loading="lazy"></figure>
 
 Taal is het er-zijn van de geest. Er is simpelweg geen algemene waarheid of werkelijkheid buiten taal en voor zover die er wel is, is zij er als een buiten dat binnen is. De veronderstelling dat er een werkelijkheid of wereld achter en/of *buiten* taal is is zelf-ontkrachtend omdat het opperen van zulke ideeën altijd al *binnen* taal geschiedt.
 
@@ -22,7 +23,7 @@ Immanuel Kant stelt dat zuivere rede geen waarheidsgetrouw instrument is om voor
 
 > “Men kan niet tweemaal in dezelfde rivier stappen.” - Heraclitus
 
-<figure><img src="/assets/images/spirituele-praktijk-de-voorwaartse/02.jpg" alt="" loading="lazy"></figure>
+<figure><img src="/assets/images/spirituele-praktijk-de-voorwaartse/02.jpg" srcset="/assets/images/spirituele-praktijk-de-voorwaartse/02-800.jpg 800w, /assets/images/spirituele-praktijk-de-voorwaartse/02.jpg 1200w" sizes="(max-width: 900px) 100vw, 860px" alt="" loading="lazy"></figure>
 
 > “Iets beweegt, niet omdat het nu hier en dan daar is op een ander nu, maar omdat het in één en hetzelfde nu hier *en* niet hier is, omdat het in dit hier is en tegelijkertijd niet is.“ - G.W.F. Hegel, WvdL.
 
@@ -36,4 +37,4 @@ De transformatieve spirituele praktijk vergt dus een confrontatie met de negatie
 
 Wees dankbaar voor de weerkaatsing die voorvalt wanneer de negativiteit die je zelf bent geopenbaard wordt. Sta jezelf toe jezelf te verliezen in het diepe waar de destructieve demonen naar buiten komen en zichzelf verwerkelijken. Werk er vervolgens aan om hen in ijverige engels om te vormen en overstijg jezelf zodoende. Herboren worden is het winnen van een nieuwer, echter, levendiger, aanweziger en bewuster zelf. Herboren worden is het winnen van een nieuwe manier om *voor anderen* te zijn als werkelijker zelf.
 
-<figure><img src="/assets/images/spirituele-praktijk-de-voorwaartse/03.jpg" alt="" loading="lazy"></figure>
+<figure><img src="/assets/images/spirituele-praktijk-de-voorwaartse/03.jpg" srcset="/assets/images/spirituele-praktijk-de-voorwaartse/03-800.jpg 800w, /assets/images/spirituele-praktijk-de-voorwaartse/03.jpg 1066w" sizes="(max-width: 900px) 100vw, 860px" alt="" loading="lazy"></figure>

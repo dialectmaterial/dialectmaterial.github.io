@@ -11,7 +11,7 @@ image: /assets/images/the-mystical-is-rational/01.png
 ---
 Christian mysticism is the element of Christian belief and practice that concerns the direct and transformative presence of God. The adjective '*mystical*' means 'hidden' in Greek and refers to 'secret' realities of beliefs, rituals and practices, or the mystical meaning of the Bible itself, i.e. the inner message about attaining, knowing, or experiencing God. Mystical life is essentially a process, or a journey to God, not just a moment or brief state of mystical union. Instead, the mystic's journey consists mostly of preparation for God's intervention in one's life.
 
-<figure><img src="/assets/images/the-mystical-is-rational/01.png" alt="" loading="lazy"><figcaption>Eternal Desire by Mariusz Lewandowski</figcaption></figure>
+<figure><img src="/assets/images/the-mystical-is-rational/01.png" srcset="/assets/images/the-mystical-is-rational/01-800.jpg 800w, /assets/images/the-mystical-is-rational/01.png 1063w" sizes="(max-width: 900px) 100vw, 860px" alt="" loading="lazy"><figcaption>Eternal Desire by Mariusz Lewandowski</figcaption></figure>
 
 This mystical union, could be an experience of a perfect harmony of becoming in an ecstatic state. For many mystics in history however, there have been other means by which one speaks of special contact with God, such as contemplation, vision, deification, birthing, unending desire and so on. Therefore, to reduce mystical experiences to a simple fusion, dissipation, absorption in or with God or Oneness, or an archaic pre-modern/ancient illusion that entails a regression or "return" to the inorganic as Freud said about the"nirvana principle" doesn't suffice today.
 
@@ -33,7 +33,7 @@ A Scientist of Spirit, thrown into his own Otherness, can, in the mystical exper
 
 > “The eye through which I see God is the same eye through which God sees me; my eye and God's eye are one eye, one seeing, one knowing, one love.” - Meister Eckhart
 
-<figure><img src="/assets/images/the-mystical-is-rational/03.jpg" alt="Meister Eckhart Quotes" loading="lazy"><figcaption>Meister Eckhart</figcaption></figure>
+<figure><img src="/assets/images/the-mystical-is-rational/03.jpg" srcset="/assets/images/the-mystical-is-rational/03-800.jpg 800w, /assets/images/the-mystical-is-rational/03.jpg 1456w" sizes="(max-width: 900px) 100vw, 860px" alt="Meister Eckhart Quotes" loading="lazy"><figcaption>Meister Eckhart</figcaption></figure>
 
 Alain Badiou has expounded his own theory on the relation between mysticism and philosophy. It is of interest here as it provides a starting point to understand Hegel's speculative philosophy as a form of scientific mysticism. In one of his lectures, Alain says:
 

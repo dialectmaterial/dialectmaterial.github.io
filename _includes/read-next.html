@@ -24,7 +24,7 @@
   <div class="pair">
     {%- for post in picks %}
     <a class="tile" href="{{ post.url }}">
-      {% if post.image %}<img src="{{ post.image }}" alt="" loading="lazy">{% endif %}
+      {% if post.image %}{% include img.html src=post.image sizes="(max-width: 640px) 132px, 420px" %}{% endif %}
       <h3>{{ post.title }}</h3>
       <p>{{ post.description | default: post.subtitle | strip_html | truncatewords: 18 }}</p>
       <span class="meta">{% include read-time.html content=post.content %}</span>

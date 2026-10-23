@@ -24,7 +24,7 @@ The choice seems to be:
 
 In his *Philosophy of Right*, Hegel sees spirit, and the free will specifically as a necessary belief of the fact of self-consciousness. His position is not reducible to the two options above. Attempting to prove the free will, by giving a definition and subsequently looking for some corresponding fact is not the way he proceeds to assert the actuality, the truth, of free will.
 
-<figure><img src="/assets/images/only-free-will-is-thoughtful/01.jpg" alt="" loading="lazy"><figcaption> La Liberté ou la mort by Jean-Baptiste Regnault, 1795</figcaption></figure>
+<figure><img src="/assets/images/only-free-will-is-thoughtful/01.jpg" srcset="/assets/images/only-free-will-is-thoughtful/01-800.jpg 800w, /assets/images/only-free-will-is-thoughtful/01.jpg 1200w" sizes="(max-width: 900px) 100vw, 860px" alt="" loading="lazy"><figcaption> La Liberté ou la mort by Jean-Baptiste Regnault, 1795</figcaption></figure>
 
 ## The freedom of subtraction and destruction
 
@@ -48,7 +48,7 @@ Free will, as the I, shatters the opposition between universality and particular
 
 But it is this contradictory incomprehensibility, not keeping to the rules of formal logic, which is simply the concept itself. In love and friendship I am limited, and I myself have determined this limitation. Is that true? I have not chosen my flaws which inevitably appear in these relationships. I have not, yet insofar I still hold myself to be responsible for them, I take these flaws to be mine, so I must also be able to rid myself of these particularities. In love, I am not standing above my determinateness but am with it as the universal I.
 
-<figure><img src="/assets/images/only-free-will-is-thoughtful/02.jpg" alt="" loading="lazy"><figcaption>La République by Jules-Claude Ziegler, 1848</figcaption></figure>
+<figure><img src="/assets/images/only-free-will-is-thoughtful/02.jpg" srcset="/assets/images/only-free-will-is-thoughtful/02-800.jpg 800w, /assets/images/only-free-will-is-thoughtful/02.jpg 989w" sizes="(max-width: 900px) 100vw, 860px" alt="" loading="lazy"><figcaption>La République by Jules-Claude Ziegler, 1848</figcaption></figure>
 
 ## A closer look at the form of particularization
 
@@ -139,7 +139,7 @@ Because freedom as an abstraction (even if it is for itself, like in communist t
 
 > “This will to freedom [that finds its life impaired by being subjected to slavery] is no longer a drive which demands its satisfaction, but the character, – the spiritual consciousness that has become driveless *being*. – But this freedom, which has the content and purpose of freedom, is itself initially only a concept, a principle of the mind and heart, and destined to develop into objectivity, into legal, ethical, religious actuality, as well as scientific actuality.”[^9]
 
-<figure><img src="/assets/images/only-free-will-is-thoughtful/03.jpg" alt="" loading="lazy"><figcaption>Icarus rex by a <a href="https://www.instagram.com/chironrewilding/">good friend</a>, 2024</figcaption></figure>
+<figure><img src="/assets/images/only-free-will-is-thoughtful/03.jpg" srcset="/assets/images/only-free-will-is-thoughtful/03-800.jpg 800w, /assets/images/only-free-will-is-thoughtful/03.jpg 1200w" sizes="(max-width: 900px) 100vw, 860px" alt="" loading="lazy"><figcaption>Icarus rex by a <a href="https://www.instagram.com/chironrewilding/">good friend</a>, 2024</figcaption></figure>
 
 
 [^1]: §468 in Hegel’s Philosophy of Spirit. All translations are slightly modified by me.

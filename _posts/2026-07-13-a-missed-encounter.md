@@ -67,7 +67,7 @@ My capacity to comprehend and produce German plummets when I’m tired. So I was
 
 I pressed Send Message on her profile and texted her.
 
-<figure><img src="/assets/images/a-missed-encounter/01.png" alt="" loading="lazy"></figure>
+<figure><img src="/assets/images/a-missed-encounter/01.png" srcset="/assets/images/a-missed-encounter/01-800.jpg 800w, /assets/images/a-missed-encounter/01.png 1176w" sizes="(max-width: 900px) 100vw, 860px" alt="" loading="lazy"></figure>
 
 *Have I understood correctly that you return to Salzburg today  
 or was that my lack of sleep?  
@@ -83,7 +83,7 @@ Smiling to myself, it looked like we might see each other again sooner than late
 
 As I googled Salzburg, looking at pictures of the town, as well as spots on google maps, I became aware of the time pressing.
 
-<figure><img src="/assets/images/a-missed-encounter/02.png" alt="" loading="lazy"></figure>
+<figure><img src="/assets/images/a-missed-encounter/02.png" srcset="/assets/images/a-missed-encounter/02-800.jpg 800w, /assets/images/a-missed-encounter/02.png 1488w" sizes="(max-width: 900px) 100vw, 860px" alt="" loading="lazy"></figure>
 
 *Then let’s have a drink there, I arrive at 5 o’clock at the Central Station.*
 
@@ -151,7 +151,7 @@ The train slowed down and the driver announced that we are about to arrive in Sa
 
 Exhausted and feeling like I squeezed all the German I had left out of me, I switched to English for efficiency’s sake.
 
-<figure><img src="/assets/images/a-missed-encounter/03.png" alt="" loading="lazy"></figure>
+<figure><img src="/assets/images/a-missed-encounter/03.png" srcset="/assets/images/a-missed-encounter/03-800.jpg 800w, /assets/images/a-missed-encounter/03.png 1498w" sizes="(max-width: 900px) 100vw, 860px" alt="" loading="lazy"></figure>
 
 I was in train compartment 22. As I stood up, I saw people lining up to get ready to step off the train. I left my stuff behind. With the envelope in my hand, I hurried towards her. I forced myself through the crowds.
 
@@ -171,27 +171,27 @@ I walk and walk. When I’m at 26 the door to the next compartment is closed. Af
 
 I looked to my right. Hold up, there is no carriage after this one. It’s the final compartment, that’s why I couldn’t go through that door. Fuck, she’s all the way on the other side. I walked in the wrong direction.
 
-<figure><img src="/assets/images/a-missed-encounter/04.png" alt="" loading="lazy"></figure>
+<figure><img src="/assets/images/a-missed-encounter/04.png" srcset="/assets/images/a-missed-encounter/04-800.jpg 800w, /assets/images/a-missed-encounter/04.png 1486w" sizes="(max-width: 900px) 100vw, 860px" alt="" loading="lazy"></figure>
 
 I step back on the train and head back to the compartment I was at. As I walk back half-defeated, I look through the windows to see if she’s still there. Seeing everyone but her, I have no one but her on my mind. Between compartments, I exit the door to check. Then, out of a sense of futility, I sent her a picture of the envelope with her name on it.
 
-<figure><img src="/assets/images/a-missed-encounter/05.png" alt="" loading="lazy"></figure>
+<figure><img src="/assets/images/a-missed-encounter/05.png" srcset="/assets/images/a-missed-encounter/05-800.jpg 800w, /assets/images/a-missed-encounter/05.png 1488w" sizes="(max-width: 900px) 100vw, 860px" alt="" loading="lazy"></figure>
 
 To add insult to injury, assuming she won’t come back since she was in a rush to get her bus, I sent the poem.
 
-<figure><img src="/assets/images/a-missed-encounter/06.jpg" alt="" loading="lazy"></figure>
+<figure><img src="/assets/images/a-missed-encounter/06.jpg" srcset="/assets/images/a-missed-encounter/06-800.jpg 800w, /assets/images/a-missed-encounter/06.jpg 1360w" sizes="(max-width: 900px) 100vw, 860px" alt="" loading="lazy"></figure>
 
 My train was at a stand-still as if in a limbo. We texted back and forth.
 
-<figure><img src="/assets/images/a-missed-encounter/07.png" alt="" loading="lazy"></figure>
+<figure><img src="/assets/images/a-missed-encounter/07.png" srcset="/assets/images/a-missed-encounter/07-800.jpg 800w, /assets/images/a-missed-encounter/07.png 1498w" sizes="(max-width: 900px) 100vw, 860px" alt="" loading="lazy"></figure>
 
 Of course her bus was late! Sitting in my compartment, it seemed like now everything would finally work out. Looking over my shoulder on the screen, I checked how much time the train had left before leaving.
 
-<figure><img src="/assets/images/a-missed-encounter/08.png" alt="" loading="lazy"></figure>
+<figure><img src="/assets/images/a-missed-encounter/08.png" srcset="/assets/images/a-missed-encounter/08-800.jpg 800w, /assets/images/a-missed-encounter/08.png 1486w" sizes="(max-width: 900px) 100vw, 860px" alt="" loading="lazy"></figure>
 
 Standing up and exiting the train, there was no one on the platform but the train conductor and me. His Austrian frown left me unmoved. I looked to the stairs of the platform and knew she’d walk up any second now for me to hand her the letter. Then, the worst case scenario occurred.
 
-<figure><img src="/assets/images/a-missed-encounter/09.png" alt="" loading="lazy"></figure>
+<figure><img src="/assets/images/a-missed-encounter/09.png" srcset="/assets/images/a-missed-encounter/09-800.jpg 800w, /assets/images/a-missed-encounter/09.png 1486w" sizes="(max-width: 900px) 100vw, 860px" alt="" loading="lazy"></figure>
 
 The beeping door and disdainful look of the conductor forced me to jump back into the train. As I walk back to my compartment, I look through the windows. No one passes by.
 
@@ -203,11 +203,11 @@ She came back. Imprisoned in my compartment, I looked to my right and saw her wa
 
 The train slowly started moving and I was gone.
 
-<figure><img src="/assets/images/a-missed-encounter/11.png" alt="" loading="lazy"></figure>
+<figure><img src="/assets/images/a-missed-encounter/11.png" srcset="/assets/images/a-missed-encounter/11-800.jpg 800w, /assets/images/a-missed-encounter/11.png 1495w" sizes="(max-width: 900px) 100vw, 860px" alt="" loading="lazy"></figure>
 
 As the train accelerated I saw the old buildings of this town I would have visited.
 
-<figure><img src="/assets/images/a-missed-encounter/12.png" alt="" loading="lazy"></figure>
+<figure><img src="/assets/images/a-missed-encounter/12.png" srcset="/assets/images/a-missed-encounter/12-800.jpg 800w, /assets/images/a-missed-encounter/12.png 1484w" sizes="(max-width: 900px) 100vw, 860px" alt="" loading="lazy"></figure>
 
 Having nothing left to say and too jarred to doze off, the scenes of everything that did, and did not happen kept replaying themselves in my head.
 
