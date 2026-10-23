@@ -1,7 +1,7 @@
 ---
-title: "Special Announcement & To Live Philosophically"
-subtitle: "Slovenian School Reading Group & Transcript Of A Fragment On Philosophical Life"
-description: "Starting from the 22nd of January 2025. We will begin the Slovenian School Reading Group at Philosophy Portal."
+title: "To Live Philosophically"
+subtitle: "Transcript Of A Fragment On Philosophical Life"
+description: "Socates, Descartes, Žižek"
 kind: note
 date: 2025-01-06
 permalink: /articles/special-announcement-and-to-live/
@@ -9,33 +9,6 @@ related: [the-slovenian-school-reading-group, the-parallax-view]
 substack: https://actualspirit.substack.com/p/special-announcement-and-to-live
 image: /assets/images/special-announcement-and-to-live/01.jpg
 ---
-## The Slovenian School Reading Group
-
-Starting from the 22nd of January 2025. We will begin the *[Slovenian School Reading Group](https://philosophyportal.online/slovenian-school-reading-group)* [at Philosophy Portal.](https://philosophyportal.online/slovenian-school-reading-group)
-
-The first six months of the year will be devoted Mladen Dolar's *A Voice and Nothing more*. In this inventive and foundational work, Dolar grounds his philosophical theory of the voice as a Lacanian object-cause (objet petit a). The book traverses different disciplines to delve into this underexplored terrain of philosophy and psychoanalysis. In the study group, we'll be going into the linguistics, metaphysics, physics, ethics and politics of the voice.
-
-For the remainder of the year, the study group will come together to read and discuss Alenka Zupančič's *The Odd One In*. This work hones in on comedy with a Hegelian and Freudo-Lacanian lense. In this work, Zupančič goes into the political and subversive nature of comedy, and juxtaposes it to its ideological forms.
-
-Both these understudied works of the Slovenian School will help us to think the politics of subjectivity. The goal of the study group is to come to a refined understanding of the dialectical and unconscious dimensions of the subject's life in regards to the voice and comedy. Both of these books are urgent in today's world that is decidedly in need of psychoanalytically informed theory.
-
-## How to join and what do I get?
-
-We will hold monthly live-sessions accessible to all subscription tiers of my Patreon [which can be found here.](https://www.patreon.com/c/actualspirit/membership) Members of [Philosophy Portal](https://philosophyportal.online/slovenian-school-reading-group) get free access.
-
-It is also possible to join by becoming a paid subscriber to my Substack.
-
-Each group meeting will take place once per month on Wednesdays at 7PM CET (Central European Time). See the [website](https://philosophyportal.online/slovenian-school-reading-group) for the complete schedule.
-
-All live-sessions will be recorded and will be made available for participants. PDFs of the books will be provided too. Sign up now:
-
-<figure><img src="/assets/images/special-announcement-and-to-live/01.jpg" alt="" loading="lazy"></figure>
-
-Sign up at [Philosophy Portal](https://philosophyportal.online/slovenian-school-reading-group) or [Actual Spirit’s Patreon](https://www.patreon.com/c/actualspirit/membership)
-
----
-
-## Transcript
 
 <div class="embed"><iframe src="https://www.youtube-nocookie.com/embed/lbxxXufEAw4" loading="lazy" allowfullscreen title="YouTube video"></iframe></div>
 
@@ -56,13 +29,6 @@ Sometimes Marx is critiqued because of course there's not just two classes in re
 Freud and Lacan get at this fundamental fissure of the subject as regards sexuation: the split between men and women, or consciousness versus unconsciousness. And I think today to live as a philosopher, so to live in a thoughtful manner, we have to realize that we can't go back to ancient philosophy. We also can’t go back to modern philosophy, but we have to work with these fundamental fissures in sexuality and in class These are two that come to the fore for me. Why is that? To finish, because if we return to what precedes psychoanalysis and Hegel too we return to a type of dogmatism. And I would argue that Kant’s project was to a large extent responding to dogmatisms in his day and age. He awoke from his own dogmatic slumber which was this kind of Spinozan/Leibnizian idea of I'm going to systematize the whole and I'm going to give everything its place and see the fundamental harmony underlying everything. That’s both Spinoza and Leibniz to a certain extent. Kant wanted to get rid of this and got to the point of the transcendental apperception, which I don't want to go into now. What happens when we return is that we get forms of political regression. Ultimately for me, I think – and I can expand on that – I think philosophy and to live as a philosopher is also a political deed. Thinking is not opposed to deeds. It is itself a political deed. And I think it's highly important to not cover over these fundamental antagonisms of sexuality and class with beautiful ideas. I think that maybe this is the greatest danger to philosophy and also to politics today and we see this happening with many people. I can give examples. This is where I want to start, I think philosophy and being a philosopher is living a political life in thought, also.
 
 ---
-
-[Click here to sign up for the Slovenian School Reading Group](https://philosophyportal.online/slovenian-school-reading-group).
-
-Or get access to it by becoming a paid subscribed to my Substack.
-
-<figure><img src="/assets/images/special-announcement-and-to-live/02.png" alt="" loading="lazy"><figcaption>Actual Spirit Patreon</figcaption></figure>
-
 
 [^1]: Full video:
 
