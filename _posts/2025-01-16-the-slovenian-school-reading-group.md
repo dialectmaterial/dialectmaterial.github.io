@@ -1,6 +1,6 @@
 ---
-title: "The Odd One In the Voice And Nothing More"
-subtitle: "Two Short-circuits"
+title: "The Odd One In and A Voice and Nothing More"
+subtitle: "Two Short Circuits"
 description: "By Alenka Zupančič & Mladen Dolar"
 kind: note
 date: 2025-01-16
