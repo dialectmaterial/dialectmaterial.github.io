@@ -39,6 +39,8 @@
   <meta name="theme-color" content="#f3f0e6">
   <script>
     try { if (sessionStorage.getItem("theme") === "dark") document.documentElement.dataset.theme = "dark"; } catch (e) {}
+    // The phone's browser bar takes the page colour, light or dark
+    function setBar() { var m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = document.documentElement.dataset.theme === "dark" ? "#17151b" : "#f3f0e6"; }
   </script>
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml">
   {% include structured-data.html %}
@@ -84,8 +86,12 @@
       // Dark lasts for this visit only: every new visit starts light.
       var root = document.documentElement;
       root.dataset.theme = root.dataset.theme === "dark" ? "light" : "dark";
+      this.setAttribute("aria-pressed", String(root.dataset.theme === "dark"));
+      setBar();
       try { sessionStorage.setItem("theme", root.dataset.theme); } catch (e) {}
     });
+    document.querySelector(".theme").setAttribute("aria-pressed", String(document.documentElement.dataset.theme === "dark"));
+    setBar();
   </script>
 </body>
 </html>

@@ -27,7 +27,13 @@
     b.addEventListener("click", function () {
       var text = document.getElementById(b.dataset.copy).innerText.trim();
       var done = function () { var t = b.textContent; b.textContent = "Copied"; setTimeout(function () { b.textContent = t; }, 1600); };
-      if (navigator.clipboard) navigator.clipboard.writeText(text).then(done, function () {});
+      // If the browser won't copy, select the text so the reader can copy it themselves
+      var manual = function () {
+        var r = document.createRange(); r.selectNodeContents(document.getElementById(b.dataset.copy));
+        var s = getSelection(); s.removeAllRanges(); s.addRange(r);
+        var t = b.textContent; b.textContent = "Selected, press Ctrl+C"; setTimeout(function () { b.textContent = t; }, 2400);
+      };
+      if (navigator.clipboard) navigator.clipboard.writeText(text).then(done, manual); else manual();
     });
   });
 </script>
