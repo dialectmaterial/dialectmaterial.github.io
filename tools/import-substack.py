@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Import posts from a Substack publication into Jekyll Markdown posts.
+"""Import posts from the Substack publications into Jekyll Markdown posts.
 
 Usage:
     pip install markdownify beautifulsoup4
@@ -8,6 +8,7 @@ Usage:
     python3 tools/import-substack.py some-post-slug  # (re)import specific posts
 
 Writes _posts/YYYY-MM-DD-<slug>.md and downloads images to assets/images/<slug>/.
+Posts from Driftmatig (Dutch) get "lang: nl"; posts tagged as poems there are left out.
 """
 
 import argparse
@@ -20,8 +21,11 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 from markdownify import markdownify
 
-PUBLICATION = "actualspirit"
-BASE = f"https://{PUBLICATION}.substack.com"
+# name: Substack subdomain; lang: set on the posts' front matter; skip_tags: Substack tags to leave out
+PUBLICATIONS = [
+    {"name": "actualspirit"},
+    {"name": "driftmatig", "lang": "nl", "skip_tags": {"poezie", "poëzie", "gedicht"}},  # no poems
+]
 SKIP_SLUGS = {"coming-soon"}  # placeholder posts with no content
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -39,14 +43,24 @@ def fetch_json(url):
     return json.loads(fetch(url))
 
 
-def archive():
+def base(pub):
+    return f"https://{pub['name']}.substack.com"
+
+
+def archive(pub):
     posts, offset = [], 0
     while True:
-        page = fetch_json(f"{BASE}/api/v1/archive?sort=new&limit=50&offset={offset}")
+        page = fetch_json(f"{base(pub)}/api/v1/archive?sort=new&limit=50&offset={offset}")
         if not page:
             return posts
         posts += page
         offset += len(page)
+
+
+def wanted(entry, pub):
+    tags = {t.get("name", "").lower() for t in entry.get("postTags") or []}
+    return (entry["slug"] not in SKIP_SLUGS and entry.get("audience") == "everyone"
+            and not tags & pub.get("skip_tags", set()))
 
 
 def attrs(tag):
@@ -70,16 +84,19 @@ def download_image(url, slug, n):
     return f"/assets/images/{slug}/{path.name}"
 
 
-def local_link(href, known_slugs):
-    """Point links to other imported posts at this site instead of Substack."""
-    m = re.match(rf"https?://(?:(?:{PUBLICATION}|dimitricrooijmans)\.substack\.com|open\.substack\.com/pub/{PUBLICATION})/p/([\w-]+)", href or "")
-    if m and m.group(1) in known_slugs:
-        return f"/articles/{m.group(1)}/"
+def local_link(href, known):
+    """Point links to other imported posts at this site instead of Substack.
+    known maps (publication, Substack slug) to the slug on this site."""
+    m = re.match(r"https?://(?:([\w-]+)\.substack\.com|open\.substack\.com/pub/([\w-]+))/p/([\w-]+)", href or "")
+    if m:
+        pub = m.group(1) or m.group(2)
+        pub = "actualspirit" if pub == "dimitricrooijmans" else pub
+        if (pub, m.group(3)) in known:
+            return f"/articles/{known[pub, m.group(3)]}/"
     return href
 
 
-def convert(post, known_slugs):
-    slug = post["slug"]
+def convert(post, slug, known_slugs):
     soup = BeautifulSoup(post["body_html"], "html.parser")
     raw = {}  # placeholder -> raw HTML kept as-is in the Markdown
 
@@ -216,24 +233,33 @@ def main():
     ap.add_argument("--force", action="store_true")
     args = ap.parse_args()
 
-    entries = [p for p in archive() if p["slug"] not in SKIP_SLUGS and p.get("audience") == "everyone"]
-    known = {p["slug"] for p in entries}
+    # A Dutch post whose slug is already taken by an English one gets "-nl" on the site
+    entries, known = [], {}
+    for pub in PUBLICATIONS:
+        for entry in archive(pub):
+            if wanted(entry, pub):
+                site_slug = entry["slug"]
+                if site_slug in known.values():
+                    site_slug += f"-{pub.get('lang', pub['name'])}"
+                known[pub["name"], entry["slug"]] = site_slug
+                entries.append((pub, entry, site_slug))
     POSTS.mkdir(exist_ok=True)
     # Posts renamed on the site still point at their Substack original
     imported = {m.group(1) for f in POSTS.glob("*.md")
-                for m in [re.search(r"^substack: .*/p/([\w-]+)", f.read_text(), re.M)] if m}
-    for entry in entries:
-        slug = entry["slug"]
+                for m in [re.search(r"^substack: (\S+)", f.read_text(), re.M)] if m}
+    for pub, entry, slug in entries:
         date = entry["post_date"][:10]
         out = POSTS / f"{date}-{slug}.md"
         if args.slugs and slug not in args.slugs:
             continue
-        if (out.exists() or slug in imported) and not (args.force or args.slugs):
+        if (out.exists() or entry["canonical_url"] in imported) and not (args.force or args.slugs):
             continue
-        post = fetch_json(f"{BASE}/api/v1/posts/{slug}")
-        body = convert(post, known)
-        front = [
-            "---",
+        post = fetch_json(f"{base(pub)}/api/v1/posts/{entry['slug']}")
+        body = convert(post, slug, known)
+        front = ["---"]
+        if pub.get("lang"):
+            front.append(f"lang: {pub['lang']}")
+        front += [
             f"title: {yaml_str(post['title'].strip())}",
             f"subtitle: {yaml_str(post.get('subtitle'))}",
             f"description: {yaml_str(describe(body))}",
