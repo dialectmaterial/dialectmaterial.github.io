@@ -275,8 +275,8 @@ iframe.spotify { display: block; width: 100%; border: 0; border-radius: 12px; }
 .talks-page { padding-bottom: clamp(64px, 8vw, 104px); }
 .talks-head { display: grid; gap: 14px; padding-bottom: 32px; }
 .talks-head h1 { font-size: clamp(56px, 8vw, 96px); }
-.talks-head p { margin: 0; max-width: 38em; color: var(--ink-2); font-size: 19px; }
-.talks-head a { color: var(--accent); text-decoration: none; }
+.talks-head p { margin: 0; max-width: 46em; color: var(--ink-2); font-size: 19px; }
+.talks-head a { color: var(--accent); text-decoration: none; white-space: nowrap; }
 
 .talk-featured { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: clamp(24px, 4vw, 56px); align-items: center;
   padding: 32px 0 56px; border-top: 1px solid var(--ink); }
@@ -389,10 +389,14 @@ iframe.spotify { display: block; width: 100%; border: 0; border-radius: 12px; }
 }
 @media (max-width: 640px) {
   body { font-size: 17px; }
-  .hide-sm { display: none; }
-  .topbar .wrap { height: 60px; }
+  /* Phone top bar: name, theme and Subscribe on the first row, the page links on a second row */
+  .topbar .wrap { height: auto; flex-wrap: wrap; column-gap: 10px; row-gap: 0; padding-top: 12px; }
+  .topbar .wrap::after { content: ""; order: 2; flex-basis: 100%; }
+  .topbar nav { display: contents; }
+  .topbar .wordmark { margin-right: auto; }
+  .topbar .theme, .topbar .pill { order: 1; }
+  .topbar nav a:not(.pill) { order: 3; padding: 12px 0 11px; margin-right: 18px; }
   .wordmark { font-size: 20px; }
-  .topbar nav { gap: 16px; }
   .hero h1 { font-size: clamp(42px, 12vw, 56px); }
   .lede { font-size: 18px; }
   .section-head { flex-direction: column; gap: 4px; }
