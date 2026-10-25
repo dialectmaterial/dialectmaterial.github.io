@@ -419,6 +419,20 @@ iframe.spotify { display: block; width: 100%; border: 0; border-radius: 12px; }
   .footer nav { flex-wrap: wrap; gap: 14px 20px; }
 }
 
+/* Pages (not articles) end with some room before the footer */
+.post > .prose:last-child { padding-bottom: clamp(56px, 8vw, 96px); }
+
+/* About page: a timeline of years */
+.prose .timeline { display: grid; grid-template-columns: 4.2em minmax(0, 1fr); gap: 14px 18px; margin: 1.4em 0 0; }
+.prose .timeline dt { font: 400 26px/1.15 var(--display); color: var(--accent); }
+.prose .timeline dd { margin: 0; padding-bottom: 14px; border-bottom: 1px solid var(--rule); }
+.prose .timeline dd:last-child { border-bottom: 0; }
+
+/* Private previews: a note under the title, and passages still to check */
+.preview-note { max-width: var(--measure); margin: 0 auto 36px; padding: 12px 16px; border: 1px dashed var(--accent); border-radius: 6px;
+  font: 500 14px/1.45 var(--sans); color: var(--ink-2); }
+.check { text-decoration: underline dashed var(--accent); text-decoration-thickness: 1px; text-underline-offset: 5px; }
+
 /* Page not found */
 .notfound { min-height: 60vh; padding-top: clamp(48px, 10vw, 120px); }
 .notfound .display { font-size: clamp(56px, 9vw, 112px); margin: 8px 0 20px; }

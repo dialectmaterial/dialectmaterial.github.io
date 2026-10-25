@@ -6,7 +6,9 @@ layout: default
     {% if page.kicker %}<p class="kicker">{{ page.kicker }}</p>{% endif %}
     <h1 class="display">{{ page.title }}</h1>
     {% if page.subtitle %}<p class="dek">{{ page.subtitle }}</p>{% endif %}
+    {% if page.translation_url %}<p class="translation"><a href="{{ page.translation_url }}" hreflang="{% if page.lang == 'nl' %}en{% else %}nl{% endif %}">{% if page.lang == "nl" %}Read this in English{% else %}Lees dit in het Nederlands{% endif %} →</a></p>{% endif %}
   </header>
+  {% if page.preview %}<p class="preview-note">Private preview. Only people with this address can see this page, and search engines leave it out. Underlined passages are ones I wrote for you to check.</p>{% endif %}
   <div class="prose">
 {{ content }}
   </div>
