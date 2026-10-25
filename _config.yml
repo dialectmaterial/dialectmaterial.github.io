@@ -7,7 +7,7 @@ author_cite: Crooijmans, Dimitri F.   # surname first, as in a citation
 
 markdown: kramdown
 permalink: /articles/:title/
-exclude: [tools, README.md]
+exclude: [tools, README.md, private]
 defaults:
   - scope: { type: posts }
     values: { layout: post, kind: essay }
