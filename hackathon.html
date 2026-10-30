@@ -20,29 +20,32 @@ sitemap: false
     }
     :root { --leiden-blue: #001158; --leiden-orange: #f46e32; --white: #fff; }
     * { box-sizing: border-box; margin: 0; }
-    html, body { height: 100%; }
     body {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      gap: 2.5rem;
+      gap: clamp(1.25rem, 4vh, 2.5rem);
+      min-height: 100vh;
+      min-height: 100dvh;
       padding: 1rem;
       overflow-x: hidden;
       background: var(--leiden-blue);
       color: var(--white);
       text-align: center;
     }
+    img { display: block; width: auto; height: min(36vh, 70vw); }
     h1 { font-weight: normal; }
     /* 85 columns at 0.6em each: the art always fits the screen width. */
     pre {
-      display: inline-block;
+      width: fit-content;
+      margin: 0 auto;
       font-family: ui-monospace, "DejaVu Sans Mono", Menlo, Consolas, monospace;
       font-size: min(calc((100vw - 2rem) / 52), 1.05rem);
       line-height: 1.05;
       text-align: left;
     }
-    pre + pre { margin-top: 1.2em; display: block; }
+    pre + pre { margin-top: 1.2em; }
     p {
       font-family: "Pixelify Sans", ui-monospace, monospace;
       font-weight: 500;
@@ -52,21 +55,22 @@ sitemap: false
   </style>
 </head>
 <body>
+  <img src="/assets/hackathon/leiden-seal.png" alt="Seal of Leiden University" width="994" height="1061">
   <h1 aria-label="LLMC Hackathon">
-<pre aria-hidden="true">##       ##       ##     ##  ######  
-##       ##       ###   ### ##    ## 
-##       ##       #### #### ##       
-##       ##       ## ### ## ##       
-##       ##       ##     ## ##       
-##       ##       ##     ## ##    ## 
-######## ######## ##     ##  ######  </pre>
-<pre aria-hidden="true">##     ##    ###     ######  ##    ##    ###    ######## ##     ##  #######  ##    ## 
-##     ##   ## ##   ##    ## ##   ##    ## ##      ##    ##     ## ##     ## ###   ## 
-##     ##  ##   ##  ##       ##  ##    ##   ##     ##    ##     ## ##     ## ####  ## 
-######### ##     ## ##       #####    ##     ##    ##    ######### ##     ## ## ## ## 
-##     ## ######### ##       ##  ##   #########    ##    ##     ## ##     ## ##  #### 
-##     ## ##     ## ##    ## ##   ##  ##     ##    ##    ##     ## ##     ## ##   ### 
-##     ## ##     ##  ######  ##    ## ##     ##    ##    ##     ##  #######  ##    ## </pre>
+<pre aria-hidden="true">##       ##       ##     ##  ######
+##       ##       ###   ### ##    ##
+##       ##       #### #### ##
+##       ##       ## ### ## ##
+##       ##       ##     ## ##
+##       ##       ##     ## ##    ##
+######## ######## ##     ##  ######</pre>
+<pre aria-hidden="true">##     ##    ###     ######  ##    ##    ###    ######## ##     ##  #######  ##    ##
+##     ##   ## ##   ##    ## ##   ##    ## ##      ##    ##     ## ##     ## ###   ##
+##     ##  ##   ##  ##       ##  ##    ##   ##     ##    ##     ## ##     ## ####  ##
+######### ##     ## ##       #####    ##     ##    ##    ######### ##     ## ## ## ##
+##     ## ######### ##       ##  ##   #########    ##    ##     ## ##     ## ##  ####
+##     ## ##     ## ##    ## ##   ##  ##     ##    ##    ##     ## ##     ## ##   ###
+##     ## ##     ##  ######  ##    ## ##     ##    ##    ##     ##  #######  ##    ##</pre>
   </h1>
   <p>good luck bachelor students!</p>
 </body>
