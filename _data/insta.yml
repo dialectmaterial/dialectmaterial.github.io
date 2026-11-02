@@ -1,0 +1,49 @@
+# The /insta/ page: everything that was on Instagram, kept here.
+# This file is edited by hand. The posts themselves are in _data/insta_posts.json,
+# written by tools/import-instagram.py from the Instagram export.
+
+profile:
+  username: objetlila
+  name: Dimitri F. Crooijmans
+  category: Philosopher
+  avatar: /assets/profile.jpg
+  # Line breaks are kept, as on Instagram.
+  bio: |
+    Philosophy, art, science.
+    Hegel, Lacan, the Slovenian School.
+    Leiden.
+  link:
+    label: actualspirit.com
+    url: /
+
+# A short notice above the grid. Leave empty to hide it.
+notice: I left Instagram. Everything I posted there lives on here, and new work goes to the site and Substack.
+
+# The two buttons beside the username (where Follow and Message would be).
+buttons:
+  - label: Subscribe
+    url: https://actualspirit.substack.com/subscribe
+    primary: true
+  - label: Writing
+    url: /writing/
+
+# The round "highlights" under the bio, used here as links to the rest of the site.
+highlights:
+  - label: Writing
+    url: /writing/
+    image: /assets/images/the-i-as-a-funny-circle/01-800.jpg
+  - label: Talks
+    url: /talks/
+    image: /assets/now/videos.jpg
+  - label: Music
+    url: https://open.spotify.com/artist/4vI2xDzOoqF995QOU4bREz
+    image: /assets/now/music.jpg
+  - label: Patreon
+    url: https://www.patreon.com/c/actualspirit/membership
+    image: /assets/now/patreon.jpg
+  - label: Telegram
+    url: https://t.me/objetlila
+    image: /assets/images/enlightenment/01-800.jpg
+  - label: Rose
+    url: /a-rose-is-a-rose/
+    image: /assets/icons/icon-512.png
