@@ -1,5 +1,22 @@
 [
  {
+  "id": "sample-rose",
+  "date": "2026-10-30T20:00:00",
+  "kind": "reel",
+  "caption": "A rose is a rose.\n\nSample reel, made from the rose video. The Instagram export will replace it.",
+  "media": [
+   {
+    "type": "video",
+    "src": "/assets/insta/sample-rose/01.mp4",
+    "thumb": "/assets/insta/sample-rose/01-t.jpg",
+    "poster": "/assets/insta/sample-rose/01.jpg",
+    "width": 1280,
+    "height": 720
+   }
+  ],
+  "sample": true
+ },
+ {
   "id": "20260914-193000",
   "date": "2026-09-14T19:30:00",
   "kind": "post",

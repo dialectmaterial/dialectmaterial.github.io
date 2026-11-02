@@ -12,7 +12,7 @@ Writes:
     _data/insta_posts.json     every post and reel, newest first
     assets/insta/<id>/NN.jpg   the image, at most 1440 px on the long side
     assets/insta/<id>/NN-t.jpg a 480 px thumbnail for the grid
-    assets/insta/<id>/NN.mp4   videos as they are, with an NN.jpg poster frame
+    assets/insta/<id>/NN.mp4   videos re-encoded to 720p H.264, with an NN.jpg poster frame
     assets/insta/avatar.jpg    the profile photo
 
 Profile text (name, bio) is printed, not written: edit _data/insta.yml by hand.
@@ -104,14 +104,21 @@ def make_image(src, dest_dir, n):
 
 
 def make_video(src, dest_dir, n):
+    """Re-encode to H.264 with the short side at most 720 px, playable before it has fully downloaded."""
     vid, poster, thumb = dest_dir / f"{n:02d}.mp4", dest_dir / f"{n:02d}.jpg", dest_dir / f"{n:02d}-t.jpg"
-    shutil.copyfile(src, vid)
-    run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "0.5", "-i", str(src), "-frames:v", "1", "-q:v", "3", str(poster)])
+    scale = "scale='if(gt(iw,ih),-2,min(720,iw))':'if(gt(iw,ih),min(720,ih),-2)'"
+    run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(src), "-map", "0:v:0", "-map", "0:a:0?",
+         "-vf", scale, "-c:v", "libx264", "-preset", "slow", "-crf", "26", "-pix_fmt", "yuv420p",
+         "-c:a", "aac", "-b:a", "96k", "-movflags", "+faststart", str(vid)])
+    run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "0.5", "-i", str(vid), "-frames:v", "1", "-q:v", "3", str(poster)])
+    if not poster.exists():  # clips shorter than half a second
+        run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(vid), "-frames:v", "1", "-q:v", "3", str(poster)])
     run(["magick", str(poster), "-resize", "480x640^", "-quality", "78", str(thumb)])
     w, h = size(poster)
-    mb = vid.stat().st_size / 1e6
-    if mb > 50:
-        print(f"  warning: {vid.relative_to(ROOT)} is {mb:.0f} MB (GitHub refuses files over 100 MB)")
+    before, after = src.stat().st_size / 1e6, vid.stat().st_size / 1e6
+    print(f"    video {before:.1f} MB -> {after:.1f} MB")
+    if after > 90:
+        print(f"  warning: {vid.relative_to(ROOT)} is {after:.0f} MB (GitHub refuses files over 100 MB)")
     return {"type": "video", "src": url(vid), "thumb": url(thumb), "poster": url(poster), "width": w, "height": h}
 
 
@@ -188,6 +195,8 @@ def main():
         return
     OUT_DATA.write_text(json.dumps(posts, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Wrote {OUT_DATA.relative_to(ROOT)}")
+    total = sum(f.stat().st_size for f in OUT_MEDIA.rglob("*") if f.is_file()) / 1e6
+    print(f"assets/insta/ is now {total:.0f} MB (keep the whole site well under 1 GB for GitHub Pages)")
     # Folders from an earlier import that are no longer in the export
     keep = {p["id"] for p in posts}
     for d in OUT_MEDIA.iterdir():

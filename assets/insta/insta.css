@@ -138,11 +138,28 @@ p { margin: 0; }
 .track::-webkit-scrollbar { display: none; }
 .slide { flex: 0 0 100%; height: 100%; scroll-snap-align: center; display: grid; place-items: center; }
 .slide img, .slide video { width: 100%; height: 100%; object-fit: contain; }
+.vid { position: relative; width: 100%; height: 100%; }
+.vid video { cursor: pointer; }
+.vid-play {
+  position: absolute; top: 50%; left: 50%; width: 72px; height: 72px; margin: -36px 0 0 -36px; border-radius: 50%;
+  display: grid; place-items: center; background: rgba(0,0,0,.35); color: #fff; cursor: pointer;
+  opacity: 0; pointer-events: none; transition: opacity .15s;
+}
+.vid-play svg { width: 34px; height: 34px; margin-left: 4px; }
+.vid.paused .vid-play { opacity: 1; pointer-events: auto; }
+.vid-sound {
+  position: absolute; right: 12px; bottom: 16px; width: 30px; height: 30px; border-radius: 50%;
+  display: grid; place-items: center; background: rgba(20,18,24,.7); color: #fff;
+}
+.vid-sound svg { width: 16px; height: 16px; }
+.vid-bar { position: absolute; left: 0; right: 0; bottom: 0; height: 12px; cursor: pointer; display: flex; align-items: flex-end; }
+.vid-bar i { position: relative; z-index: 1; display: block; height: 3px; width: 0; background: rgba(255,255,255,.9); }
+.vid-bar::before { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 3px; background: rgba(255,255,255,.25); }
 .step { position: absolute; top: 50%; transform: translateY(-50%); width: 30px; height: 30px; border-radius: 50%; background: rgba(255,255,255,.85); color: #111; display: grid; place-items: center; box-shadow: 0 1px 4px rgba(0,0,0,.2); }
 .step svg { width: 16px; height: 16px; }
 .step.left { left: 12px; } .step.right { right: 12px; }
 .step[hidden] { display: none; }
-.dots { position: absolute; bottom: 14px; left: 0; right: 0; display: flex; justify-content: center; gap: 4px; pointer-events: none; }
+.dots { position: absolute; bottom: 20px; left: 0; right: 0; display: flex; justify-content: center; gap: 4px; pointer-events: none; }
 .dots i { width: 6px; height: 6px; border-radius: 50%; background: rgba(255,255,255,.45); }
 .dots i.on { background: #fff; }
 

@@ -37,15 +37,15 @@
     var r = first.width && first.height ? first.width / first.height : 1;
     post.style.setProperty("--r", Math.min(1.91, Math.max(0.8, r)).toFixed(4));
 
+    // A video taken off the page keeps playing its sound unless it is stopped first.
+    track.querySelectorAll("video").forEach(function (v) { v.pause(); v.removeAttribute("src"); v.load(); });
     track.innerHTML = "";
     dots.innerHTML = "";
     p.media.forEach(function (m, k) {
       var slide = document.createElement("div");
       slide.className = "slide";
       if (m.type === "video") {
-        var v = document.createElement("video");
-        v.src = m.src; v.poster = m.poster || m.thumb || ""; v.controls = true; v.playsInline = true; v.preload = "metadata";
-        slide.appendChild(v);
+        slide.appendChild(makeVideo(m));
       } else {
         var img = document.createElement("img");
         img.src = m.src; img.alt = ""; img.decoding = "async";
@@ -57,6 +57,7 @@
     });
     track.scrollLeft = 0;
     updateSteps();
+    syncVideos();
 
     text.innerHTML = captionHTML(p.caption || "");
     var d = new Date(p.date);
@@ -77,6 +78,80 @@
     Array.prototype.forEach.call(dots.children, function (d, j) { d.className = j === k ? "on" : ""; });
   }
   track.addEventListener("scroll", function () { window.requestAnimationFrame(updateSteps); }, { passive: true });
+  track.addEventListener("scrollend", syncVideos);
+  var settle;
+  track.addEventListener("scroll", function () { clearTimeout(settle); settle = setTimeout(syncVideos, 150); }, { passive: true });
+
+  // ---------- Video, played the way reels are: muted and looping as soon as it is
+  // on screen; tap to pause, the speaker button for sound (remembered between posts).
+  var soundOn = false;
+  var ICON_MUTED = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path d="M16.5 9.5l5 5M21.5 9.5l-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
+  var ICON_SOUND = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
+
+  function makeVideo(m) {
+    var box = document.createElement("div");
+    box.className = "vid paused";
+    var v = document.createElement("video");
+    v.src = m.src; v.poster = m.poster || m.thumb || "";
+    v.muted = !soundOn; v.loop = true; v.playsInline = true; v.preload = "metadata";
+    v.setAttribute("playsinline", "");
+    var big = document.createElement("span");
+    big.className = "vid-play";
+    big.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg>';
+    var sound = document.createElement("button");
+    sound.type = "button"; sound.className = "vid-sound";
+    var bar = document.createElement("div");
+    bar.className = "vid-bar";
+    bar.innerHTML = "<i></i>";
+    function paintSound() {
+      sound.innerHTML = v.muted ? ICON_MUTED : ICON_SOUND;
+      sound.setAttribute("aria-label", v.muted ? "Turn sound on" : "Turn sound off");
+    }
+    paintSound();
+    v.addEventListener("click", function () { if (v.paused) v.play().catch(function () {}); else v.pause(); });
+    v.addEventListener("play", function () { box.classList.remove("paused"); });
+    v.addEventListener("pause", function () { box.classList.add("paused"); });
+    v.addEventListener("volumechange", paintSound);
+    v.addEventListener("timeupdate", function () {
+      if (v.duration) bar.firstChild.style.width = (100 * v.currentTime / v.duration) + "%";
+    });
+    sound.addEventListener("click", function (e) {
+      e.stopPropagation();
+      soundOn = v.muted;
+      v.muted = !soundOn;
+      if (v.paused) v.play().catch(function () {});
+    });
+    bar.addEventListener("click", function (e) {
+      var r = bar.getBoundingClientRect();
+      if (v.duration) v.currentTime = v.duration * Math.min(1, Math.max(0, (e.clientX - r.left) / r.width));
+    });
+    big.addEventListener("click", function () { v.play().catch(function () {}); });
+    box.appendChild(v); box.appendChild(big); box.appendChild(sound); box.appendChild(bar);
+    return box;
+  }
+
+  // Play the video on the slide in view, pause every other one.
+  function syncVideos() {
+    var k = slideIndex();
+    Array.prototype.forEach.call(track.children, function (slide, j) {
+      var v = slide.querySelector("video");
+      if (!v) return;
+      if (j === k && !modal.hidden) {
+        v.muted = !soundOn;
+        v.play().catch(function () {
+          // Sound needs a tap first on some browsers: start muted instead.
+          v.muted = true;
+          v.play().catch(function () {});
+        });
+      } else {
+        v.pause();
+      }
+    });
+  }
+  function currentVideo() {
+    var slide = track.children[slideIndex()];
+    return slide && slide.querySelector("video");
+  }
   function step(dir) {
     var k = Math.max(0, Math.min(track.children.length - 1, slideIndex() + dir));
     track.scrollTo({ left: k * track.clientWidth, behavior: "smooth" });
@@ -126,7 +201,10 @@
 
   document.addEventListener("keydown", function (e) {
     if (modal.hidden) return;
+    var v = currentVideo();
     if (e.key === "Escape") close();
+    else if (v && (e.key === " " || e.key === "k")) { e.preventDefault(); if (v.paused) v.play().catch(function () {}); else v.pause(); }
+    else if (v && e.key === "m") { soundOn = v.muted; v.muted = !soundOn; }
     else if (e.key === "ArrowLeft") go(-1);
     else if (e.key === "ArrowRight") go(1);
   });
