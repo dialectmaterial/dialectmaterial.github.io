@@ -1,9 +1,12 @@
 # The Talks page (actualspirit.com/talks/): lectures on the left, conversations
 # on the right, newest first, with one featured talk on top.
 # Each video: title, date, url (where to watch), thumb (an image in
-# assets/talks/<thumb>.jpg; ask Claude to fetch it), minutes, channel (where it's
-# published). Optional: with (who else is in it), event (where it was given),
-# lang: nl (for Dutch), essay (slug of a related article).
+# assets/talks/<thumb>.jpg), minutes, channel (where it's published).
+# Optional: with (who else is in it), event (where it was given), lang: nl (for
+# Dutch), essay (slug of a related article).
+# Thumbnails are local snapshots, not live images. After changing YouTube art,
+# refresh the matching JPG from https://i.ytimg.com/vi/<video-id>/maxresdefault.jpg
+# at 640x360, and the featured talk's <thumb>-large.jpg at 1280x720.
 
 featured: youtube-Cv43D6GqJds
 
