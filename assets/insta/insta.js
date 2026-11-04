@@ -23,7 +23,7 @@
   }
 
   function captionHTML(s) {
-    var esc = s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    var esc = s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
     return esc
       .replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1" rel="noopener">$1</a>')
       .replace(/(^|\s)(#[\p{L}\p{N}_]+)/gu, '$1<span class="tag">$2</span>')
@@ -202,7 +202,16 @@
   document.addEventListener("keydown", function (e) {
     if (modal.hidden) return;
     var v = currentVideo();
-    if (e.key === "Escape") close();
+    if (e.key === "Tab") {
+      // Keep keyboard focus inside the open post.
+      var f = Array.prototype.filter.call(modal.querySelectorAll("button, a[href], video"), function (el) { return !el.hidden && el.offsetParent !== null; });
+      if (!f.length) return;
+      var a = f[0], z = f[f.length - 1];
+      if (e.shiftKey && (document.activeElement === a || document.activeElement === post)) { e.preventDefault(); z.focus(); }
+      else if (!e.shiftKey && document.activeElement === z) { e.preventDefault(); a.focus(); }
+      else if (!modal.contains(document.activeElement)) { e.preventDefault(); a.focus(); }
+    }
+    else if (e.key === "Escape") close();
     else if (v && (e.key === " " || e.key === "k")) { e.preventDefault(); if (v.paused) v.play().catch(function () {}); else v.pause(); }
     else if (v && e.key === "m") { soundOn = v.muted; v.muted = !soundOn; }
     else if (e.key === "ArrowLeft") go(-1);

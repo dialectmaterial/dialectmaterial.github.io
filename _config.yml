@@ -21,7 +21,7 @@ cloudflare_analytics: "3c58669229c2495489e2427e2285a4f6"
 # Small links in the page footer.
 social:
   - label: Instagram
-    url: https://www.instagram.com/objetlila
+    url: /insta/
   - label: Telegram
     url: https://t.me/objetlila
   - label: Email

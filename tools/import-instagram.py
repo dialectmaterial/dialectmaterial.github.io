@@ -15,6 +15,11 @@ Writes:
     assets/insta/<id>/NN.mp4   videos re-encoded to 720p H.264, with an NN.jpg poster frame
     assets/insta/avatar.jpg    the profile photo
 
+Reel covers: Instagram's export leaves out the covers you chose, so the
+poster is the frame at 0.5 s, unless tools/insta-covers.json names another:
+"auto" lets ffmpeg pick a representative frame, a number is a time in seconds.
+Change covers without re-importing:  python3 tools/import-instagram.py --covers-only
+
 Profile text (name, bio) is printed, not written: edit _data/insta.yml by hand.
 Uses only the standard library, plus ImageMagick (magick) and ffmpeg.
 """
@@ -31,6 +36,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 OUT_DATA = ROOT / "_data" / "insta_posts.json"
 OUT_MEDIA = ROOT / "assets" / "insta"
+COVERS = Path(__file__).resolve().parent / "insta-covers.json"
 VIDEO = {".mp4", ".mov", ".m4v"}
 IMAGE = {".jpg", ".jpeg", ".png", ".webp", ".heic", ".heif", ".gif"}
 
@@ -103,17 +109,30 @@ def make_image(src, dest_dir, n):
     return {"type": "image", "src": url(full), "thumb": url(thumb), "width": w, "height": h}
 
 
-def make_video(src, dest_dir, n):
+def covers():
+    return json.loads(COVERS.read_text()) if COVERS.exists() else {}
+
+
+def make_poster(vid, poster, thumb, cover=None):
+    """The poster frame: at 0.5 s, at `cover` seconds, or picked by ffmpeg when cover is "auto"."""
+    if cover == "auto":
+        run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(vid), "-vf", "fps=2,thumbnail=300", "-frames:v", "1", "-q:v", "3", str(poster)])
+    else:
+        t = 0.5 if cover is None else float(cover)
+        run(["ffmpeg", "-y", "-loglevel", "error", "-ss", str(t), "-i", str(vid), "-frames:v", "1", "-q:v", "3", str(poster)])
+    if not poster.exists():  # clips shorter than half a second
+        run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(vid), "-frames:v", "1", "-q:v", "3", str(poster)])
+    run(["magick", str(poster), "-resize", "480x640^", "-quality", "78", str(thumb)])
+
+
+def make_video(src, dest_dir, n, cover=None):
     """Re-encode to H.264 with the short side at most 720 px, playable before it has fully downloaded."""
     vid, poster, thumb = dest_dir / f"{n:02d}.mp4", dest_dir / f"{n:02d}.jpg", dest_dir / f"{n:02d}-t.jpg"
     scale = "scale='if(gt(iw,ih),-2,min(720,iw))':'if(gt(iw,ih),min(720,ih),-2)'"
     run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(src), "-map", "0:v:0", "-map", "0:a:0?",
          "-vf", scale, "-c:v", "libx264", "-preset", "slow", "-crf", "26", "-pix_fmt", "yuv420p",
          "-c:a", "aac", "-b:a", "96k", "-movflags", "+faststart", str(vid)])
-    run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "0.5", "-i", str(vid), "-frames:v", "1", "-q:v", "3", str(poster)])
-    if not poster.exists():  # clips shorter than half a second
-        run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(vid), "-frames:v", "1", "-q:v", "3", str(poster)])
-    run(["magick", str(poster), "-resize", "480x640^", "-quality", "78", str(thumb)])
+    make_poster(vid, poster, thumb, cover)
     w, h = size(poster)
     before, after = src.stat().st_size / 1e6, vid.stat().st_size / 1e6
     print(f"    video {before:.1f} MB -> {after:.1f} MB")
@@ -128,7 +147,8 @@ def url(p):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("path", type=Path)
+    ap.add_argument("path", type=Path, nargs="?")
+    ap.add_argument("--covers-only", action="store_true", help="only redo video posters from tools/insta-covers.json")
     ap.add_argument("--include-archived", action="store_true", help="also import posts you archived (hidden from the profile)")
     ap.add_argument("--dry-run", action="store_true", help="list what would be imported, write nothing")
     args = ap.parse_args()
@@ -136,6 +156,14 @@ def main():
     for tool in ("magick", "ffmpeg"):
         if not shutil.which(tool):
             sys.exit(f"{tool} is needed but not installed")
+    if args.covers_only:
+        for pid, cover in covers().items():
+            for vid in sorted((OUT_MEDIA / pid).glob("[0-9][0-9].mp4")):
+                make_poster(vid, vid.with_suffix(".jpg"), vid.with_name(vid.stem + "-t.jpg"), cover)
+                print(f"{pid}/{vid.name}: cover {cover}")
+        return
+    if not args.path:
+        ap.error("PATH is needed unless --covers-only is given")
 
     with tempfile.TemporaryDirectory() as tmp:
         base = args.path
@@ -184,7 +212,8 @@ def main():
             if dest.exists():
                 shutil.rmtree(dest)
             dest.mkdir(parents=True)
-            items = [(make_video if f.suffix.lower() in VIDEO else make_image)(f, dest, n) for n, f in enumerate(files, 1)]
+            cover = covers().get(pid)
+            items = [make_video(f, dest, n, cover) if f.suffix.lower() in VIDEO else make_image(f, dest, n) for n, f in enumerate(files, 1)]
             if kind == "post" and len(items) == 1 and items[0]["type"] == "video":
                 kind = "reel"
             posts.append({"id": pid, "date": date.isoformat(), "kind": kind, "caption": caption, "media": items})
