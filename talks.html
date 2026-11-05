@@ -5,7 +5,7 @@ permalink: /talks/
 description: Lectures and conversations by Dimitri F. Crooijmans on Hegel, Lacan, Žižek, Marx and Christianity, at Philosophy Portal conferences and on YouTube.
 ---
 {% assign data = site.data.talks %}
-{% assign all = data.lectures | concat: data.conversations %}
+{% assign all = data.lectures | concat: data.conversations | sort: "date" | reverse %}
 {% assign featured = all | where: "thumb", data.featured | first %}
 <section class="wrap block talks-page">
   <header class="talks-head">
@@ -26,19 +26,91 @@ description: Lectures and conversations by Dimitri F. Crooijmans on Hegel, Lacan
   </div>
   {% endif %}
 
-  <div class="talk-columns">
-    <section aria-labelledby="lectures-h">
-      <h2 class="label talks-sub" id="lectures-h">Lectures <span>{{ data.lectures.size }}</span></h2>
-      {% include talk-list.html items=data.lectures skip=data.featured %}
-    </section>
-    {% if data.conversations.size > 0 %}
-    <section aria-labelledby="conversations-h">
-      <h2 class="label talks-sub" id="conversations-h">Conversations <span>{{ data.conversations.size }}</span></h2>
-      {% include talk-list.html items=data.conversations skip=data.featured %}
-    </section>
+  {% assign archive_count = all.size %}
+  {% assign lecture_count = data.lectures.size %}
+  {% assign conversation_count = data.conversations.size %}
+  {% assign lecture_keys = data.lectures | map: "thumb" %}
+  {% if featured %}
+    {% assign archive_count = archive_count | minus: 1 %}
+    {% if lecture_keys contains featured.thumb %}
+      {% assign lecture_count = lecture_count | minus: 1 %}
+    {% else %}
+      {% assign conversation_count = conversation_count | minus: 1 %}
     {% endif %}
-  </div>
+  {% endif %}
+  <section class="talk-archive" aria-labelledby="archive-h">
+    <header class="talk-archive-head">
+      <h2 id="archive-h">More talks</h2>
+      <p class="talk-results" role="status" aria-live="polite" aria-atomic="true">{{ archive_count }} talks · Newest first</p>
+    </header>
+    <div class="talk-controls" hidden>
+      <div class="filters" role="group" aria-label="Talk type">
+        <button type="button" data-kind="" aria-pressed="true" aria-controls="talk-grid">All <span>{{ archive_count }}</span></button>
+        <button type="button" data-kind="lecture" aria-pressed="false" aria-controls="talk-grid">Lectures <span>{{ lecture_count }}</span></button>
+        <button type="button" data-kind="conversation" aria-pressed="false" aria-controls="talk-grid">Conversations <span>{{ conversation_count }}</span></button>
+      </div>
+      <label class="talk-search">
+        <span>Search talks</span>
+        <input type="search" placeholder="Title, guest or idea…" aria-controls="talk-grid" autocomplete="off">
+      </label>
+    </div>
+    {% include talk-list.html items=all skip=data.featured %}
+    <div class="talk-empty" hidden>
+      <p>No talks match these filters.</p>
+      <button type="button">Clear filters</button>
+    </div>
+  </section>
 </section>
+
+<script>
+  // Progressive enhancement: the full archive remains available without JavaScript.
+  (function () {
+    var archive = document.querySelector(".talk-archive");
+    var controls = archive.querySelector(".talk-controls");
+    var buttons = controls.querySelectorAll("[data-kind]");
+    var search = controls.querySelector("input");
+    var status = archive.querySelector(".talk-results");
+    var empty = archive.querySelector(".talk-empty");
+    var kind = "";
+    function normalize(text) {
+      return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    }
+    var cards = Array.from(archive.querySelectorAll(".talk-grid > li")).map(function (element) {
+      return { element: element, kind: element.dataset.kind, text: normalize(element.dataset.search) };
+    });
+    function update() {
+      var query = normalize(search.value).trim();
+      var words = query ? query.split(/\s+/) : [];
+      var count = 0;
+      cards.forEach(function (card) {
+        var visible = (!kind || card.kind === kind) && words.every(function (word) {
+          return card.text.includes(word);
+        });
+        card.element.hidden = !visible;
+        if (visible) count++;
+      });
+      buttons.forEach(function (button) {
+        button.setAttribute("aria-pressed", String(button.dataset.kind === kind));
+      });
+      status.textContent = count + (count === 1 ? " talk" : " talks") + " · Newest first";
+      empty.hidden = count !== 0;
+    }
+    buttons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        kind = button.dataset.kind;
+        update();
+      });
+    });
+    search.addEventListener("input", update);
+    empty.querySelector("button").addEventListener("click", function () {
+      kind = "";
+      search.value = "";
+      update();
+      search.focus();
+    });
+    controls.hidden = false;
+  })();
+</script>
 
 {%- comment -%} Video details for search engines {%- endcomment -%}
 <script type="application/ld+json">

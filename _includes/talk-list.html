@@ -1,14 +1,29 @@
-{%- comment -%} A list of videos from _data/talks.yml, without the featured one. Thumbnails are served from this site. {%- endcomment -%}
-<ol class="talk-list">
+{%- comment -%} Newest-first archive cards; the featured talk is shown separately. {%- endcomment -%}
+{%- assign lecture_keys = site.data.talks.lectures | map: "thumb" -%}
+<ol class="talk-grid" id="talk-grid">
   {%- for v in include.items %}
   {%- if v.thumb == include.skip %}{% continue %}{% endif %}
-  <li{% if v.lang %} lang="{{ v.lang }}"{% endif %}>
+  {%- if lecture_keys contains v.thumb %}{% assign kind = "lecture" %}{% else %}{% assign kind = "conversation" %}{% endif %}
+  {%- capture searchable %}{{ v.title }} {{ v.with }} {{ v.event }} {{ v.channel }} {{ kind }}{% if v.lang == "nl" %} Dutch Nederlands{% endif %}{% endcapture %}
+  <li data-kind="{{ kind }}" data-search="{{ searchable | strip | escape }}"{% if v.lang %} lang="{{ v.lang }}"{% endif %}>
     <a class="talk" href="{{ v.url }}">
-      <img src="/assets/talks/{{ v.thumb }}.jpg" alt="" loading="lazy" width="640" height="360">
-      <span class="body">
-        <span class="t">{{ v.title }}</span>
-        {% include talk-meta.html v=v %}
+      <span class="talk-cover">
+        <img src="/assets/talks/{{ v.thumb }}.jpg" alt="" loading="lazy" width="640" height="360">
+        {% if v.minutes %}
+        <span class="talk-duration">{% if v.minutes >= 60 %}{{ v.minutes | divided_by: 60 }} h{% assign minutes = v.minutes | modulo: 60 %}{% if minutes > 0 %} {{ minutes }} min{% endif %}{% else %}{{ v.minutes }} min{% endif %}</span>
+        {% endif %}
       </span>
+      <div class="body">
+        <span class="talk-eyebrow">
+          <span class="talk-kind">{{ kind }}</span>
+          <time datetime="{{ v.date | date: '%Y-%m-%d' }}">{{ v.date | date: "%b %Y" }}</time>
+          {% if v.lang == "nl" %}<span lang="en">Dutch</span>{% endif %}
+        </span>
+        <h3 class="t">{{ v.title | escape }}</h3>
+        {% assign title_lower = v.title | downcase %}
+        {% assign guest_lower = v.with | split: " (" | first | downcase %}
+        {% if v.with %}{% unless title_lower contains guest_lower %}<span class="s">With {{ v.with | escape }}</span>{% endunless %}{% elsif v.event %}<span class="s">{{ v.event | escape }}</span>{% endif %}
+      </div>
     </a>
   </li>
   {%- endfor %}

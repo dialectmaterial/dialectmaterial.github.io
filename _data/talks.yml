@@ -1,9 +1,11 @@
-# The Talks page (actualspirit.com/talks/): lectures on the left, conversations
-# on the right, newest first, with one featured talk on top.
+# The Talks page (actualspirit.com/talks/): one featured video, then a unified
+# newest-first card archive. The featured video is not duplicated in the archive.
+# The two source sections supply the lecture/conversation filters.
 # Each video: title, date, url (where to watch), thumb (an image in
 # assets/talks/<thumb>.jpg), minutes, channel (where it's published).
 # Optional: with (who else is in it), event (where it was given), lang: nl (for
 # Dutch), essay (slug of a related article).
+# Archive search matches title, guests, event and channel; accents are optional.
 # Thumbnails are served locally, not live from the video host. Before designing
 # replacements, compare current YouTube art and existing approved artwork.
 # Keep Actual Spirit video titles in sync with the channel, not old local labels.
