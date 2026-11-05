@@ -4,13 +4,14 @@
 # assets/talks/<thumb>.jpg), minutes, channel (where it's published).
 # Optional: with (who else is in it), event (where it was given), lang: nl (for
 # Dutch), essay (slug of a related article).
-# Thumbnails are local snapshots, not live images. After changing YouTube art,
-# refresh the matching JPG from https://i.ytimg.com/vi/<video-id>/maxresdefault.jpg
+# Thumbnails are served locally, not live from the video host. Before designing
+# replacements, compare current YouTube art and existing approved artwork.
+# Refresh source art from https://i.ytimg.com/vi/<video-id>/maxresdefault.jpg
 # at 640x360, and the featured talk's <thumb>-large.jpg at 1280x720.
 # Add new entries in date order within their section; use YouTube's upload date
 # and duration rounded to minutes. Keep watch URLs free of playback timestamps.
-# Guest appearances on other channels belong here too: keep their original
-# thumbnails as local snapshots until replacement artwork has been approved.
+# Guest appearances can use matching website-only artwork without changing the
+# source channel's thumbnail. Do not overwrite these with a blind host refresh.
 
 featured: youtube-Cv43D6GqJds
 
