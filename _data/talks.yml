@@ -7,6 +7,10 @@
 # Thumbnails are local snapshots, not live images. After changing YouTube art,
 # refresh the matching JPG from https://i.ytimg.com/vi/<video-id>/maxresdefault.jpg
 # at 640x360, and the featured talk's <thumb>-large.jpg at 1280x720.
+# Add new entries in date order within their section; use YouTube's upload date
+# and duration rounded to minutes. Keep watch URLs free of playback timestamps.
+# Guest appearances on other channels belong here too: keep their original
+# thumbnails as local snapshots until replacement artwork has been approved.
 
 featured: youtube-Cv43D6GqJds
 
@@ -102,6 +106,15 @@ conversations:
     with: "Roel van Duijn"
     lang: nl
 
+  - title: "Žižek's Concept of the Parallax View"
+    date: 2026-02-23
+    url: https://www.youtube.com/watch?v=MmD3oNBF4QU
+    thumb: youtube-MmD3oNBF4QU
+    minutes: 130
+    channel: The Dangerous Maybe
+    with: "The Dangerous Maybe and Nance"
+    essay: the-parallax-view
+
   - title: "Žižek's The Parallax View"
     date: 2026-02-09
     url: https://www.youtube.com/watch?v=1WBpoApXLcA
@@ -134,6 +147,24 @@ conversations:
     minutes: 99
     channel: Philosophy Portal
     with: "Dylan Shaul, Daniel Coughlan and Cadell Last"
+
+  - title: "Communisation in Absolute Capitalism"
+    date: 2025-07-25
+    url: https://www.youtube.com/watch?v=TjbKCf5bDPQ
+    thumb: youtube-TjbKCf5bDPQ
+    minutes: 164
+    channel: O.G. Rose
+    with: "Daniel Garner (O.G. Rose)"
+    essay: communisation-in-absolute-capitalism
+
+  - title: "Communisation in Absolute Capitalism: Real vs Bad Speculations"
+    date: 2025-07-05
+    url: https://www.youtube.com/watch?v=NQawuKsIk0E
+    thumb: youtube-NQawuKsIk0E
+    minutes: 128
+    channel: Holey CoW
+    with: "Daniel (Holey CoW)"
+    essay: communisation-in-absolute-capitalism
 
   - title: "Preparing for Early Marx 101"
     date: 2025-06-07
@@ -248,6 +279,14 @@ conversations:
     minutes: 93
     channel: Actual Spirit
     with: "Bara Kolenc"
+
+  - title: "Actual Spirit, Reason, and the Art of Subjectivity"
+    date: 2023-03-10
+    url: https://www.youtube.com/watch?v=snpY6hFt4m8
+    thumb: youtube-snpY6hFt4m8
+    minutes: 115
+    channel: O.G. Rose
+    with: "Daniel Garner (O.G. Rose)"
 
   - title: "Hegel on Psychedelics"
     date: 2022-12-23
