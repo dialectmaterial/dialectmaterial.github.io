@@ -6,6 +6,7 @@
 # Dutch), essay (slug of a related article).
 # Thumbnails are served locally, not live from the video host. Before designing
 # replacements, compare current YouTube art and existing approved artwork.
+# Keep Actual Spirit video titles in sync with the channel, not old local labels.
 # Refresh source art from https://i.ytimg.com/vi/<video-id>/maxresdefault.jpg
 # at 640x360, and the featured talk's <thumb>-large.jpg at 1280x720.
 # Add new entries in date order within their section; use YouTube's upload date
@@ -98,7 +99,7 @@ lectures:
     channel: Actual Spirit
 
 conversations:
-  - title: "De Aanval op Europa"
+  - title: "De Aanval op Europa met Roel van Duijn"
     date: 2026-09-21
     url: https://www.youtube.com/watch?v=sPqUMmwDbR8
     thumb: youtube-sPqUMmwDbR8
@@ -133,7 +134,7 @@ conversations:
     channel: Philosophy Portal
     with: "Cadell Last"
 
-  - title: "Jacques Lacan's Crazy Wisdom in the World of AI"
+  - title: "Lacan, Language and AI w/ Thomas Hamelryck"
     date: 2025-08-16
     url: https://www.youtube.com/watch?v=ug4wqwxiviE
     thumb: youtube-ug4wqwxiviE
@@ -192,7 +193,7 @@ conversations:
     with: "Cadell Last"
     essay: the-odd-one-in-the-voice-and-nothing-more
 
-  - title: "To Live Philosophically"
+  - title: "What Does It Mean to Live a Philosophical Life?"
     date: 2025-01-02
     url: https://www.youtube.com/watch?v=lbxxXufEAw4
     thumb: youtube-lbxxXufEAw4
@@ -201,7 +202,7 @@ conversations:
     with: "Cadell Last"
     essay: to-live-philosophically
 
-  - title: "Dante's Divine Comedy"
+  - title: "From Hell to Paradise in Dante's Divine Comedy"
     date: 2024-11-26
     url: https://www.youtube.com/watch?v=Tm6fGvqX9xE
     thumb: youtube-Tm6fGvqX9xE
@@ -209,7 +210,7 @@ conversations:
     channel: Actual Spirit
     with: "Cleo Kearns and Daniel Garner"
 
-  - title: "Christian Atheism"
+  - title: "Christian Atheism w/ Cadell Last"
     date: 2024-10-14
     url: https://www.youtube.com/watch?v=uphRcpLNWOg
     thumb: youtube-uphRcpLNWOg
@@ -225,7 +226,7 @@ conversations:
     channel: Philosophy Portal
     with: "Cadell Last"
 
-  - title: "Philosophy of Right"
+  - title: "Philosophy of Right w/ Cadell Last"
     date: 2024-04-24
     url: https://www.youtube.com/watch?v=jVBzdiOgBn8
     thumb: youtube-jVBzdiOgBn8
@@ -241,7 +242,7 @@ conversations:
     channel: Philosophy Portal
     with: "Owen Cox, Filip Lundström, David Högberg and Cadell Last"
 
-  - title: "Power & Knowledge"
+  - title: "Who gets to produce Knowledge? Academia, Power and the Internet"
     date: 2023-10-04
     url: https://www.youtube.com/watch?v=7DYdRVAD6wE
     thumb: youtube-7DYdRVAD6wE
@@ -257,7 +258,7 @@ conversations:
     channel: Philosophy Portal
     with: "Nick Castellucci, Andrew Flores and Cadell Last"
 
-  - title: "Hegel's Concept of Reconciliation: On Absolute Spirit"
+  - title: "Hegel's Concept of Reconciliation: On Absolute Spirit w/ Dylan Shaul"
     date: 2023-07-10
     url: https://www.youtube.com/watch?v=_wpXle24ysA
     thumb: youtube-_wpXle24ysA
@@ -273,7 +274,7 @@ conversations:
     channel: Actual Spirit
     with: "Layman Pascal, Daniel Garner and Cadell Last"
 
-  - title: "Voyeurism and Exhibitionism on the Internet"
+  - title: "Voyeurism and Exhibitionism on The Internet w/ Bara Kolenc"
     date: 2023-06-04
     url: https://www.youtube.com/watch?v=MQwzBH_clQU
     thumb: youtube-MQwzBH_clQU
@@ -289,7 +290,7 @@ conversations:
     channel: O.G. Rose
     with: "Daniel Garner (O.G. Rose)"
 
-  - title: "Hegel on Psychedelics"
+  - title: "Hegel on Psychedelics w/ Cadell Last"
     date: 2022-12-23
     url: https://www.youtube.com/watch?v=ViveJvb0tWE
     thumb: youtube-ViveJvb0tWE
@@ -297,7 +298,7 @@ conversations:
     channel: Actual Spirit
     with: "Cadell Last"
 
-  - title: "What Is Christianity?"
+  - title: "What is Christianity? w/ Daniel Garner"
     date: 2022-12-13
     url: https://www.youtube.com/watch?v=WzqwwGy5DKI
     thumb: youtube-WzqwwGy5DKI
