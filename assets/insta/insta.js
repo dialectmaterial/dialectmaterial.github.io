@@ -233,12 +233,12 @@
     });
   });
 
-  // Light and dark: follows the phone unless the reader picks one (for this visit).
+  // Light and dark: follows the phone unless the reader picks one (remembered).
   document.querySelector(".bar-theme").addEventListener("click", function () {
     var root = document.documentElement;
     var dark = root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
     root.dataset.theme = dark ? "light" : "dark";
-    try { sessionStorage.setItem("theme", root.dataset.theme); } catch (e) {}
+    try { localStorage.setItem("theme", root.dataset.theme); } catch (e) {}
   });
 
   fromHash();

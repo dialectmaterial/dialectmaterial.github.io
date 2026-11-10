@@ -38,7 +38,13 @@
   <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
   <meta name="theme-color" content="#f3f0e6">
   <script>
-    try { if (sessionStorage.getItem("theme") === "dark") document.documentElement.dataset.theme = "dark"; } catch (e) {}
+    // Starts in the reader's system setting; a choice made with the toggle is remembered.
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem("theme"); } catch (e) {}
+      if (t !== "dark" && t !== "light") t = window.matchMedia && matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.dataset.theme = t;
+    })();
     // The phone's browser bar takes the page colour, light or dark
     function setBar() { var m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = document.documentElement.dataset.theme === "dark" ? "#17151b" : "#f3f0e6"; }
   </script>
@@ -54,8 +60,9 @@
     <div class="wrap">
       <a class="wordmark" href="/">{{ site.title }}</a>
       <nav>
-        <a href="/writing/">Writing</a>
-        <a href="/talks/">Talks</a>
+        {% assign section = page.url | split: "/" | slice: 1 | first %}
+        <a href="/writing/"{% if section == "writing" or section == "articles" or section == "topics" %} aria-current="{% if page.url == '/writing/' %}page{% else %}true{% endif %}"{% endif %}>Writing</a>
+        <a href="/talks/"{% if section == "talks" %} aria-current="page"{% endif %}>Talks</a>
         <a href="/#elsewhere">Elsewhere</a>
         <a href="/#about">About</a>
         <button class="theme" type="button" aria-label="Switch between light and dark">
@@ -73,9 +80,11 @@
     <div class="wrap">
       <a class="wordmark" href="/">{{ site.title }}</a>
       <nav>
+        <a href="/writing/">Writing</a>
         <a href="/talks/">Talks</a>
         <a href="{{ site.data.home.subscribe_url }}">Substack</a>
         {% for link in site.social %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}
+        <a href="/feed.xml">RSS</a>
       </nav>
       <p class="fine">© {{ site.time | date: "%Y" }} {{ site.title }}</p>
     </div>
@@ -83,12 +92,11 @@
   {% if site.cloudflare_analytics != "" %}<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ site.cloudflare_analytics }}"}'></script>{% endif %}
   <script>
     document.querySelector(".theme").addEventListener("click", function () {
-      // Dark lasts for this visit only: every new visit starts light.
       var root = document.documentElement;
       root.dataset.theme = root.dataset.theme === "dark" ? "light" : "dark";
       this.setAttribute("aria-pressed", String(root.dataset.theme === "dark"));
       setBar();
-      try { sessionStorage.setItem("theme", root.dataset.theme); } catch (e) {}
+      try { localStorage.setItem("theme", root.dataset.theme); } catch (e) {}
     });
     document.querySelector(".theme").setAttribute("aria-pressed", String(document.documentElement.dataset.theme === "dark"));
     setBar();

@@ -26,7 +26,9 @@
     <a class="tile" href="{{ post.url }}">
       {% if post.image %}{% include img.html src=post.image sizes="(max-width: 640px) 132px, 420px" %}{% endif %}
       <h3>{{ post.title }}</h3>
-      <p>{{ post.description | default: post.subtitle | strip_html | truncatewords: 18 }}</p>
+      {%- assign pick_slug = post.url | remove: "/articles/" | remove: "/" -%}
+      {%- assign starter = site.data.home.start_here.essays | where: "slug", pick_slug | first %}
+      <p>{{ starter.blurb | default: post.description | default: post.subtitle | strip_html | truncatewords: 18 }}</p>
       <span class="meta">{% include read-time.html content=post.content %}</span>
     </a>
     {%- endfor %}

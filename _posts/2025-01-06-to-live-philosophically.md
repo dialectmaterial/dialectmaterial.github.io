@@ -1,6 +1,6 @@
 ---
 title: "To Live Philosophically"
-subtitle: "Transcript Of A Fragment On Philosophical Life"
+subtitle: "Transcript of a fragment on philosophical life"
 description: "Socrates, Descartes, Žižek"
 date: 2025-01-06
 permalink: /articles/to-live-philosophically/

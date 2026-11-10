@@ -1,6 +1,7 @@
 ---
 title: "Spiritual Practice: The Forward Return to the Self"
 subtitle: "Here is a brief account of the slippery elusiveness of the contradictory whole apropos Spirit, language, negativity and transformation."
+short: "On the slippery elusiveness of the contradictory whole"   # the line under the title in lists; the subtitle stays on the article
 description: "Spirit in Hegel’s book ‘Phenomenology of Spirit’ is the process of its own self-becoming. It is the movement of knowing that is aimed at forming a deeper knowing of itself. Its power lies in staying self-same in externalizing itself, i.e.…"
 date: 2022-04-29
 permalink: /articles/spiritual-practice-the-forward-return/

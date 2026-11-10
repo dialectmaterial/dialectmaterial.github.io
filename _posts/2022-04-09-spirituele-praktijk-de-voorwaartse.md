@@ -2,6 +2,7 @@
 lang: nl
 title: "Spirituele Praktijk: De Voorwaartse Wederkeer Naar Het Zelf"
 subtitle: "Hier volgt een korte uiteenzetting over de glibberige ongrijpbaarheid van het tegensprekende geheel in zelf-verwerkelijking, taal, negativiteit en transformatie."
+short: "Over de glibberige ongrijpbaarheid van het tegensprekende geheel"   # the line under the title in lists; the subtitle stays on the article
 description: "Hegels geest is een zelf-bewust wordende eenheid die zichzelf door middel van conflicten tussen algemeenheden opheft, en zich zodoende concretiseert. De geest is zijn eigen verloop van zelf-wording."
 date: 2022-04-09
 permalink: /articles/spirituele-praktijk-de-voorwaartse/

@@ -10,6 +10,8 @@ which builds it with Jekyll on every push.
 - "Read next" under each article: the `related:` line in the post's front matter (two slugs). Posts without one show the "Start here" essays.
 - Name and footer links: `_config.yml`
 - Articles: `_posts/YYYY-MM-DD-slug.md` (plain Markdown; write new ones by hand or import them)
+- Lists of articles: a `short:` line in a post's front matter replaces a long subtitle in the lists (the subtitle stays on the article). A Dutch post with a `translation:` shows as an "Ook in het Nederlands" link under its English row, not as a row of its own.
+- Light and dark: the site starts in the reader's system setting; the toggle overrides it and is remembered.
 - Images: `assets/images/<slug>/`
 - Look: `assets/style.css`, `_layouts/`
 

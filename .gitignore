@@ -1,2 +1,6 @@
 # Drafts kept on this computer only (not on GitHub)
 private/
+
+# Local build output and Python caches
+_site/
+__pycache__/

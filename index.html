@@ -59,7 +59,7 @@ layout: default
 
 <section class="band" id="book">
   <div class="wrap book">
-    <a class="cover" href="{{ home.book.url }}"><img src="{{ home.book.image }}" alt="Cover of {{ home.book.title }}" loading="lazy"></a>
+    <a class="cover" href="{{ home.book.url }}"><img src="{{ home.book.image }}" alt="Cover of {{ home.book.title }}" width="700" height="1081" loading="lazy"></a>
     <div>
       <p class="kicker">{{ home.book.kicker }}</p>
       <h2 class="display">{{ home.book.title }}</h2>
@@ -77,7 +77,7 @@ layout: default
   <div class="trio">
     {% for card in home.elsewhere %}
     <a class="card" href="{{ card.url }}">
-      <img src="{{ card.image }}" alt="" loading="lazy">
+      <img src="{{ card.image }}" alt="" width="84" height="84" loading="lazy">
       <div>
         <h3>{{ card.title }}</h3>
         <p>{{ card.text }}</p>
@@ -95,15 +95,14 @@ layout: default
     <a class="btn ghost" href="{{ home.subscribe_url }}">Get new ones by email</a>
   </div>
   <div class="index-list">
-    {% assign recent = site.posts | slice: 0, home.writing.show %}
-    {% include writing-list.html posts=recent %}
+    {% include writing-list.html posts=site.posts limit=home.writing.show %}
     <p class="all-writing"><a href="/writing/">All selected pieces →</a></p>
   </div>
 </section>
 
 <section class="about-band" id="about">
   <div class="wrap about">
-    <img src="/assets/profile.jpg" alt="" loading="lazy">
+    <img src="/assets/profile.jpg" alt="" width="200" height="200" loading="lazy">
     <div>
       <h2 class="label">About</h2>
       <div class="about-text">{{ home.about | markdownify }}</div>

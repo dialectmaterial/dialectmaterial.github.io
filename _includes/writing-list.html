@@ -1,18 +1,29 @@
 {%- comment -%}
-  The list of posts by year, used on the home page and on /writing/.
+  The list of posts by year, used on the home page, /writing/ and the topic pages.
   Each post is labelled Essay, Story or Note ("kind" in its front matter).
+  A Dutch post that is the translation of an English one gets no row of its own:
+  the English row carries a link to it. Parameters: posts, limit (optional).
+  The line under a title is the post's "short" text when it has one, else its subtitle.
 {%- endcomment -%}
-{% assign years = include.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+{% assign main = include.posts | where_exp: "p", "p.lang != 'nl'" %}
+{% assign solo = include.posts | where: "lang", "nl" | where_exp: "p", "p.translation == nil" %}
+{% assign list = main | concat: solo | sort: "date" | reverse %}
+{% if include.limit %}{% assign list = list | slice: 0, include.limit %}{% endif %}
+{% assign years = list | group_by_exp: "p", "p.date | date: '%Y'" %}
 {% for year in years %}
 <div class="year">
   <h3>{{ year.name }}</h3>
   <ol>
     {% for post in year.items %}
+    {%- assign line = post.short | default: post.subtitle -%}
+    {%- assign other = nil -%}
+    {%- if post.translation %}{% assign other_url = "/articles/" | append: post.translation | append: "/" %}{% assign other = site.posts | where: "url", other_url | first %}{% endif %}
     <li data-kind="{{ post.kind }}"><a href="{{ post.url }}"{% if post.lang %} lang="{{ post.lang }}"{% endif %}>
       <span class="t">{{ post.title }}</span>
-      {% if post.subtitle != "" %}<span class="s">{{ post.subtitle }}</span>{% endif %}
+      {% if line and line != "" %}<span class="s">{{ line }}</span>{% endif %}
       <span class="m">{% if post.kind != "essay" %}<b>{{ post.kind }}</b> · {% endif %}{% if post.lang == "nl" %}<b>NL</b> · {% endif %}{{ post.date | date: "%-d %b" }} · {% include read-time.html content=post.content %}</span>
-    </a></li>
+    </a>
+    {%- if other %}<a class="also" href="{{ other.url }}" lang="{{ other.lang | default: 'en' }}" hreflang="{{ other.lang | default: 'en' }}">{% if other.lang == "nl" %}Ook in het Nederlands{% else %}Also in English{% endif %} →</a>{% endif %}</li>
     {% endfor %}
   </ol>
 </div>
