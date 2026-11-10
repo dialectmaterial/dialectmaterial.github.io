@@ -16,9 +16,17 @@ which builds it with Jekyll on every push.
 ## Import new Substack posts
 
 ```sh
-python3 -m venv /tmp/venv && /tmp/venv/bin/pip install markdownify beautifulsoup4
-/tmp/venv/bin/python tools/import-substack.py   # only fetches posts not imported yet
-git add -A && git commit -m "Import new articles" && git push
+tools/sync-substack.sh --check  # inspect the isolated automation clone; no network
+tools/sync-substack.sh          # fetch, import and publish from that clone
+```
+
+The scheduled importer never stages or publishes this manual checkout. The
+automation clone, setup, recovery instructions and outcome state are described
+in `~/Projects/code/home-ops/docs/publishing.md`. Manual imports in this
+checkout are separate edits: review the diff and stage selected files yourself.
+```sh
+python3 tools/import-substack.py
+git diff
 ```
 
 ## Topics, share images, citations, About
