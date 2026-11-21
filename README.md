@@ -35,7 +35,7 @@ git diff
 
 - **Topics:** each essay has a `topics: [Hegel, Politics]` line. The names and their page texts are in `_data/topics.yml`; each has a page at `/topics/<slug>/`. A new topic also needs a file in `topics/` (copy one).
 - **Share images:** `python3 tools/make-share-images.py` makes `assets/share/<slug>.jpg` for articles that have none; `--force` remakes them all (after a title or cover change).
-- **Daily import:** `tools/sync-substack.sh` imports new Substack posts, makes their share images and publishes them. It runs every day at 08:00 on Dimitri's computer (systemd user timer `actualspirit-sync`; run now with `systemctl --user start actualspirit-sync`, see the log with `journalctl --user -u actualspirit-sync`). Substack blocks GitHub's servers, so it can't be a GitHub Action. Always `git pull` before editing locally.
+- **Daily import:** new Substack posts are imported, given share images and published every day by an isolated automation clone on a Raspberry Pi, not from this checkout. Substack blocks GitHub's servers, so it can't be a GitHub Action. Setup, recovery and logs: `home-ops/docs/publishing.md` on the maintainer's machine. Always `git pull` before editing locally.
 - **Citations:** essays (not stories) end with "Cite this essay"; the name format is `author_cite` in `_config.yml`.
 - **Visitor counts:** Cloudflare Web Analytics, token `cloudflare_analytics` in `_config.yml`.
 - **About page:** `about.md` is a draft, offline while it has `published: false`.
