@@ -6,13 +6,11 @@ layout: default
 
 <section class="hero wrap">
   <div class="hero-text">
-    <p class="byline"><img src="/assets/profile.jpg" alt="" width="60" height="60"><span>{{ site.title }}<span class="kicker">{{ home.hero.kicker }}</span></span></p>
     <p class="kicker">{{ home.hero.kicker }}</p>
     <h1 class="display">{% for line in home.hero.heading %}<span>{{ line }}</span>{% endfor %}</h1>
     <div class="lede">{{ home.hero.intro | markdownify }}</div>
     <p class="actions">
       <a class="btn" href="#start-here">Read the essays</a>
-      <a class="btn ghost" href="{{ home.subscribe_url }}">Subscribe</a>
     </p>
     <ul class="quick">
       {% for link in home.quick_links %}<li><a href="{{ link.url }}">{{ link.label }}<span aria-hidden="true">↗</span></a></li>{% endfor %}
@@ -47,7 +45,6 @@ layout: default
     {% assign post = site.posts | where: "url", url | first %}
     {% if post %}
     <a class="tile" href="{{ post.url }}">
-      <span class="num">0{{ forloop.index }}</span>
       {% if post.image %}{% include img.html src=post.image sizes="(max-width: 640px) 132px, (max-width: 900px) 100vw, 360px" %}{% endif %}
       <h3>{{ post.title }}</h3>
       <p>{{ item.blurb | default: post.description }}</p>
@@ -70,29 +67,10 @@ layout: default
   </div>
 </section>
 
-<section class="wrap block" id="elsewhere">
-  <div class="section-head">
-    <h2 class="label">Elsewhere</h2>
-  </div>
-  <div class="trio">
-    {% for card in home.elsewhere %}
-    <a class="card" href="{{ card.url }}">
-      <img src="{{ card.image }}" alt="" width="84" height="84" loading="lazy">
-      <div>
-        <h3>{{ card.title }}</h3>
-        <p>{{ card.text }}</p>
-        <span class="more">{{ card.link_label }} ↗</span>
-      </div>
-    </a>
-    {% endfor %}
-  </div>
-</section>
-
 <section class="wrap block index" id="writing">
   <div class="index-side">
     <h2 class="display">{{ home.writing.heading }}</h2>
     {{ home.writing.text | markdownify }}
-    <a class="btn ghost" href="{{ home.subscribe_url }}">Get new ones by email</a>
   </div>
   <div class="index-list">
     {% include writing-list.html posts=site.posts limit=home.writing.show %}
@@ -102,7 +80,17 @@ layout: default
 
 <section class="about-band" id="about">
   <div class="wrap about">
-    <img src="/assets/profile.jpg" alt="" width="200" height="200" loading="lazy">
+    <div class="colophon-elsewhere" id="elsewhere">
+      <h2 class="label">Elsewhere</h2>
+      <ul class="colophon-list">
+        {% for card in home.elsewhere %}
+        <li><a href="{{ card.url }}">
+          <span><span class="c-title">{{ card.title }}</span><span class="c-sub">{{ card.text }}</span></span>
+          <span class="c-act">{{ card.link_label }} ↗</span>
+        </a></li>
+        {% endfor %}
+      </ul>
+    </div>
     <div>
       <h2 class="label">About</h2>
       <div class="about-text">{{ home.about | markdownify }}</div>

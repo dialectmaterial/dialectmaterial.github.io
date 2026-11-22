@@ -46,19 +46,20 @@
       document.documentElement.dataset.theme = t;
     })();
     // The phone's browser bar takes the page colour, light or dark
-    function setBar() { var m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = document.documentElement.dataset.theme === "dark" ? "#17151b" : "#f3f0e6"; }
+    function setBar() { var m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = document.documentElement.dataset.theme === "dark" ? "#16141a" : "#f3f0e6"; }
   </script>
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml">
   {% include structured-data.html %}
   <link rel="preload" href="/assets/fonts/source-serif-4-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/fonts/instrument-serif-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/instrument-serif-italic-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/fonts.css">
   <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
   <header class="topbar">
     <div class="wrap">
-      <a class="wordmark" href="/">{{ site.title }}</a>
+      <a class="wordmark" href="/"><span class="monogram" aria-hidden="true">a</span>{{ site.title }}</a>
       <nav>
         {% assign section = page.url | split: "/" | slice: 1 | first %}
         <a href="/writing/"{% if section == "writing" or section == "articles" or section == "topics" %} aria-current="{% if page.url == '/writing/' %}page{% else %}true{% endif %}"{% endif %}>Writing</a>
@@ -69,7 +70,7 @@
           <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg>
           <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></svg>
         </button>
-        <a class="pill" href="{{ site.data.home.subscribe_url }}">Subscribe</a>
+        <a class="cta" href="{{ site.data.home.subscribe_url }}">Subscribe</a>
       </nav>
     </div>
   </header>
