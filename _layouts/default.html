@@ -59,7 +59,7 @@
 <body>
   <header class="topbar">
     <div class="wrap">
-      <a class="wordmark" href="/"><span class="monogram" aria-hidden="true">a</span>{{ site.title }}</a>
+      <a class="wordmark" href="/"><img class="logo" src="/assets/rose-64.png" srcset="/assets/rose-64.png 1x, /assets/rose-128.png 2x" alt="" width="28" height="28">{{ site.title }}</a>
       <nav>
         {% assign section = page.url | split: "/" | slice: 1 | first %}
         <a href="/writing/"{% if section == "writing" or section == "articles" or section == "topics" %} aria-current="{% if page.url == '/writing/' %}page{% else %}true{% endif %}"{% endif %}>Writing</a>

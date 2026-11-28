@@ -20,3 +20,4 @@ A Jekyll site on GitHub Pages. Pushing `main` publishes it. The README maps ever
 - Talks: `_data/talks.yml`, thumbnails 640x360 in `assets/talks/`.
 - Topic names are the owner's choice ("Modern philosophy", "Dialectical materialism"); don't rename them.
 - `a-rose-is-a-rose/index.html` is a build product of an artwork project outside this repo; replace it whole rather than editing it.
+- `local/index.html` ("Open-Source Must Win" in dot art) is likewise built by `~/Pictures/artwork/open-source-must-win/build.py` (run with the ascii-art venv); replace it whole.
