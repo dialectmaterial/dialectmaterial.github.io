@@ -545,7 +545,12 @@ iframe.spotify { display: block; width: 100%; border: 0; border-radius: 8px; }
 /* ---------- Small screens ---------- */
 @media (max-width: 900px) {
   .hero { grid-template-columns: 1fr; }
-  .portrait { max-width: 240px; }
+  /* Narrow screens: a small portrait in the top-right corner, beside the heading */
+  .hero { position: relative; }
+  .portrait {
+    position: absolute; top: clamp(40px, 6vw, 76px); right: var(--gutter);
+    width: clamp(76px, 24vw, 136px); padding: 4px;
+  }
   .lead, .book, .index { grid-template-columns: 1fr; }
   .index-side { position: static; }
   .trio { grid-template-columns: 1fr; gap: 28px; }
@@ -568,7 +573,6 @@ iframe.spotify { display: block; width: 100%; border: 0; border-radius: 8px; }
   .topbar nav a:not(.cta) { order: 3; padding: 12px 0 11px; margin-right: 18px; }
   .hero h1 { font-size: clamp(40px, 11vw, 54px); }
   .lede { font-size: 18px; }
-  .portrait { max-width: 180px; padding: 6px; }
   .section-head { flex-direction: column; gap: 4px; }
   .tile { display: grid; grid-template-columns: 132px minmax(0, 1fr); column-gap: 16px; align-items: start; }
   .tile img { grid-row: span 3; aspect-ratio: 16 / 10; }
@@ -584,6 +588,8 @@ iframe.spotify { display: block; width: 100%; border: 0; border-radius: 8px; }
   .read-next .meta { grid-column: 2; margin-top: 6px; }
   .footer nav { flex-wrap: wrap; gap: 14px 20px; }
 }
+
+@media (max-width: 360px) { .hero h1 { font-size: 35px; } }
 
 /* Pages (not articles) end with some room before the footer */
 .post > .prose:last-child { padding-bottom: clamp(56px, 8vw, 96px); }

@@ -12,7 +12,7 @@ hero:
   intro: |
     Hi, I'm Dimitri. I write about philosophy,
     and what it has to say about itself, science and politics today.
-    Along the way there are stories, songs and conversations.
+    Along the way there are stories and conversations.
 
 # How the site appears in Google and other search engines.
 search:
@@ -31,7 +31,7 @@ search:
     - https://actualspirit.substack.com
     - https://www.youtube.com/@Actual_Spirit
     - https://www.instagram.com/objetlila
-    - https://open.spotify.com/artist/4vI2xDzOoqF995QOU4bREz
+    - https://x.com/dialectmaterial
     - https://www.patreon.com/c/actualspirit
     - https://t.me/objetlila
     - https://github.com/dialectmaterial
@@ -44,8 +44,8 @@ quick_links:
     url: https://www.youtube.com/@Actual_Spirit
   - label: GitHub
     url: https://github.com/dialectmaterial
-  - label: Spotify
-    url: https://open.spotify.com/artist/4vI2xDzOoqF995QOU4bREz
+  - label: X
+    url: https://x.com/dialectmaterial
   - label: Patreon
     url: https://www.patreon.com/c/actualspirit/membership
   - label: Instagram
@@ -94,11 +94,10 @@ elsewhere:
     image: /assets/now/videos.jpg
     url: https://www.youtube.com/@Actual_Spirit
     link_label: Watch
-  - title: Objet lil a
-    text: Some music I make.
-    image: /assets/now/music.jpg
-    url: https://open.spotify.com/artist/4vI2xDzOoqF995QOU4bREz
-    link_label: Listen on Spotify
+  - title: X
+    text: Short thoughts and notes, as @dialectmaterial.
+    url: https://x.com/dialectmaterial
+    link_label: Follow
   - title: Patreon
     text: Support my work. Join for free or become a member.
     image: /assets/now/patreon.jpg
