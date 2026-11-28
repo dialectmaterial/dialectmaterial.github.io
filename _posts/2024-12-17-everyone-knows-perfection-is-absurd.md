@@ -1,6 +1,6 @@
 ---
-title: "Everyone Knows Perfection Is Absurd"
-subtitle: "Because it is both impossible and necessary"
+title: "Why Reality Is the Perfect Absurdity"
+subtitle: "On Spinoza's Ethics"
 description: "Reality is perfect, because perfection is reality itself, apart from which nothing exists. God, or nature, is this substance, the perfect reality."
 date: 2024-12-17
 permalink: /articles/everyone-knows-perfection-is-absurd/

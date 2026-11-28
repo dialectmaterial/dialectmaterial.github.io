@@ -48,7 +48,7 @@ The foremost concept of Hegel's *Science of Logic*, to which the whole Doctrine 
 
 Freud's name for the compulsion to repeat. Not the sublime immortality of a heavenly afterlife, but the undead, indestructible drive in this life. In psychoanalysis, self-related negativity is radicalised into the death drive.
 
-*In:* [Everyone Knows Perfection Is Absurd](/articles/everyone-knows-perfection-is-absurd/), [Trauma](/articles/trauma/), [Communisation in Absolute Capitalism](/articles/communisation-in-absolute-capitalism/)
+*In:* [Why Reality Is the Perfect Absurdity](/articles/everyone-knows-perfection-is-absurd/), [Trauma](/articles/trauma/), [Communisation in Absolute Capitalism](/articles/communisation-in-absolute-capitalism/)
 
 ## Disavowal {#disavowal}
 
@@ -78,4 +78,4 @@ Ordinarily, an *apparent* shift of an object caused by a change in the observer'
 
 For Descartes there are two substances, mind and extension. Spinoza reduces them to one, the underlying unity of reality, God or nature; mind and extension become its attributes.
 
-*In:* [Everyone Knows Perfection Is Absurd](/articles/everyone-knows-perfection-is-absurd/), [The Refusal to Enjoy](/articles/the-refusal-to-enjoy/)
+*In:* [Why Reality Is the Perfect Absurdity](/articles/everyone-knows-perfection-is-absurd/), [The Refusal to Enjoy](/articles/the-refusal-to-enjoy/)
